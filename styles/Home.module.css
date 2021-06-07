@@ -1,0 +1,20 @@
+.presentationWrapper {
+    padding: 0 25px;
+}
+.presentationWrapper .presentationA {}
+.presentationWrapper .presentationA .heading {}
+.presentationWrapper .presentationA .heading p {
+    font-size: 16px;
+}
+.presentationWrapper .presentationA .heading h1 {}
+.presentationWrapper .presentationA .data {}
+.presentationWrapper .presentationA .data .img {
+    width: 100vw;
+    /* height: 406px; */
+}
+.presentationWrapper .presentationA .data .space {}
+.presentationWrapper .presentationB {}
+.presentationWrapper .presentationB .arrowWrapper {}
+.presentationWrapper .presentationB .arrowWrapper .arrow {}
+.presentationWrapper .presentationB .img {}
+.presentationWrapper .presentationB .space {}
