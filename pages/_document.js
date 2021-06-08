@@ -12,7 +12,7 @@ class PortfolioDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href="/fonts/inter-var-latin.woff2"
+            href="/fonts/Inter.var.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"

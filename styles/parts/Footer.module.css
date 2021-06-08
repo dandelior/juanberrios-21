@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    /* box-sizing: border-box; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 25px 64px;
+}
+.footer .rrssLinks {
+    /* width: 90%; */
+}
+.footer .rrssLinks a {
+    margin-top: 21px;
+    display: block;
+}
+.footer .rrssLinks a:first-child {
+    margin-top: 0;
+}
+.footer .dotWrapper {
+    /* width: 10%; */
+}
+.footer .dotWrapper .dot {
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: var(--color-text);
+}

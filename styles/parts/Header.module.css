@@ -4,18 +4,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; */
+    box-sizing: border-box;
     margin: auto;
-    padding: 25px 25px 0;
+    /* padding: 25px 25px 0; */
     position: absolute;
     top: 0;
-    max-width: 100%;
+    /* max-width: 100%; */
     z-index: 99;
     /* overflow-y: hidden; */
 }
 
 .brand {
     width: 100%;
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,19 +23,20 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 47px 25px;
+    padding: 47px 27px;
     z-index: 999;
 }
 .brand .logo {
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: -0.005em;
     font-weight: 600;
+    color: var(--color-highlight);
     margin: 0;
 }
 .brand .burger {
     width: 42px;
     height: 12px;
-    padding-top: 6px;
+    padding-top: 7px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -45,18 +46,18 @@
 }
 .brand .burger .meat {
     width: 42px;
-    height: 2px;
+    height: 2.5px;
     position: relative;
-    background-color: var(--color-text);
+    background-color: var(--color-highlight);
 }
 .brand .burger .meat::before {
     content: '';
     display: block;
     position: absolute;
     width: 42px;
-    height: 2px;
-    top: -6px;
-    background-color: var(--color-text);
+    height: 2.5px;
+    top: -7px;
+    background-color: var(--color-highlight);
 }
 
 .menu {
@@ -73,11 +74,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    left: 110vw;
+    left: 130vw;
     right: 0;
     bottom: 0;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 27px;
+    padding-right: 27px;
     z-index: 99;
 
     /* display: none; */

@@ -1,7 +1,9 @@
+import styles from '../styles/parts/Footer.module.css'
+
 const Footer = () => {
     return (
-        <footer>
-            <div className="rrss-links">
+        <footer className={styles.footer}>
+            <div className={styles.rrssLinks}>
                 <a href="https://instagram.com/bydandelior">
                     Instagram
                 </a>
@@ -15,7 +17,9 @@ const Footer = () => {
                     Spotify
                 </a>
             </div>
-            <div className="dot"></div>
+            <div className={styles.dotWrapper}>
+                <div className={styles.dot}></div>
+            </div>
         </footer>
     )
 }

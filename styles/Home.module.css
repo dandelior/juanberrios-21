@@ -1,20 +1,84 @@
+
+/* Presentation Wrapper */
 .presentationWrapper {
-    padding: 0 25px;
+    padding: 0 27px;
+    width: 100%;
 }
 .presentationWrapper .presentationA {}
 .presentationWrapper .presentationA .heading {}
 .presentationWrapper .presentationA .heading p {
     font-size: 16px;
+    margin-bottom: 22px;
 }
-.presentationWrapper .presentationA .heading h1 {}
+.presentationWrapper .presentationA .heading h1 {
+    /* max-width: 94%; */
+}
 .presentationWrapper .presentationA .data {}
 .presentationWrapper .presentationA .data .img {
     width: 100vw;
-    /* height: 406px; */
+    height: 480px;
+    position: relative;
+    /* margin-bottom: 47px; */
 }
-.presentationWrapper .presentationA .data .space {}
-.presentationWrapper .presentationB {}
+.presentationWrapper .presentationA .data .space {
+    padding: 47px 0 36px;
+}
+.presentationWrapper .presentationB {
+    margin-bottom: 82px;
+}
 .presentationWrapper .presentationB .arrowWrapper {}
 .presentationWrapper .presentationB .arrowWrapper .arrow {}
-.presentationWrapper .presentationB .img {}
+.presentationWrapper .presentationB .img {
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    /* margin-bottom: 47px; */
+}
 .presentationWrapper .presentationB .space {}
+
+
+/* Grid Works */
+.worksGridWrapper {
+    width: 100%;
+    padding: 0 27px;
+    margin-bottom: 104px;
+}
+.worksGridWrapper h1 {
+    margin-bottom: 42px;
+}
+.worksGridWrapper .worksGrid {}
+.worksGridWrapper .worksGrid .workCard {}
+.worksGridWrapper .worksGrid .workCard .img {
+    width: 100vw;
+    height: 421px;
+    margin-bottom: 26px;
+    background-color: var(--color-text);
+}
+.worksGridWrapper .worksGrid .workCard .data {}
+.worksGridWrapper .worksGrid .workCard .data h3 {
+    color: var(--color-highlight);
+}
+.worksGridWrapper .worksGrid .workCard .data p {}
+
+
+/* blog Preview Wrapper */
+.blogPreviewWrapper {
+    width: 100%;
+    width: 100vw;
+}
+.blogPreviewWrapper .blogPreview {
+    padding: 0 27px;
+}
+.blogPreviewWrapper .blogPreview h1 {}
+.blogPreviewWrapper .blogPreview .blogGrid {
+    margin-bottom: 82px;
+}
+.blogPreviewWrapper .blogPreview .blogGrid .previewCard {}
+.blogPreviewWrapper .blogPreview .blogGrid .previewCard h3 {
+    color: var(--color-highlight);
+    margin-bottom: 12px;
+}
+.blogPreviewWrapper .blogPreview .blogGrid .previewCard p {
+    margin-bottom: 14px;
+}
+.blogPreviewWrapper .blogPreview .blogGrid .previewCard a {}
