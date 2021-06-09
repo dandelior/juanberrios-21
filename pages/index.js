@@ -1,4 +1,4 @@
-// import Head from 'next/head'
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -6,6 +6,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Juan Berrios — Diseñador & Desarrollador Frontend</title>
+      </Head>
 
       <div className={styles.presentationWrapper}>
         <div className={styles.presentationA}>
@@ -70,6 +73,17 @@ export default function Home() {
             <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
           </h1>
           <div className={styles.blogGrid}>
+            <div className={styles.previewCard}>
+              <h3>
+                Mi Setup Front-end
+              </h3>
+              <p>
+                Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
+              </p>
+              <Link href="/">
+                <a className="go-button">Leer más -&#62;</a>
+              </Link>
+            </div>
             <div className={styles.previewCard}>
               <h3>
                 Mi Setup Front-end
