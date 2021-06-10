@@ -16,12 +16,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* make sure to set some focus styles for accessibility */
@@ -412,14 +412,16 @@ p {
     font-size: 17px;
     line-height: 155%;
     letter-spacing: -0.01em;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px;
+    margin-bottom: 16px; */
+    margin-bottom: 17px;
 }
 
 h1 {
     /* font-size: 35px; */
-    /* font-size: 36px; */
+    font-size: 36px;
     /* font-size: 38px; */
-    font-size: 40px;
+    /* font-size: 40px; */
     line-height: 130%;
     /* line-height: 125%; */
     font-weight: 500;

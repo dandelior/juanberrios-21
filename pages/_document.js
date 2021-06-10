@@ -27,4 +27,4 @@ class PortfolioDocument extends Document {
   }
 }
 
-export default PortfolioDocument
+export default PortfolioDocument;

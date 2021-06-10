@@ -15,7 +15,7 @@
 }
 
 .brand {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +52,7 @@
     height: 3px;
     position: relative;
     background-color: var(--color-highlight);
+    transition: all ease-in-out 0.3s;
 }
 .brand .burger .meat::before {
     content: '';
@@ -62,6 +63,22 @@
     height: 3px;
     top: -8px;
     background-color: var(--color-highlight);
+}
+.brand .close .meat {
+    /* transform: translateY(2px); */
+    background-color: transparent;
+}
+.brand .close .meat::after {
+    content: '';
+    position: absolute;
+    background-color: var(--color-highlight);
+    height: 3px;
+    width: 42px;
+    top: 0px;
+    transform: rotate(45deg) translateY(-6px);
+}
+.brand .close .meat::before {
+    transform: rotate(-45deg) translateY(5px);
 }
 
 .menu {

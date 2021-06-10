@@ -1,11 +1,11 @@
 .footer {
-    width: 100%;
+    /* width: 100%; */
     /* box-sizing: border-box; */
     /* width: 100vw; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 25px 25px 64px;
+    padding: 25px 30px 64px;
 }
 .footer .rrssLinks {
     /* width: 90%; */

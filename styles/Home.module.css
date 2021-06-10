@@ -2,7 +2,7 @@
 /* Presentation Wrapper */
 .presentationWrapper {
     padding: 0 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 .presentationWrapper .presentationA {}
 .presentationWrapper .presentationA .heading {}
@@ -15,8 +15,9 @@
 }
 .presentationWrapper .presentationA .data {}
 .presentationWrapper .presentationA .data .img {
-    width: 100vw;
-    height: 480px;
+    /* width: 100vw; */
+    /* height: 480px; */
+    height: 420px;
     position: relative;
     /* margin-bottom: 47px; */
 }
@@ -29,8 +30,9 @@
 .presentationWrapper .presentationB .arrowWrapper {}
 .presentationWrapper .presentationB .arrowWrapper .arrow {}
 .presentationWrapper .presentationB .img {
-    width: 100vw;
-    height: 500px;
+    /* width: 100vw; */
+    /* height: 500px; */
+    height: 450px;
     position: relative;
     /* margin-bottom: 47px; */
 }
@@ -39,7 +41,7 @@
 
 /* Grid Works */
 .worksGridWrapper {
-    width: 100%;
+    /* width: 100%; */
     padding: 0 30px;
     margin-bottom: 104px;
 }
@@ -49,9 +51,9 @@
 .worksGridWrapper .worksGrid {}
 .worksGridWrapper .worksGrid .workCard {}
 .worksGridWrapper .worksGrid .workCard .img {
-    width: 100vw;
-    /* height: 421px; */
-    height: 460px;
+    /* width: 100vw; */
+    height: 421px;
+    /* height: 460px; */
     margin-bottom: 26px;
     background-color: var(--color-text);
 }
@@ -70,7 +72,7 @@
 /* blog Preview Wrapper */
 .blogPreviewWrapper {
     width: 100%;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .blogPreviewWrapper .blogPreview {
     padding: 0 30px;

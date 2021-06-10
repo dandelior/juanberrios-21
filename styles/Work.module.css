@@ -1,0 +1,72 @@
+.presentationWrapper {
+    padding: 0 30px;
+    /* width: 100%; */
+}
+
+.presentationWrapper
+.presentationA {}
+
+.presentationWrapper
+.presetationA
+.heading {}
+
+.presentationWrapper
+.presetationA
+.heading p {
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+.presentationWrapper
+.presetationA
+.heading h1 {}
+
+.presentationWrapper
+.presentationB {}
+
+.presentationWrapper
+.presentationB 
+.arrowWrapper {}
+
+.presentationWrapper
+.presentationB 
+.arrowWrapper 
+.arrow {}
+
+.workImage {
+    /* width: 100vw; */
+    width: 100%;
+    min-width: 100%;
+    height: 249px;
+    background-color: var(--color-text);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 51px;
+}
+
+.workContent {
+    /* width: 100%; */
+    padding: 0 30px;
+}
+
+.workContent .desc {
+    margin-bottom: 48px;
+}
+
+.workContent .desc p {}
+
+.workContent img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.next {
+    margin-top: 80px;
+    padding: 0 30px;
+    margin-bottom: 34px;
+}
+.next p {}
+.next h1 {
+    margin-bottom: 0;
+}

@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.presentationA}>
           <div className={styles.heading}>
             <p>Diseñador & Desarrollador Frontend</p>
-            <h1>Creo cosas en internet<br />como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
+            <h1>Creador de cosas en internet<br />como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
           </div>
           <div className={styles.data}>
             <div className={styles.img}>
@@ -81,7 +81,7 @@ export default function Home() {
                 Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
               </p>
               <Link href="/">
-                <a className="go-button">Leer más -&#62;</a>
+                <a className="go-button">Leer más →</a>
               </Link>
             </div>
             <div className={styles.previewCard}>
@@ -92,7 +92,7 @@ export default function Home() {
                 Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
               </p>
               <Link href="/">
-                <a className="go-button">Leer más -&#62;</a>
+                <a className="go-button">Leer más →</a>
               </Link>
             </div>
           </div>
