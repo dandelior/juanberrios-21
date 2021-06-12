@@ -19,11 +19,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: 47px 30px;
+    padding: 42px 30px;
     z-index: 999;
 }
 .brand .logo {
@@ -37,48 +38,41 @@
 }
 .brand .burger {
     width: 42px;
-    height: 12px;
-    padding-top: 8px;
+    height: 42px;
+    /* padding-top: 8px; */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: transparent;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
-.brand .burger .meat {
-    width: 42px;
-    /* height: 2.5px; */
-    height: 3px;
-    position: relative;
-    background-color: var(--color-highlight);
-    transition: all ease-in-out 0.3s;
-}
-.brand .burger .meat::before {
+.brand .burger::after,
+.brand .burger::before {
     content: '';
-    display: block;
-    position: absolute;
     width: 42px;
-    /* height: 2.5px; */
     height: 3px;
-    top: -8px;
-    background-color: var(--color-highlight);
-}
-.brand .close .meat {
-    /* transform: translateY(2px); */
-    background-color: transparent;
-}
-.brand .close .meat::after {
-    content: '';
     position: absolute;
     background-color: var(--color-highlight);
-    height: 3px;
-    width: 42px;
-    top: 0px;
-    transform: rotate(45deg) translateY(-6px);
+    transition: all ease 0.3s;
+} 
+.brand .burger::after {
+    margin-top: -8px;
 }
-.brand .close .meat::before {
-    transform: rotate(-45deg) translateY(5px);
+.brand .burger::before {
+    margin-top: 8px;
+}
+.brand .close {
+}
+.brand .close::after {
+    transform: rotate(-45deg);
+    margin-top: 0;
+}
+.brand .close::before {
+    margin-top: 0;
+    transform: rotate(45deg);
 }
 
 .menu {
@@ -101,7 +95,7 @@
     padding-left: 27px;
     padding-right: 27px;
     z-index: 99;
-
+    transition: all ease 0.7s;
     /* display: none; */
 }
 .menu a {
@@ -109,6 +103,15 @@
     font-size: 32px;
     display: block;
     margin-bottom: 30px;
+    font-weight: 500;
+    color: var(--color-text);
+}
+.menu a.active {
+    color: var(--color-highlight);
+}
+.menu a.inactive {
+    color: var(--color-text);
+    opacity: 0.5;
 }
 .menu a:last-child {
     margin-bottom: 0;

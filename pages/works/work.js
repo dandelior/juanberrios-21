@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-// import Image from 'next/image'
+import Image from 'next/image'
 import styles from '../../styles/Work.module.css'
 
 export default function Work() {
@@ -13,7 +13,7 @@ export default function Work() {
       <section className={styles.presentationWrapper}>
         <div className={styles.presentationA}>
           <div className={styles.heading}>
-            <p></p>
+            <p>Web / Identidad Corporativa</p>
             <h1>
               Sitio web autoadministrable para <span className="highlight-color">Viveros El Maitén</span>
             </h1>
@@ -26,7 +26,16 @@ export default function Work() {
         </div>
       </section>
 
-      <div className={styles.workImage}></div>
+      <div className={styles.workImage}>
+        <Image
+          className={styles.img}
+          src="/img/una_img.jpg"
+          alt="Este soy yo"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+        />
+      </div>
 
       <div className={styles.workContent}>
         <div className={styles.desc}>
@@ -45,9 +54,13 @@ export default function Work() {
         <p>Más Proyectos</p>
         <h1>
           Siguiente:<br />
-          <span className="highlight-color">
-            Kilómetro Cero →
-          </span>
+          <Link href="/works/work">
+            <a>
+              <span className="highlight-color">
+                Kilómetro Cero →
+              </span>
+            </a>
+          </Link>
         </h1>
       </div>
     </>

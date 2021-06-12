@@ -18,19 +18,17 @@ export default function Header() {
                         <h1 className={styles.logo}>Juan Berrios</h1>
                     </a>
                 </Link>
-                <div className={`${styles.burger} ${isActive ? "" : styles.close}`} onClick={openMenu}>
-                    <div className={styles.meat}></div>
-                </div>
+                <div className={`${styles.burger} ${isActive ? "" : styles.close}`} onClick={openMenu}></div>
             </div>
             <div className={`${styles.menu} ${isActive ? "" : styles.open}`}>
                 <Link href="/">
-                    <a>Home</a>
+                    <a className={styles.active}>Home</a>
                 </Link>
                 <Link href="/works">
                     <a>Trabajos</a>
                 </Link>
-                <Link href="/about">
-                    <a>Conóceme</a>
+                <Link href="">
+                    <a className={styles.inactive} disabled>Conóceme</a>
                 </Link>
                 <Link href="/blog">
                     <a>Blog</a>

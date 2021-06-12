@@ -402,6 +402,7 @@ body {
 a {
   text-decoration: none;
   color: var(--color-text);
+  letter-spacing: -0.015em;
 }
 a:hover,
 a:focus {

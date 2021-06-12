@@ -35,14 +35,15 @@
 
 .workImage {
     /* width: 100vw; */
+    position: relative;
     width: 100%;
-    min-width: 100%;
     height: 249px;
     background-color: var(--color-text);
+    /* min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 51px;
+    background-size: cover; */
+    margin-bottom: 44px;
 }
 
 .workContent {
