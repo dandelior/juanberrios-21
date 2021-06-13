@@ -24,5 +24,6 @@
     width: 21px;
     height: 21px;
     border-radius: 100%;
+    margin-bottom: -5px;
     background-color: var(--color-text);
 }
