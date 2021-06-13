@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Work.module.css'
+import nextSectionStyles from '../../styles/parts/NextSection.module.css'
 
 export default function Work() {
   return (
@@ -50,7 +51,7 @@ export default function Work() {
         <img src="/img/una_img.jpg" />
       </div>
 
-      <div className={styles.next}>
+      <div className={nextSectionStyles.next}>
         <p>Más Proyectos</p>
         <h1>
           Siguiente:<br />
