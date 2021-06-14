@@ -1,48 +1,8 @@
-
-/* Presentation Wrapper */
-.presentationWrapper {
-    padding: 0 30px;
-    /* width: 100%; */
-}
-.presentationWrapper .presentationA {}
-.presentationWrapper .presentationA .heading {}
-.presentationWrapper .presentationA .heading p {
-    font-size: 15px;
-    margin-bottom: 22px;
-}
-.presentationWrapper .presentationA .heading h1 {
-    max-width: 90%;
-}
-.presentationWrapper .presentationA .data {}
-.presentationWrapper .presentationA .data .img {
-    /* width: 100vw; */
-    /* height: 480px; */
-    height: 420px;
-    position: relative;
-    /* margin-bottom: 47px; */
-}
-.presentationWrapper .presentationA .data .space {
-    padding: 47px 20px 36px 0;
-}
-.presentationWrapper .presentationB {
-    margin-bottom: 90px;
-}
-.presentationWrapper .presentationB .arrowWrapper {}
-.presentationWrapper .presentationB .arrowWrapper .arrow {}
-.presentationWrapper .presentationB .img {
-    /* width: 100vw; */
-    /* height: 500px; */
-    height: 450px;
-    position: relative;
-    /* margin-bottom: 47px; */
-}
-.presentationWrapper .presentationB .space {}
-
-
 /* Grid Works */
 .worksGridWrapper {
     /* width: 100%; */
     padding: 0 30px;
+    /* margin-top: 82px; */
     margin-bottom: 104px;
 }
 .worksGridWrapper h1 {

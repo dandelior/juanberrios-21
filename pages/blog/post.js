@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Blog.module.css'
 import postStyles from '../../styles/Post.module.css'
+import PresentationStyles from '../../styles/parts/PresentationWrapper.module.css'
 import nextSectionStyles from '../../styles/parts/NextSection.module.css'
 
 export default function Blog() {
@@ -12,28 +13,28 @@ export default function Blog() {
             <title>Post — Juan Berrios</title>
         </Head>
 
-        <section className={styles.presentationWrapper}>
-            <div className={styles.presentationA}>
-                <div className={styles.heading}>
-                    <p>
-                        <Link href="/blog">
-                            <a>
-                                &#8592; Blog
-                            </a>
-                        </Link>
-                    </p>
-                    <h1 className={postStyles.postTitle}>
-                        Mi Setup Front-end
-                    </h1>
-                    <p className={styles.date}>
-                        14 de Enero de 2021
-                    </p>
-                </div>
+        <section className={PresentationStyles.presentationWrapper}>
+            <div className={PresentationStyles.presentationA}>
+            <div className={PresentationStyles.heading}>
+                <p>
+                    <Link href="/blog">
+                        <a>
+                            &#8592; Blog
+                        </a>
+                    </Link>
+                </p>
+                <h1 className={PresentationStyles.postTitle}>
+                    Mi Setup Front-end
+                </h1>
+                <p className={PresentationStyles.date}>
+                    14 de Enero de 2021
+                </p>
             </div>
-            <div className={styles.presentationB}>
-                <div className={styles.arrowWrapper}>
-                    <div className={styles.arrow}></div>
-                </div>
+            </div>
+            <div className={PresentationStyles.presentationB}>
+            <div className={PresentationStyles.arrowWrapper}>
+                <div className={PresentationStyles.arrow}></div>
+            </div>
             </div>
         </section>
 

@@ -1,0 +1,29 @@
+/* Grid Works */
+.worksGridWrapper {
+    /* width: 100%; */
+    padding: 0 30px;
+    margin-bottom: 104px;
+}
+.worksGridWrapper h1 {
+    margin-top: 82px;
+    margin-bottom: 42px;
+}
+.worksGridWrapper .worksGrid {}
+.worksGridWrapper .worksGrid .workCard {}
+.worksGridWrapper .worksGrid .workCard .img {
+    /* width: 100vw; */
+    height: 421px;
+    /* height: 460px; */
+    margin-bottom: 26px;
+    background-color: var(--color-text);
+}
+.worksGridWrapper .worksGrid .workCard .data {
+    padding-right: 10px;
+}
+.worksGridWrapper .worksGrid .workCard .data h3 {
+    color: var(--color-highlight);
+    font-weight: 600;
+}
+.worksGridWrapper .worksGrid .workCard .data p {
+    max-width: 95%;
+}

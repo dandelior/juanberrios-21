@@ -1,0 +1,46 @@
+/* Presentation Wrapper */
+.presentationWrapper {
+    padding: 0 30px;
+    /* width: 100%; */
+}
+.presentationWrapper .presentationA {}
+.presentationWrapper .presentationA .heading {}
+.presentationWrapper .presentationA .heading p {
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+.presentationWrapper .presentationA .heading h1 {
+    max-width: 90%;
+}
+.presentationWrapper .presentationA .heading h1.postTitle {
+    color: var(--color-highlight);
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.presentationWrapper .presentationA .heading .date {
+    font-size: 15px;
+}
+.presentationWrapper .presentationA .data {}
+.presentationWrapper .presentationA .data .img {
+    /* width: 100vw; */
+    /* height: 480px; */
+    height: 420px;
+    position: relative;
+    /* margin-bottom: 47px; */
+}
+.presentationWrapper .presentationA .data .space {
+    padding: 47px 20px 30px 0;
+}
+.presentationWrapper .presentationB {
+    /* margin-bottom: 90px; */
+}
+.presentationWrapper .presentationB .arrowWrapper {}
+.presentationWrapper .presentationB .arrowWrapper .arrow {}
+.presentationWrapper .presentationB .img {
+    /* width: 100vw; */
+    /* height: 500px; */
+    height: 450px;
+    position: relative;
+    /* margin-bottom: 47px; */
+}
+.presentationWrapper .presentationB .space {}

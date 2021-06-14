@@ -6,9 +6,9 @@ export default function Header() {
 
     const [isActive, setActive] = useState("false");
 
-    const openMenu = () => {
-        setActive(!isActive);
-    }
+    const openMenu = () => setActive(!isActive);
+
+    const closeMenu = () => setActive(!isActive)
 
     return (
         <header className={styles.header}>
@@ -22,16 +22,16 @@ export default function Header() {
             </div>
             <div className={`${styles.menu} ${isActive ? "" : styles.open}`}>
                 <Link href="/">
-                    <a className={styles.active}>Home</a>
+                    <a className={styles.active} onClick={closeMenu}>Home</a>
                 </Link>
                 <Link href="/works">
-                    <a>Trabajos</a>
+                    <a onClick={closeMenu}>Trabajos</a>
                 </Link>
-                <Link href="">
+                {/* <Link> */}
                     <a className={styles.inactive} disabled>Conóceme</a>
-                </Link>
+                {/* </Link> */}
                 <Link href="/blog">
-                    <a>Blog</a>
+                    <a onClick={closeMenu}>Blog</a>
                 </Link>
             </div>
         </header>

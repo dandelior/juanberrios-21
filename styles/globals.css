@@ -421,12 +421,12 @@ p {
 h1 {
     /* font-size: 35px; */
     /* font-size: 36px; */
-    font-size: 34px;
     /* font-size: 38px; */
     /* font-size: 40px; */
-    /* line-height: 130%; */
-    line-height: 125%;
+    font-size: 34px;
     /* line-height: 125%; */
+    /* line-height: 125%; */
+    line-height: 130%;
     font-weight: 500;
     /* letter-spacing: -0.01em; */
     /* letter-spacing: -0.022em; */
@@ -453,7 +453,7 @@ h3 {
 .layout-wrapper {
     width: 100%;
     box-sizing: border-box;
-    padding-top: 247px;
+    padding-top: 227px;
 }
 
 .go-button {

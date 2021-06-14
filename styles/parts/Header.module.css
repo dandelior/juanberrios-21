@@ -59,10 +59,10 @@
     transition: all ease 0.3s;
 } 
 .brand .burger::after {
-    margin-top: -8px;
+    margin-top: -4px;
 }
 .brand .burger::before {
-    margin-top: 8px;
+    margin-top: 4px;
 }
 .brand .close {
 }

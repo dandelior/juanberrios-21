@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Work.module.css'
+import PresentationStyles from '../../styles/parts/PresentationWrapper.module.css'
 import nextSectionStyles from '../../styles/parts/NextSection.module.css'
 
 export default function Work() {
@@ -11,18 +12,18 @@ export default function Work() {
         <title>A Work — Juan Berrios</title>
       </Head>
 
-      <section className={styles.presentationWrapper}>
-        <div className={styles.presentationA}>
-          <div className={styles.heading}>
+      <section className={PresentationStyles.presentationWrapper}>
+        <div className={PresentationStyles.presentationA}>
+          <div className={PresentationStyles.heading}>
             <p>Web / Identidad Corporativa</p>
             <h1>
               Sitio web autoadministrable para <span className="highlight-color">Viveros El Maitén</span>
             </h1>
           </div>
         </div>
-        <div className={styles.presentationB}>
-          <div className={styles.arrowWrapper}>
-            <div className={styles.arrow}></div>
+        <div className={PresentationStyles.presentationB}>
+          <div className={PresentationStyles.arrowWrapper}>
+            <div className={PresentationStyles.arrow}></div>
           </div>
         </div>
       </section>

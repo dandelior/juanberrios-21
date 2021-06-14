@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Blog.module.css'
+import PresentationStyles from '../../styles/parts/PresentationWrapper.module.css'
+import BlogPreviewStyles from '../../styles/parts/BlogPreview.module.css'
 
 export default function Blog() {
   return (
@@ -10,26 +12,26 @@ export default function Blog() {
             <title>Blog — Juan Berrios</title>
         </Head>
 
-        <section className={styles.presentationWrapper}>
-            <div className={styles.presentationA}>
-            <div className={styles.heading}>
+        <section className={PresentationStyles.presentationWrapper}>
+            <div className={PresentationStyles.presentationA}>
+            <div className={PresentationStyles.heading}>
                 <p>Blog</p>
                 <h1>
                     Escribo sobre <span className="highlight-color">diseño</span>, <span className="highlight-color">código</span>, <span className="highlight-color">música</span> y <span className="highlight-color">otras cosas</span>
                 </h1>
             </div>
             </div>
-            <div className={styles.presentationB}>
-            <div className={styles.arrowWrapper}>
-                <div className={styles.arrow}></div>
+            <div className={PresentationStyles.presentationB}>
+            <div className={PresentationStyles.arrowWrapper}>
+                <div className={PresentationStyles.arrow}></div>
             </div>
             </div>
         </section>
 
-        <section className={styles.blogPreviewWrapper}>
-            <div className={styles.blogPreview}>
-            <div className={styles.blogGrid}>
-                <div className={styles.previewCard}>
+        <section className={BlogPreviewStyles.blogPreviewWrapper}>
+            <div className={BlogPreviewStyles.blogPreview}>
+            <div className={BlogPreviewStyles.blogGrid}>
+                <div className={BlogPreviewStyles.previewCard}>
                     <Link href="/blog/post">
                         <a>
                             <h3>
@@ -44,7 +46,7 @@ export default function Blog() {
                         <a className="go-button">Leer más →</a>
                     </Link>
                 </div>
-                <div className={styles.previewCard}>
+                <div className={BlogPreviewStyles.previewCard}>
                     <Link href="/blog/post">
                         <a>
                             <h3>
@@ -59,7 +61,7 @@ export default function Blog() {
                         <a className="go-button">Leer más →</a>
                     </Link>
                 </div>
-                <div className={styles.previewCard}>
+                <div className={BlogPreviewStyles.previewCard}>
                     <Link href="/blog/post">
                         <a>
                             <h3>
