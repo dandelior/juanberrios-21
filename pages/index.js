@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import PresentationStyles from '../styles/parts/PresentationWrapper.module.css'
 import WorksGridStyles from '../styles/parts/WorksGrid.module.css'
-import BlogPreviewStyles from '../styles/parts/blogPreview.module.css'
+import BlogPreviewStyles from '../styles/parts/BlogPreview.module.css'
 
 export default function Home() {
   return (
