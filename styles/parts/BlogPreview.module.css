@@ -6,7 +6,7 @@
 .blogPreviewWrapper .blogPreview {
     padding: 0 30px;
 }
-.blogPreviewWrapper .blogPreview h1 {}
+/* .blogPreviewWrapper .blogPreview h1 {} */
 .blogPreviewWrapper .blogPreview .blogGrid {
     margin-bottom: 82px;
 }
@@ -25,4 +25,4 @@
 .blogPreviewWrapper .blogPreview .blogGrid .previewCard p {
     margin-bottom: 14px;
 }
-.blogPreviewWrapper .blogPreview .blogGrid .previewCard a {}
+/* .blogPreviewWrapper .blogPreview .blogGrid .previewCard a {} */
