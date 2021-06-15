@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styles from '../styles/parts/BlogPreview.module.css'
 
 export default function BlogPreview(props) {
+
     return (
         <>
             <section className={styles.blogPreviewWrapper}>
@@ -44,11 +45,13 @@ export default function BlogPreview(props) {
                 </div>
             </section>
 
-            <div className={styles.morePosts}>
-                <Link href="">
-                    <a>Cargar más →</a>
-                </Link>
-            </div>
+            {props.hasLoadingMore ? (
+                <div className={styles.morePosts}>
+                    <Link href="">
+                        <a>Cargar más →</a>
+                    </Link>
+                </div>
+            ) : ""}
         </>
     )
 }

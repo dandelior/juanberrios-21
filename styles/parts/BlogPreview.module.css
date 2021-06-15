@@ -25,4 +25,11 @@
 .blogPreviewWrapper .blogPreview .blogGrid .previewCard p {
     margin-bottom: 14px;
 }
-/* .blogPreviewWrapper .blogPreview .blogGrid .previewCard a {} */
+
+.morePosts {
+    padding: 36px 30px 100px;
+}
+.morePosts a {
+    color: var(--color-highlight);
+    font-weight: 600;
+}
