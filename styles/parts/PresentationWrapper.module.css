@@ -19,6 +19,7 @@
 }
 .presentationWrapper .presentationA .heading .date {
     font-size: 15px;
+    opacity: 0.8;
 }
 .presentationWrapper .presentationA .data {}
 .presentationWrapper .presentationA .data .img {

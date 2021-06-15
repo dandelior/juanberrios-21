@@ -5,13 +5,11 @@ import styles from '../styles/parts/Header.module.css'
 export default function Header() {
 
     const [isActive, setActive] = useState("false");
-
     const openMenu = () => setActive(!isActive);
-
     const closeMenu = () => setActive(!isActive)
 
     return (
-        <header className={styles.header}>
+        <header className={`${styles.header} ${isActive ? "" : styles.fixed}`}>
             <div className={styles.brand}>
                 <Link href="/">
                     <a>

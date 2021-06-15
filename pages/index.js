@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import WorksGrid from '../parts/worksGrid'
+import BlogPreview from '../parts/blogPreview'
+
+// import styles from '../styles/Home.module.css'
 import PresentationStyles from '../styles/parts/PresentationWrapper.module.css'
-import WorksGridStyles from '../styles/parts/WorksGrid.module.css'
-import BlogPreviewStyles from '../styles/parts/BlogPreview.module.css'
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
           <div className={PresentationStyles.img}>
             <Image
               className={PresentationStyles.img}
-              src="/img/me_1.jpg"
+              src="/img/jellyfish.jpg"
               alt="Este soy yo"
               layout="fill"
               objectFit="cover"
@@ -53,64 +54,16 @@ export default function Home() {
         </div>
       </div>
 
-
-      <section className={WorksGridStyles.worksGridWrapper}>
+      <WorksGrid>
         <h1>
-          Algunos <span className="highlight-color">proyectos seleccionados</span>
+            Algunos <span className="highlight-color">proyectos seleccionados</span>
         </h1>
-        <div className={WorksGridStyles.worksGrid}>
-          <Link href="/works/work">
-            <a className={WorksGridStyles.workCard}>
-              <div className={WorksGridStyles.img}></div>
-              <div className={WorksGridStyles.data}>
-                <h3>NFIT</h3>
-                <p>Sistema de gestión para centros deportivos</p>
-              </div>
-            </a>
-          </Link>
-        </div>
-      </section>
+      </WorksGrid>
+      
+      <BlogPreview>
+        <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
+      </BlogPreview>
 
-
-      <section className={BlogPreviewStyles.blogPreviewWrapper}>
-        <div className={BlogPreviewStyles.blogPreview}>
-          <h1>
-            <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
-          </h1>
-          <div className={BlogPreviewStyles.blogGrid}>
-            <div className={BlogPreviewStyles.previewCard}>
-              <Link href="/blog/post">
-                <a>
-                  <h3>
-                    Mi Setup Front-end
-                  </h3>
-                </a>
-              </Link>
-              <p>
-                Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
-              </p>
-              <Link href="/blog/post">
-                <a className="go-button">Leer más →</a>
-              </Link>
-            </div>
-            <div className={BlogPreviewStyles.previewCard}>
-                <Link href="/blog/post">
-                  <a>
-                    <h3>
-                      Mi Setup Front-end
-                    </h3>
-                  </a>
-                </Link>
-              <p>
-                Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
-              </p>
-              <Link href="/blog/post">
-                <a className="go-button">Leer más →</a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   )
 }
