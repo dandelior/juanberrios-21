@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Link from 'next/link'
-import styles from '../styles/parts/Header.module.css'
+import Link from 'next/link';
+import styles from '../styles/parts/Header.module.sass';
 
 export default function Header() {
 
     const [isActive, setActive] = useState("false");
     const openMenu = () => setActive(!isActive);
-    const closeMenu = () => setActive(!isActive)
+    const closeMenu = () => setActive(!isActive);
 
     return (
         <header className={`${styles.header} ${isActive ? "" : styles.fixed}`}>

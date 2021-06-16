@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../../styles/Work.module.css'
-import PresentationStyles from '../../styles/parts/PresentationWrapper.module.css'
-import nextSectionStyles from '../../styles/parts/NextSection.module.css'
+
+import styles from '../../styles/Work.module.sass'
+import PresentationStyles from '../../styles/parts/PresentationWrapper.module.sass'
+import nextSectionStyles from '../../styles/parts/NextSection.module.sass'
 
 export default function Work() {
   return (
@@ -12,7 +13,7 @@ export default function Work() {
         <title>A Work — Juan Berrios</title>
       </Head>
 
-      <section className={PresentationStyles.presentationWrapper}>
+      <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
         <div className={PresentationStyles.presentationA}>
           <div className={PresentationStyles.heading}>
             <p>Web / Identidad Corporativa</p>

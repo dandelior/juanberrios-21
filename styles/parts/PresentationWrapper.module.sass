@@ -1,0 +1,76 @@
+/* Presentation Wrapper
+
+.presentationWrapper
+  padding: 0 30px
+  margin-bottom: 90px
+  .presentationA
+    .heading
+      p
+        font-size: 15px
+        margin-bottom: 20px
+      h1
+        max-width: 90%
+        margin-bottom: 0
+        &.postTitle
+          color: var(--color-highlight)
+          font-weight: 600
+          margin-bottom: 18px
+      .date
+        font-size: 15px
+        opacity: 0.8
+    .data
+      .img
+        height: 420px
+        position: relative
+      .space
+        padding: 47px 20px 28px 0
+  .presentationB
+    .arrowWrapper .arrow
+    .img
+      height: 450px
+      position: relative
+    .space
+  &.noBottom
+    margin-bottom: 0 !important
+
+@media (min-width: 1024px)
+  .presentationWrapper
+    padding: 0 6vw
+    display: grid
+    grid-template-columns: 1.3fr 0.7fr
+    column-gap: 5vw
+    // margin-bottom: 30px
+    margin-bottom: 56px
+    .presentationA
+      .heading
+        // margin-bottom: 94px
+        // margin-bottom: 90px
+        // margin-bottom: 74px
+        // margin-bottom: 78px
+        margin-bottom: 80px
+        p
+          font-size: 18px
+          margin-bottom: 28px
+        h1
+          // max-width: 90%
+          max-width: 18ch
+          &.postTitle
+        .date
+          // margin-bottom: 0
+      .data
+        .img
+          height: 479px
+          margin-bottom: 52px
+        .space
+          height: 17vh
+          padding: 0
+          p
+            max-width: 90%
+            margin-bottom: 0
+    .presentationB
+      align-self: end
+      padding-bottom: calc(17vh + 52px)
+      .arrowWrapper .arrow
+      .img
+        height: 629px
+      .space

@@ -1,9 +1,7 @@
 import Head from 'next/head'
-// import Link from 'next/link'
-// import Image from 'next/image'
 import BlogPreview from '../../parts/blogPreview'
 
-import styles from '../../styles/parts/PresentationWrapper.module.css'
+import styles from '../../styles/parts/PresentationWrapper.module.sass'
 
 export default function Blog() {
   return (
@@ -12,7 +10,7 @@ export default function Blog() {
             <title>Blog — Juan Berrios</title>
         </Head>
 
-        <section className={styles.presentationWrapper}>
+        <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
             <div className={styles.presentationA}>
             <div className={styles.heading}>
                 <p>Blog</p>

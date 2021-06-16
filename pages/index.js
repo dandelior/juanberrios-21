@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import WorksGrid from '../parts/worksGrid'
 import BlogPreview from '../parts/blogPreview'
 
-// import styles from '../styles/Home.module.css'
-import PresentationStyles from '../styles/parts/PresentationWrapper.module.css'
+import PresentationStyles from '../styles/parts/PresentationWrapper.module.sass'
 
 export default function Home() {
   return (
@@ -18,7 +16,8 @@ export default function Home() {
         <div className={PresentationStyles.presentationA}>
           <div className={PresentationStyles.heading}>
             <p>Diseñador &amp; Desarrollador Frontend</p>
-            <h1>Creador de cosas en internet<br />como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
+            <h1>
+              Creador de cosas en internet como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
           </div>
           <div className={PresentationStyles.data}>
             <div className={PresentationStyles.img}>
