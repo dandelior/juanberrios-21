@@ -4,21 +4,27 @@ import styles from '../styles/parts/Header.module.sass';
 
 export default function Header() {
 
-    const [isActive, setActive] = useState("false");
-    const openMenu = () => setActive(!isActive);
-    const closeMenu = () => setActive(!isActive);
+    const [isOpen, setOpen] = useState("false");
+    const [isFixed, setFixed] = useState("false");
+
+    const openMenu = () => {
+        setOpen(!isOpen);
+        setFixed(!isFixed);
+    };
+    const closeMenu = () => {
+        setOpen(!isOpen);
+        setFixed(!isFixed);
+    };
 
     return (
-        <header className={`${styles.header} ${isActive ? "" : styles.fixed}`}>
+        <header className={`${styles.header} ${isFixed ? "" : styles.fixed}`}>
             <div className={styles.brand}>
                 <Link href="/">
-                    <a>
-                        <h1 className={styles.logo}>Juan Berrios</h1>
-                    </a>
+                    <a><h1 className={styles.logo}>Juan Berrios</h1></a>
                 </Link>
-                <div className={`${styles.burger} ${isActive ? "" : styles.close}`} onClick={openMenu}></div>
+                <div className={`${styles.burger} ${isOpen ? "" : styles.close}`} onClick={openMenu}></div>
             </div>
-            <div className={`${styles.menu} ${isActive ? "" : styles.open}`}>
+            <div className={`${styles.menu} ${isOpen ? "" : styles.open}`}>
                 <Link href="/">
                     <a className={styles.active} onClick={closeMenu}>Home</a>
                 </Link>

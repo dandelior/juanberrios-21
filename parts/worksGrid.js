@@ -1,14 +1,15 @@
 import Link from 'next/link'
-// import styles from '../styles/parts/WorksGrid.module.css'
 import styles from '../styles/parts/WorksGrid.module.sass'
 
 export default function WorksGrid(props) {
     return (
         <>
             <section className={styles.worksGridWrapper}>
-                <div className={styles.heading}>
-                    {props.children}
-                </div>
+                {props.children ? (
+                    <div className={styles.heading}>
+                        {props.children}
+                    </div>
+                ) : ''}
                 <div className={styles.worksGrid}>
                     <Link href="/works/work">
                         <a className={styles.workCard}>

@@ -32,7 +32,9 @@ export default function Blog() {
             </div>
             <div className={PresentationStyles.presentationB}>
             <div className={PresentationStyles.arrowWrapper}>
-                <div className={PresentationStyles.arrow}></div>
+                <svg className={PresentationStyles.arrow} width="85" height="221" viewBox="0 0 85 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693" strokeWidth="3"/>
+                </svg>
             </div>
             </div>
         </section>

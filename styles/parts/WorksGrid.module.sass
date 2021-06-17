@@ -14,7 +14,7 @@
       .img
         height: 421px
         margin-bottom: 20px
-        background-color: var(--color-text)
+        background-color: var(--color-shadow)
       .data
         padding-right: 10px
         h3
@@ -23,11 +23,19 @@
         p
           max-width: 95%
           line-height: 140%
+      &:hover,
+      &:focus
+        .data
+          h3
+          p
+            color: var(--color-text)
 
 @media (min-width: 1024px)
   .worksGridWrapper
     padding: 0 6vw
-    margin-bottom: 122px
+    // margin-bottom: 122px
+    // margin-bottom: 136px
+    margin-bottom: 146px
     h1
       max-width: 704px
       margin-bottom: 60px
