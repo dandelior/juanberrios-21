@@ -31,7 +31,10 @@ export default function Home() {
               />
             </div>
             <div className={PresentationStyles.space}>
-              <p>Desde mi infancia siempre me interesó el diseño, de formas muy singulares: la belleza del arte de un CD, la estética y composición de los.</p>
+              <p>
+                {/* Desde mi infancia siempre me interesó el diseño, de formas muy singulares: la belleza del arte de un CD, la estética y composición de los. */}
+                Mi trabajo se enfoca en el diseño y producción de sitios web y aplicaciones a medida, que resuelven necesidades de marca.
+              </p>
             </div>
           </div>
         </div>
@@ -44,7 +47,7 @@ export default function Home() {
           <div className={PresentationStyles.img}>
             <Image
               className={PresentationStyles.img}
-              src="/img/jellyfish.jpg"
+              src="/img/me_2.jpg"
               alt="Este soy yo"
               layout="fill"
               objectFit="cover"
