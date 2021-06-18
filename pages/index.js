@@ -5,7 +5,13 @@ import BlogPreview from '../parts/blogPreview'
 
 import PresentationStyles from '../styles/parts/PresentationWrapper.module.sass'
 
-export default function Home() {
+import { getAllPosts, getAllWorks } from '../lib/api'
+
+export default function Home({posts}) {
+
+  const allWorks = posts.allWorks;
+  const allPosts = posts.allPosts;
+
   return (
     <>
       <Head>
@@ -32,8 +38,8 @@ export default function Home() {
             </div>
             <div className={PresentationStyles.space}>
               <p>
-                {/* Desde mi infancia siempre me interesó el diseño, de formas muy singulares: la belleza del arte de un CD, la estética y composición de los. */}
-                Mi trabajo se enfoca en el diseño y producción de sitios web y aplicaciones a medida, que resuelven necesidades de marca.
+                Mi trabajo se encuentra en la intersección del diseño y el desarrollo llegando a producir sitios web y aplicaciones para marcas y personas. 
+                {/* <br /> */}
               </p>
             </div>
           </div>
@@ -58,16 +64,43 @@ export default function Home() {
         </div>
       </div>
 
-      <WorksGrid>
+      <WorksGrid items={allWorks}>
         <h1>
             Algunos <span className="highlight-color">proyectos seleccionados</span>
         </h1>
       </WorksGrid>
       
-      <BlogPreview>
+      <BlogPreview items={allPosts}>
         <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
       </BlogPreview>
 
     </>
   )
+}
+
+export async function getStaticProps() {
+
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt',
+  ])
+
+  const allWorks = getAllWorks([
+    'title',
+    'slug',
+  ])
+
+  return {
+    props: { 
+      posts: {
+        allPosts,
+        allWorks,
+      }
+    },
+  }
+  
 }
