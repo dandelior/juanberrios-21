@@ -2,6 +2,7 @@
 title: 'Un nuevo blog para jugar'
 excerpt: 'Decidí comenzar este blog porque siempre he tenido una fascinación con ellos. Lo simples y prácticos que son y el potencial que tienen cuando se los lee, me hacen desear tener uno propio.'
 coverImage: '/assets/blog/blog_nuevo-blog.jpg'
+imageCaption: 'Este es el caption de la imagen'
 date: '2021-01-01T05:35:07.322Z'
 author:
   name: Juan Berrios

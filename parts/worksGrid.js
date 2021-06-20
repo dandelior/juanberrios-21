@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/parts/WorksGrid.module.sass'
 
-export default function WorksGrid({items}, props) {
+export default function WorksGrid(props) {
 
-    // console.log(items);
+    const works = props.works;
+    console.log(works);
 
     return (
         <>
@@ -15,18 +17,25 @@ export default function WorksGrid({items}, props) {
                 ) : ''}
                 <div className={styles.worksGrid}>
 
-                    {items.map((work) => (
-                        <>
-                            <Link as={`/works/${work.slug}`} href="/works/[slug]">
-                                <a className={styles.workCard}>
-                                    <div className={styles.img}></div>
-                                    <div className={styles.data}>
-                                        <h3>{work.title}</h3>
-                                        <p>Sistema de gestión para centros deportivos</p>
-                                    </div>
-                                </a>
-                            </Link>
-                        </>
+                    {works.map((work, i) => (
+                        <Link as={`/works/${work.slug}`} href="/works/[slug]" key={i}>
+                            <a className={styles.workCard}>
+                                <div className={styles.img}>
+                                    <Image
+                                        // className={styles.img}
+                                        src={work.coverImage}
+                                        alt="Este soy yo"
+                                        layout="fill"
+                                        objectFit="cover"
+                                        objectPosition="center"
+                                    />
+                                </div>
+                                <div className={styles.data}>
+                                    <h3>{work.title}</h3>
+                                    <p>{work.excerpt}</p>
+                                </div>
+                            </a>
+                        </Link>
                     ))}
 
                 </div>

@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import styles from '../styles/parts/BlogPreview.module.sass'
 
-export default function BlogPreview({items}, props) {
+export default function BlogPreview(props) {
 
-    // console.log(items);
+    const posts = props.posts;
 
     return (
         <>
@@ -15,19 +15,19 @@ export default function BlogPreview({items}, props) {
                     </h1>
                 ) : ''}
                 <div className={styles.blogGrid}>
-                    {items.map((post) => (
-                        <div className={styles.previewCard}>
-                            <Link href="/blog/post">
+                    {posts.map((post, i) => (
+                        <div className={styles.previewCard} key={i}>
+                            <Link as={`/blog/${post.slug}`} href="/blog/[slug]">
                                 <a>
                                 <h3>
-                                    Mi Setup Front-end
+                                    {post.title}
                                 </h3>
                                 </a>
                             </Link>
                             <p>
-                                Siempre he sido curioso por saber con que herramientas trabajan otras personas. Bueno en este post te enseño cual es mi entorno de trabajo en el desarrollo frontend.
+                                {post.excerpt}
                             </p>
-                            <Link href="/blog/post">
+                            <Link as={`/blog/${post.slug}`} href="/blog/[slug]">
                                 <a className="go-button">Leer más →</a>
                             </Link>
                         </div>

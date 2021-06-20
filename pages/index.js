@@ -64,13 +64,13 @@ export default function Home({posts}) {
         </div>
       </div>
 
-      <WorksGrid items={allWorks}>
+      <WorksGrid works={allWorks}>
         <h1>
             Algunos <span className="highlight-color">proyectos seleccionados</span>
         </h1>
       </WorksGrid>
       
-      <BlogPreview items={allPosts}>
+      <BlogPreview posts={allPosts}>
         <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
       </BlogPreview>
 
@@ -82,16 +82,18 @@ export async function getStaticProps() {
 
   const allPosts = getAllPosts([
     'title',
-    'date',
+    // 'date',
     'slug',
-    'author',
-    'coverImage',
+    // 'author',
+    // 'coverImage',
     'excerpt',
   ])
 
   const allWorks = getAllWorks([
     'title',
     'slug',
+    'coverImage',
+    'excerpt'
   ])
 
   return {

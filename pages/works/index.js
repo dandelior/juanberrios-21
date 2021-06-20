@@ -3,7 +3,12 @@ import WorksGrid from '../../parts/worksGrid'
 
 import styles from '../../styles/parts/PresentationWrapper.module.sass'
 
-export default function Works() {
+import { getAllWorks } from '../../lib/api'
+
+export default function Works({ works }) {
+
+    const allWorks = works.allWorks;
+
   return (
     <>
         <Head>
@@ -28,7 +33,26 @@ export default function Works() {
             </div>
         </section>
 
-        <WorksGrid />
+        <WorksGrid works={allWorks} />
     </>
   )
 }
+
+export async function getStaticProps() {
+  
+    const allWorks = getAllWorks([
+      'title',
+      'excerpt',
+      'coverImage',
+      'slug',
+    ])
+  
+    return {
+      props: { 
+        works: {
+          allWorks,
+        }
+      },
+    }
+    
+  }

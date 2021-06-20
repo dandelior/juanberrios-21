@@ -3,7 +3,12 @@ import BlogPreview from '../../parts/blogPreview'
 
 import styles from '../../styles/parts/PresentationWrapper.module.sass'
 
-export default function Blog() {
+import { getAllPosts } from '../../lib/api'
+
+export default function Blog({ posts }) {
+
+    const allPosts = posts.allPosts;
+
   return (
     <>
         <Head>
@@ -28,8 +33,29 @@ export default function Blog() {
             </div>
         </section>
 
-        <BlogPreview hasLoadingMore={true} />
+        <BlogPreview hasLoadingMore={true} posts={allPosts} />
 
     </>
   )
 }
+
+export async function getStaticProps() {
+
+    const allPosts = getAllPosts([
+      'title',
+      // 'date',
+      'slug',
+      // 'author',
+      // 'coverImage',
+      'excerpt',
+    ])
+  
+    return {
+      props: { 
+        posts: {
+          allPosts
+        }
+      },
+    }
+    
+  }
