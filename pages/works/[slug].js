@@ -13,7 +13,7 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import formatDate from '../../lib/formatDate';
 
-export default function Work({ work, moreWorks, preview }) {
+export default function Work({ work, nextWork, preview }) {
   
   const router = useRouter();
 
@@ -21,8 +21,6 @@ export default function Work({ work, moreWorks, preview }) {
     return <p>404</p>
   }
 
-  console.log(work);
-  
   return (
     <>
       <Head>
@@ -32,7 +30,7 @@ export default function Work({ work, moreWorks, preview }) {
       <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
         <div className={PresentationStyles.presentationA}>
           <div className={PresentationStyles.heading}>
-            <p>Web / Identidad Corporativa</p>
+            <p>{work.tags}</p>
             <h1>
               {work.pretitle} <span className="highlight-color">{work.title}</span>
             </h1>
@@ -70,10 +68,10 @@ export default function Work({ work, moreWorks, preview }) {
         <p>Más Proyectos</p>
         <h1>
           Siguiente:<br />
-          <Link href="/works/work">
+          <Link as={`/works/${nextWork.slug}`} href="/works/[slug]">
             <a>
               <span className="highlight-color">
-                Kilómetro Cero →
+                {nextWork.title} →
               </span>
             </a>
           </Link>
@@ -92,11 +90,28 @@ export async function getStaticProps({ params }) {
       'date',
       'desc',
       'slug',
+      'tags',
       'content',
       'coverImage',
       'featuredImage',
   ])
+
   const content = await markdownToHtml(work.content || '')
+
+  let nextWork = {}
+  
+  const allWorks = getAllWorks([
+    'title',
+    'slug'
+  ])
+
+  allWorks.map((work, i) => {
+    let next = allWorks[i - 1];
+    if (work.slug === params.slug) {
+      nextWork = next;
+    }
+    return nextWork;
+  })
 
   return {
       props: {
@@ -104,6 +119,7 @@ export async function getStaticProps({ params }) {
               ...work,
               content,
           },
+          nextWork,
       },
   }
 }

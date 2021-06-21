@@ -5,7 +5,7 @@ import styles from '../styles/parts/WorksGrid.module.sass'
 export default function WorksGrid(props) {
 
     const works = props.works;
-    console.log(works);
+    // console.log(works);
 
     return (
         <>

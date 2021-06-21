@@ -6,7 +6,8 @@ desc: 'El Maitén es un vivero especialista en plantas de cerezas que necesitaba
 Desarrollamos el sitio web en Wordpress CMS a medida, donde la empresa tiene capacidades para editar prácticamente toda la información sin comprometer la estructura.'
 coverImage: '/assets/works/km0/cover.png'
 featuredImage: '/assets/works/km0/cover.png'
-date: '2016-02-12T10:20:00Z'
+tags: 'App'
+date: '2020-04-14T05:35:07.322Z'
 ---
 
 ![Kilometro Cero](/assets/works/km0/1.png)

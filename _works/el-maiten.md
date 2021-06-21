@@ -5,7 +5,8 @@ excerpt: 'Web autoadministrable para vivero de cerezas'
 desc: '...'
 coverImage: '/assets/works/el-maiten/cover.png'
 featuredImage: '/assets/works/el-maiten/cover.png'
-date: '2020-03-23T10:20:00Z'
+tags: 'Web / Identidad Corporativa'
+date: '2020-03-03T05:35:07.322Z'
 ---
 
 ![Viveros El Maitén](/assets/works/el-maiten/1.png)
