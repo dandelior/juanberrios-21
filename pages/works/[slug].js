@@ -86,7 +86,6 @@ export default function Work({ work, nextWork }) {
   )
 }
 
-// This also gets called at build time
 export async function getStaticProps({ params }) {
 
   const work = getWorkBySlug(params.slug, [
@@ -126,8 +125,6 @@ export async function getStaticProps({ params }) {
   }
 }
 
-
-// This function gets called at build time
 export async function getStaticPaths() {
 
   const works = getAllWorks(['slug'])

@@ -10,6 +10,9 @@ class PortfolioDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <link rel="icon" type="image/svg+xml" href="/focus.svg" />
+          <link rel="alternate icon" href="/favicon.ico"></link>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#990000"></link>
           <link
             rel="preload"
             href="/fonts/Inter.var.woff2"

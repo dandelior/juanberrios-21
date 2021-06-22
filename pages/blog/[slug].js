@@ -14,7 +14,7 @@ import formatDate from '../../lib/formatDate';
 
 export default function Post({ post, nextPost }) {
 
-    console.log(nextPost);
+    // console.log(nextPost);
 
     const router = useRouter();
 
