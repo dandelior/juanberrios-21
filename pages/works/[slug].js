@@ -13,8 +13,9 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import formatDate from '../../lib/formatDate';
 
-export default function Work({ work, nextWork, preview }) {
+export default function Work({ work, nextWork }) {
 
+  // console.log(actualWorkDate);
   // console.log(nextWork);
   const router = useRouter();
 
@@ -65,7 +66,7 @@ export default function Work({ work, nextWork, preview }) {
         <div dangerouslySetInnerHTML={{__html: work.content}}></div>
       </div>
 
-      {nextWork && (
+      {/* {nextWork && (
         <div className={nextSectionStyles.next}>
           <p>Más Proyectos</p>
           <h1>
@@ -79,7 +80,7 @@ export default function Work({ work, nextWork, preview }) {
             </Link>
           </h1>
         </div>
-      )}
+      )} */}
 
     </>
   )
@@ -102,19 +103,26 @@ export async function getStaticProps({ params }) {
 
   const content = await markdownToHtml(work.content || '')
 
-  let nextWork = {}
+  // let nextWork = {}
+  // let actualWorkDate;
   
   const allWorks = getAllWorks([
     'title',
-    'slug'
+    'slug',
+    'date'
   ])
 
   allWorks.map((work, i) => {
-    let next = allWorks[i - 1];
-    if (work.slug === params.slug) {
-      nextWork = next;
-    }
-    return nextWork;
+    // if (work.slug === params.slug) {
+    //   actualWorkDate = work.date;
+    // }
+
+    // if (work.date < actualWorkDate) {
+    //   nextWork = work;
+    // }
+    
+    // return nextWork;
+    // usar find() !!!!
   })
 
   return {
@@ -123,7 +131,8 @@ export async function getStaticProps({ params }) {
               ...work,
               content,
           },
-          nextWork,
+          // nextWork,
+          // actualWorkDate
       },
   }
 }
