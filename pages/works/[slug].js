@@ -9,14 +9,14 @@ import nextSectionStyles from '../../styles/parts/NextSection.module.sass'
 import { useRouter } from 'next/router'
 
 import { getWorkBySlug, getAllWorks } from '../../lib/api'
-import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
-import formatDate from '../../lib/formatDate';
+// import formatDate from '../../lib/formatDate';
 
 export default function Work({ work, nextWork }) {
 
   // console.log(actualWorkDate);
   // console.log(nextWork);
+  console.log(nextWork);
   const router = useRouter();
 
   if (!router.isFallback && !work?.slug) {
@@ -66,7 +66,7 @@ export default function Work({ work, nextWork }) {
         <div dangerouslySetInnerHTML={{__html: work.content}}></div>
       </div>
 
-      {/* {nextWork && (
+      {nextWork && (
         <div className={nextSectionStyles.next}>
           <p>Más Proyectos</p>
           <h1>
@@ -80,7 +80,7 @@ export default function Work({ work, nextWork }) {
             </Link>
           </h1>
         </div>
-      )} */}
+      )}
 
     </>
   )
@@ -103,27 +103,17 @@ export async function getStaticProps({ params }) {
 
   const content = await markdownToHtml(work.content || '')
 
-  // let nextWork = {}
-  // let actualWorkDate;
-  
+  const thisWorkDate = work.date;
+
   const allWorks = getAllWorks([
     'title',
     'slug',
     'date'
   ])
 
-  allWorks.map((work, i) => {
-    // if (work.slug === params.slug) {
-    //   actualWorkDate = work.date;
-    // }
+  const foundNextWork = allWorks.find(e => e.date < thisWorkDate);
 
-    // if (work.date < actualWorkDate) {
-    //   nextWork = work;
-    // }
-    
-    // return nextWork;
-    // usar find() !!!!
-  })
+  const nextWork = foundNextWork ? foundNextWork : '';
 
   return {
       props: {
@@ -131,8 +121,7 @@ export async function getStaticProps({ params }) {
               ...work,
               content,
           },
-          // nextWork,
-          // actualWorkDate
+          nextWork
       },
   }
 }

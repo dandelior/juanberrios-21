@@ -9,11 +9,12 @@ import nextSectionStyles from '../../styles/parts/NextSection.module.sass'
 import { useRouter } from 'next/router'
 
 import { getPostBySlug, getAllPosts } from '../../lib/api'
-import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import formatDate from '../../lib/formatDate';
 
-export default function Post({ post, morePosts, preview }) {
+export default function Post({ post, nextPost }) {
+
+    console.log(nextPost);
 
     const router = useRouter();
 
@@ -71,18 +72,20 @@ export default function Post({ post, morePosts, preview }) {
         <article className={postStyles.postContent} dangerouslySetInnerHTML={{ __html: post.content }}>
         </article>
 
-        <div className={nextSectionStyles.next}>
-            <h1>
-                Siguiente:<br />
-                <Link href="/blog/post">
-                    <a>
-                        <span className="highlight-color">
-                            Un nuevo blog para juegacionar →
-                        </span>
-                    </a>
-                </Link>
-            </h1>
-        </div>
+        {nextPost && (
+            <div className={nextSectionStyles.next}>
+                <h1>
+                    Siguiente:<br />
+                    <Link as={`/blog/${nextPost.slug}`} href="/blog/[slug]">
+                        <a>
+                            <span className="highlight-color">
+                                {nextPost.title} →
+                            </span>
+                        </a>
+                    </Link>
+                </h1>
+            </div>
+        )}
     </>
   )
 }
@@ -102,12 +105,25 @@ export async function getStaticProps({ params }) {
     ])
     const content = await markdownToHtml(post.content || '')
 
+    const thisPostDate = post.date;
+
+    const allPosts = getAllPosts([
+        'title',
+        'slug',
+        'date',
+    ])
+
+    const foundNextPost = allPosts.find(e => e.date < thisPostDate);
+
+    const nextPost = foundNextPost ? foundNextPost : '';
+
     return {
         props: {
             post: {
                 ...post,
                 content,
             },
+            nextPost
         },
     }
 }

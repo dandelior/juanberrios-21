@@ -22,7 +22,6 @@ export default function WorksGrid(props) {
                             <a className={styles.workCard}>
                                 <div className={styles.img}>
                                     <Image
-                                        // className={styles.img}
                                         src={work.coverImage}
                                         alt="Este soy yo"
                                         layout="fill"
