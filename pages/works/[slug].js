@@ -14,7 +14,8 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import formatDate from '../../lib/formatDate';
 
 export default function Work({ work, nextWork, preview }) {
-  
+
+  // console.log(nextWork);
   const router = useRouter();
 
   if (!router.isFallback && !work?.slug) {
@@ -64,19 +65,22 @@ export default function Work({ work, nextWork, preview }) {
         <div dangerouslySetInnerHTML={{__html: work.content}}></div>
       </div>
 
-      <div className={nextSectionStyles.next}>
-        <p>Más Proyectos</p>
-        <h1>
-          Siguiente:<br />
-          <Link as={`/works/${nextWork.slug}`} href="/works/[slug]">
-            <a>
-              <span className="highlight-color">
-                {nextWork.title} →
-              </span>
-            </a>
-          </Link>
-        </h1>
-      </div>
+      {nextWork && (
+        <div className={nextSectionStyles.next}>
+          <p>Más Proyectos</p>
+          <h1>
+            Siguiente:<br />
+            <Link as={`/works/${nextWork.slug}`} href="/works/[slug]">
+              <a>
+                <span className="highlight-color">
+                  {nextWork.title} →
+                </span>
+              </a>
+            </Link>
+          </h1>
+        </div>
+      )}
+
     </>
   )
 }
