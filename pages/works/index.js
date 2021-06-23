@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import WorksGrid from '../../parts/worksGrid'
+import MetaTags from '../../components/MetaTags'
 
 import styles from '../../styles/parts/PresentationWrapper.module.sass'
 
@@ -13,6 +14,12 @@ export default function Works({ works }) {
     <>
         <Head>
             <title>Trabajos — Juan Berrios</title>
+            <MetaTags 
+              title="Trabajos — Juan Berrios"
+              description="Revisa algunos de mis trabajos realizados para marcas, personas e instituciones."
+              image=""
+              url="works/"
+            />
         </Head>
 
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>

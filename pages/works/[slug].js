@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import MetaTags from '../../components/MetaTags'
 
 import styles from '../../styles/Work.module.sass'
 import PresentationStyles from '../../styles/parts/PresentationWrapper.module.sass'
@@ -10,13 +11,9 @@ import { useRouter } from 'next/router'
 
 import { getWorkBySlug, getAllWorks } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
-// import formatDate from '../../lib/formatDate';
 
 export default function Work({ work, nextWork }) {
 
-  // console.log(actualWorkDate);
-  // console.log(nextWork);
-  console.log(nextWork);
   const router = useRouter();
 
   if (!router.isFallback && !work?.slug) {
@@ -27,6 +24,12 @@ export default function Work({ work, nextWork }) {
     <>
       <Head>
         <title>{work.title} — Juan Berrios</title>
+        <MetaTags 
+          title={`${work.title} — Juan Berrios`}
+          description={work.desc}
+          image={work.featuredImage}
+          url={`works/${work.slug}`}
+        />
       </Head>
 
       <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
@@ -74,8 +77,6 @@ export default function Work({ work, nextWork }) {
             <Link as={`/works/${nextWork.slug}`} href="/works/[slug]">
               <a>
                 {nextWork.title} →
-                {/* <span className="highlight-color">
-                </span> */}
               </a>
             </Link>
           </h1>

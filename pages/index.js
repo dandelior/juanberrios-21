@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import MetaTags from '../components/MetaTags'
 import WorksGrid from '../parts/worksGrid'
 import BlogPreview from '../parts/blogPreview'
 
@@ -16,6 +17,12 @@ export default function Home({posts}) {
     <>
       <Head>
         <title>Juan Berrios — Diseñador &amp; Desarrollador Frontend</title>
+        <MetaTags 
+          title="Juan Berrios — Diseñador & Desarrollador Frontend"
+          description="Creo cosas en internet, como sitios web y aplicaciones móviles."
+          image=""
+          url=""
+        />
       </Head>
 
       <div className={PresentationStyles.presentationWrapper}>
@@ -82,10 +89,7 @@ export async function getStaticProps() {
 
   const allPosts = getAllPosts([
     'title',
-    // 'date',
     'slug',
-    // 'author',
-    // 'coverImage',
     'excerpt',
   ])
 

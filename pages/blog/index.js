@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import MetaTags from '../../components/MetaTags'
 import BlogPreview from '../../parts/blogPreview'
 
 import styles from '../../styles/parts/PresentationWrapper.module.sass'
@@ -13,6 +14,12 @@ export default function Blog({ posts }) {
     <>
         <Head>
             <title>Blog — Juan Berrios</title>
+            <MetaTags 
+              title="Blog — Juan Berrios"
+              description="Aquí escribo sobre diseño, código, música y otras cosas"
+              image=""
+              url="blog/"
+            />
         </Head>
 
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
@@ -34,7 +41,6 @@ export default function Blog({ posts }) {
         </section>
 
         <BlogPreview hasLoadingMore={true} posts={allPosts} />
-
     </>
   )
 }
@@ -43,10 +49,7 @@ export async function getStaticProps() {
 
     const allPosts = getAllPosts([
       'title',
-      // 'date',
       'slug',
-      // 'author',
-      // 'coverImage',
       'excerpt',
     ])
   

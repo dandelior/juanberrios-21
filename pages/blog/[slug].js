@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import MetaTags from '../../components/MetaTags'
 
 import postStyles from '../../styles/Post.module.sass'
 import PresentationStyles from '../../styles/parts/PresentationWrapper.module.sass'
@@ -14,8 +15,6 @@ import formatDate from '../../lib/formatDate';
 
 export default function Post({ post, nextPost }) {
 
-    // console.log(nextPost);
-
     const router = useRouter();
 
     if (!router.isFallback && !post?.slug) {
@@ -26,6 +25,12 @@ export default function Post({ post, nextPost }) {
     <>
         <Head>
             <title>{post.title} — Juan Berrios</title>
+            <MetaTags 
+                title={`${post.title} — Juan Berrios`}
+                description={post.excerpt}
+                image={post.coverImage}
+                url={`blog/${post.slug}`}
+            />
         </Head>
 
         <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
@@ -93,6 +98,7 @@ export async function getStaticProps({ params }) {
 
     const post = getPostBySlug(params.slug, [
         'title',
+        'excerpt',
         'date',
         'slug',
         'author',
