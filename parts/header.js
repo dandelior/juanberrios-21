@@ -6,7 +6,7 @@ import styles from '../styles/parts/Header.module.sass';
 export default function Header() {
 
     const router = useRouter();
-    console.log(router);
+    // console.log(router);
     const [isOpen, setOpen] = useState("false");
     const [isFixed, setFixed] = useState("false");
 
@@ -36,7 +36,7 @@ export default function Header() {
                 </Link>
                 <Link href="/works">
                     <a
-                        className={router.pathname == "/works" ? `${styles.active}` : ""}
+                        className={router.pathname == "/works" || router.pathname == "/works/[slug]" ? `${styles.active}` : ""}
                         onClick={closeMenu}
                     >Trabajos</a>
                 </Link>
@@ -48,7 +48,7 @@ export default function Header() {
                 {/* </Link> */}
                 <Link href="/blog">
                     <a 
-                        className={router.pathname == "/blog" ? `${styles.active}` : ""}
+                        className={router.pathname == "/blog" || router.pathname == "/blog/[slug]" ? `${styles.active}` : ""}
                         onClick={closeMenu}
                     >Blog</a>
                 </Link>
