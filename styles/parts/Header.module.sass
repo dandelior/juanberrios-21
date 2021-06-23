@@ -33,8 +33,12 @@
     font-size: 16px
     letter-spacing: -0.005em
     font-weight: 600
-    color: var(--color-highlight)
+    color: var(--color-mid)
     margin: 0
+    transition: var(--transition)
+    &:hover,
+    &:focus
+      color: var(--color-highlight)
   .burger
     width: 42px
     height: 42px
@@ -44,14 +48,14 @@
     align-items: center
     background-color: transparent
     cursor: pointer
-    transition: all ease 0.3s
+    transition: var(--transition)
     &::after, &::before
       content: ''
       width: 42px
       height: 3px
       position: absolute
       background-color: var(--color-highlight)
-      transition: all ease 0.3s
+      transition: var(--transition)
     &::after
       margin-top: -4px
     &::before
@@ -101,7 +105,7 @@
   padding-left: 27px
   padding-right: 27px
   z-index: 99
-  transition: all ease 0.7s
+  transition: all ease-in-out 0.7s
   a
     width: 100%
     font-size: 32px
@@ -109,7 +113,7 @@
     margin-bottom: 30px
     font-weight: 500
     color: var(--color-text)
-    transition: all ease-in-out 0.3s
+    transition: var(--transition)
     &.active
       color: var(--color-highlight)
     &.inactive

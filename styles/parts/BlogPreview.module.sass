@@ -11,12 +11,18 @@
         &:first-child
           margin-top: 0
         h3
-          color: var(--color-highlight)
+          color: var(--color-mid)
           margin-bottom: 12px
           font-weight: 600
           letter-spacing: -0.01em
+          transition: var(--transition)
         p
           margin-bottom: 14px
+        &:hover,
+        &:focus
+          h3
+            color: var(--color-highlight)
+          p
 
 @media (min-width: 1024px)
   .blogPreviewWrapper
@@ -29,12 +35,11 @@
         display: grid
         grid-template-columns: 1fr 1fr 1fr
         column-gap: 60px
-        margin-bottom: 90px
+        row-grap: 66px
+        margin-bottom: 0px
         .previewCard
           margin-top: 0
-          // margin-bottom: 52px
-          // margin-bottom: 70px
-          margin-bottom: 66px
+          margin-bottom: 110px
           &:first-child
           h3
             max-width: 90%
@@ -46,10 +51,14 @@
 .morePosts
   padding: 36px 30px 100px
   a
-    color: var(--color-highlight)
+    color: var(--color-mid)
     font-weight: 600
+    transition: var(--transition)
+    &:hover,
+    &:focus
+      color: var(--color-highlight)
 
 @media (min-width: 1024px)
   .morePosts
-    padding: 36px 6vw 120px
+    padding: 36px 6vw 44px
     a

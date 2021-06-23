@@ -73,9 +73,9 @@ export default function Work({ work, nextWork }) {
             Siguiente:<br />
             <Link as={`/works/${nextWork.slug}`} href="/works/[slug]">
               <a>
-                <span className="highlight-color">
-                  {nextWork.title} →
-                </span>
+                {nextWork.title} →
+                {/* <span className="highlight-color">
+                </span> */}
               </a>
             </Link>
           </h1>

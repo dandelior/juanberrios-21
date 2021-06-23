@@ -5,12 +5,18 @@
   p
   h1
     margin-bottom: 0
+    a
+      color: var(--color-mid)
+      transition: var(--transition)
+      &:hover,
+      &:focus
+        color: var(--color-highlight)
     
 @media (min-width: 1024px)
   .next
     padding: 0 6vw
     margin-top: 140px
-    margin-bottom: 80px
+    margin-bottom: 20px
     max-width: 680px
     p
     h1

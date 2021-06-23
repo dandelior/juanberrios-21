@@ -27,7 +27,7 @@
 .postContent
   padding: 0 40px 0 30px
   margin-bottom: 86px
-  p
+  p, ul
     line-height: 160%
     margin-bottom: 24px
     color: var(--color-text)
@@ -36,7 +36,14 @@
     a
       border-bottom: solid 1px var(--color-text)
   a
-    border-bottom: solid 1px var(--color-text)
+    padding-bottom: 1px
+    color: var(--color-mid)
+    border-bottom: solid 1px var(--color-mid)
+    transition: all ease-in-out 0.3s
+    &:focus,
+    &:hover
+      color: var(--color-highlight)
+      border-bottom: solid 1px transparent
   h1, h2, h3, h4, h5, h6
     color: var(--color-highlight)
     font-weight: 600
@@ -46,18 +53,18 @@
     line-height: 120%
     margin-top: 39px
     margin-bottom: 19px
+  ul
+    li
+      margin-bottom: 16px
 
 @media (min-width: 1024px)
   .postContent
     padding: 0
     margin: auto
-    max-width: 800px
+    // max-width: 800px
     max-width: 720px
-    p
-      // font-size: 20px
-      font-size: 18px
+    p, ul
       font-size: 19px
-      // line-height: 160%
       line-height: 165%
       margin-bottom: 30px
       strong, b
@@ -69,3 +76,6 @@
       line-height: 130%
       margin-top: 44px
       margin-bottom: 27px
+    ul
+      li
+        margin-bottom: 24px

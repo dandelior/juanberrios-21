@@ -78,9 +78,7 @@ export default function Post({ post, nextPost }) {
                     Siguiente:<br />
                     <Link as={`/blog/${nextPost.slug}`} href="/blog/[slug]">
                         <a>
-                            <span className="highlight-color">
-                                {nextPost.title} →
-                            </span>
+                            {nextPost.title} →
                         </a>
                     </Link>
                 </h1>
