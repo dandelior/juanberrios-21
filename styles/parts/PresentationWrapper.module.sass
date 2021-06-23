@@ -44,9 +44,9 @@
     padding: 0
     padding-left: 6vw
     display: grid
-    grid-template-columns: 1.25fr 0.75fr
+    // grid-template-columns: 1.25fr 0.75fr
     grid-template-columns: 1.27fr 0.73fr
-    column-gap: 5vw
+    column-gap: 4vw
     margin-bottom: 62px
     .presentationA
       .heading
@@ -112,24 +112,23 @@
       .img
       .space
 
-// @media (min-width: 1670px)
-//   .presentationWrapper
-//     padding: 0 8vw
-//     .presentationA
-//       .heading
-//         p
-//         h1
-//           &.postTitle
-//         .date
-//       .data
-//         .img
-//         .space
-//           p
-//     .presentationB
-//       .arrowWrapper
-//         padding-right: 0
-//         svg.arrow
-//           path
-//         &.onHome
-//       .img
-//       .space
+@media (min-width: 1600px)
+  .presentationWrapper
+    padding: 0 18vw
+    .presentationA
+      .heading
+        p
+        h1
+          &.postTitle
+        .date
+      .data
+        .img
+        .space
+          p
+    .presentationB
+      .arrowWrapper
+        svg.arrow
+          path
+        &.onHome
+      .img
+      .space
