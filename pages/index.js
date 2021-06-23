@@ -8,7 +8,7 @@ import PresentationStyles from '../styles/parts/PresentationWrapper.module.sass'
 
 import { getAllPosts, getAllWorks } from '../lib/api'
 
-export default function Home({posts}) {
+export default function Home({ posts }) {
 
   const allWorks = posts.allWorks;
   const allPosts = posts.allPosts;
@@ -46,7 +46,6 @@ export default function Home({posts}) {
             <div className={PresentationStyles.space}>
               <p>
                 Mi trabajo se encuentra en la intersección del diseño y el desarrollo llegando a producir sitios web y aplicaciones para marcas y personas. 
-                {/* <br /> */}
               </p>
             </div>
           </div>
