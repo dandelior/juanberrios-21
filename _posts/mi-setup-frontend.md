@@ -76,7 +76,7 @@ Hay todo un mundo en los CMS. Y aquí no me puedo decantar por uno solo, ya que 
 
 Hoy existen CMS para regodearse. Estos son algunos que utilizo o he utilizado y te recomiendo: [Sanity](http://sanity.io/), [Ghost](https://ghost.org/), [Contentful](https://www.contentful.com/), [GraphCMS](https://graphcms.com/), [Storyblok](https://www.storyblok.com/), [CraftCMS](https://craftcms.com/).
 
-## Preprocesador CSS
+## Preprocesador CSS
 
 Muchas cosas que hoy se pueden hacer con CSS antes se podían hacer solo con preprocesadores. Hoy la cosa avanza hacia los Post-procesadores. [SASS](https://sass-lang.com/) es mi lenguaje de preprocesador favorito para CSS y no tengo una justificación para preferirlo por sobre otro, simplemente me gusta y me he acostumbrado a escribir sin “{}”.
 

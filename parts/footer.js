@@ -4,6 +4,9 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.rrssLinks}>
+                <a href="https://github.com/dandelior" target="_blank" rel="noopener noreferrer">
+                    Github
+                </a>
                 <a href="https://instagram.com/bydandelior" target="_blank" rel="noopener noreferrer">
                     Instagram
                 </a>
