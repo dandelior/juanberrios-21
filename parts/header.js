@@ -40,12 +40,12 @@ export default function Header() {
                         onClick={closeMenu}
                     >Trabajos</a>
                 </Link>
-                {/* <Link> */}
+                {/* <Link href="/about">
                     <a 
-                        className={styles.inactive} 
-                        disabled
+                        className={router.pathname == "/about" ? `${styles.active}` : ""}
+                        onClick={closeMenu}
                     >Conóceme</a>
-                {/* </Link> */}
+                </Link> */}
                 <Link href="/blog">
                     <a 
                         className={router.pathname == "/blog" || router.pathname == "/blog/[slug]" ? `${styles.active}` : ""}

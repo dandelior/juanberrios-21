@@ -9,9 +9,9 @@ tags: 'App / WebApp'
 date: '2020-07-12T05:35:07.322Z'
 ---
 
-![Kilometro Cero](/assets/works/nfit/1.png)
-![Kilometro Cero](/assets/works/nfit/2.png)
-![Kilometro Cero](/assets/works/nfit/3.png)
-![Kilometro Cero](/assets/works/nfit/4.png)
-![Kilometro Cero](/assets/works/nfit/5.png)
-![Kilometro Cero](/assets/works/nfit/6.png)
+![Kilometro Cero](/assets/works/nfit/1.jpg)
+![Kilometro Cero](/assets/works/nfit/2.jpg)
+![Kilometro Cero](/assets/works/nfit/3.jpg)
+![Kilometro Cero](/assets/works/nfit/4.jpg)
+![Kilometro Cero](/assets/works/nfit/5.jpg)
+![Kilometro Cero](/assets/works/nfit/6.jpg)

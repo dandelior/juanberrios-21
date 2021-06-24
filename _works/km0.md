@@ -10,8 +10,8 @@ tags: 'App'
 date: '2020-04-14T05:35:07.322Z'
 ---
 
-![Kilometro Cero](/assets/works/km0/1.png)
-![Kilometro Cero](/assets/works/km0/2.png)
-![Kilometro Cero](/assets/works/km0/3.png)
-![Kilometro Cero](/assets/works/km0/4.png)
-![Kilometro Cero](/assets/works/km0/5.png)
+![Kilometro Cero](/assets/works/km0/1.jpg)
+![Kilometro Cero](/assets/works/km0/2.jpg)
+![Kilometro Cero](/assets/works/km0/3.jpg)
+![Kilometro Cero](/assets/works/km0/4.jpg)
+![Kilometro Cero](/assets/works/km0/5.jpg)
