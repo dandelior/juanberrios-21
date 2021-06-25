@@ -35,7 +35,13 @@ export default function Work({ work, nextWork }) {
       <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
         <div className={PresentationStyles.presentationA}>
           <div className={PresentationStyles.heading}>
-            <p>{work.tags}</p>
+            <p>
+              <Link href="/works">
+                <a>
+                  &#8592; Trabajos
+                </a>
+              </Link>
+            </p>
             <h1>
               {work.pretitle} <span className="highlight-color">{work.title}</span>
             </h1>
