@@ -45,7 +45,10 @@ export default function Home({ posts }) {
             </div>
             <div className={PresentationStyles.space}>
               <p>
-                Mi trabajo se encuentra en la intersección del diseño y el desarrollo llegando a producir sitios web y aplicaciones para marcas y personas. 
+                Mi trabajo consiste es diseñar y desarrollar sitios web y aplicaciones a medida para marcas 
+                y personas. 
+                Me involucro desde el principio con las personas para aprender de sus proyectos y así poder 
+                crear productos interesantes, funcionales y que resuelvan sus necesidades.
               </p>
             </div>
           </div>
