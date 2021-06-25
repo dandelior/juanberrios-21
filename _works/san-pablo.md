@@ -6,15 +6,15 @@ desc: 'Con la ayuda de <a href="https://jeangutierrez.com" rel="noreferrer noope
 <br/><br/>
 En última instancia, como parte de mi labor, tuve la oportunidad de desarrollar e implementar el sitio web.'
 coverImage: '/assets/works/san-pablo/cover.png'
-featuredImage: '/assets/works/san-pablo/featured.png'
+featuredImage: '/assets/works/san-pablo/featured.jpg'
 tags: 'Web / Identidad Corporativa'
 date: '2020-01-03T05:35:07.322Z'
 ---
 
-![Viveros El Maitén](/assets/works/san-pablo/1.png)
-![Viveros El Maitén](/assets/works/san-pablo/2.png)
-![Viveros El Maitén](/assets/works/san-pablo/3.png)
-![Viveros El Maitén](/assets/works/san-pablo/4.png)
-![Viveros El Maitén](/assets/works/san-pablo/5.png)
-![Viveros El Maitén](/assets/works/san-pablo/6.png)
-![Viveros El Maitén](/assets/works/san-pablo/7.png)
+![Viveros El Maitén](/assets/works/san-pablo/1.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/2.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/3.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/4.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/5.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/6.jpg)
+![Viveros El Maitén](/assets/works/san-pablo/7.jpg)
