@@ -6,12 +6,9 @@ imageCaption: 'Este es el caption de la imagen'
 date: '2021-01-14T05:35:07.322Z'
 author:
   name: Juan Berrios
-  picture: '/assets/blog/authors/jj.jpeg'
-ogImage:
-  url: '/assets/blog/blog_setup-frontend.jpg'
 ---
 
-Ok, esta idea no es mía, en cierta forma me estoy colgando de la idea de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/) (como si fuese un tag, pero sin ser “tageado”).
+Ok, esta idea no se me ocurrió a mi, en cierta forma me estoy colgando de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/).
 
 Escribo este post porque siempre he sido curioso por saber cómo trabajan otras personas, sobre todo si son desarrolladores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.
 
