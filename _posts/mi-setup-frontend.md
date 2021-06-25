@@ -2,7 +2,7 @@
 title: 'Mi Setup Front-end'
 excerpt: 'Escribo este post porque siempre he sido curioso por saber cómo trabajan otras personas, sobre todo si son desarrolladores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.'
 coverImage: '/assets/blog/blog_setup-frontend.jpg'
-imageCaption: 'Este es el caption de la imagen'
+imageCaption: 'Foto por @iamthejean'
 date: '2021-01-14T05:35:07.322Z'
 author:
   name: Juan Berrios
