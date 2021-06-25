@@ -20,7 +20,7 @@ export default function Home({ posts }) {
         <MetaTags 
           title="Juan Berrios — Diseñador & Desarrollador Frontend"
           description="Creo cosas en internet, como sitios web y aplicaciones móviles. Este es mi sitio web."
-          image=""
+          image="/img/og_image.jpg"
           url=""
         />
       </Head>
@@ -35,7 +35,6 @@ export default function Home({ posts }) {
           <div className={PresentationStyles.data}>
             <div className={PresentationStyles.img}>
               <Image
-                className={PresentationStyles.img}
                 src="/img/me_3.jpg"
                 alt="Este soy yo"
                 layout="fill"
@@ -61,7 +60,6 @@ export default function Home({ posts }) {
           </div>
           <div className={PresentationStyles.img}>
             <Image
-              className={PresentationStyles.img}
               src="/img/me_6.jpg"
               alt="Este soy yo trabajando"
               layout="fill"

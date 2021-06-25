@@ -17,7 +17,7 @@ export default function Works({ works }) {
             <MetaTags 
               title="Trabajos — Juan Berrios"
               description="Revisa algunos de mis trabajos realizados para marcas, personas e instituciones."
-              image=""
+              image="/img/og_image.jpg"
               url="works/"
             />
         </Head>

@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
             <MetaTags 
               title="Blog — Juan Berrios"
               description="Aquí escribo sobre diseño, código, música y otras cosas"
-              image=""
+              image="/img/og_image.jpg"
               url="blog/"
             />
         </Head>

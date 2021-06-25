@@ -1,8 +1,0 @@
-/* SITE BY */
-Name: Juan Berrios, https://juanberrios.com/
-
-/* TEAM */
-Role: Designer / Front End Developer
-Name: Juan Berrios
-Site: https://juanberrios.com/
-Twitter: @dandelior
