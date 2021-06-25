@@ -19,7 +19,7 @@ export default function Home({ posts }) {
         <title>Juan Berrios — Diseñador &amp; Desarrollador Frontend</title>
         <MetaTags 
           title="Juan Berrios — Diseñador & Desarrollador Frontend"
-          description="Creo cosas en internet, como sitios web y aplicaciones móviles."
+          description="Creo cosas en internet, como sitios web y aplicaciones móviles. Este es mi sitio web."
           image=""
           url=""
         />
