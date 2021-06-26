@@ -1,6 +1,6 @@
 ---
 title: 'Mi Setup Front-end'
-excerpt: 'Escribo este post porque siempre he sido curioso por saber cómo trabajan otras personas, sobre todo si son desarrolladores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.'
+excerpt: 'Conoce el software que utilizo para realizar webs y webApps.'
 coverImage: '/assets/blog/blog_setup-frontend.jpg'
 imageCaption: 'Foto por @iamthejean'
 date: '2021-01-14T05:35:07.322Z'
@@ -10,7 +10,7 @@ author:
 
 Ok, esta idea no se me ocurrió a mi, en cierta forma me estoy colgando de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/).
 
-Escribo este post porque siempre he sido curioso por saber cómo trabajan otras personas, sobre todo si son desarrolladores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.
+Escribo este post porque siempre he sido curioso por saber que herramientas usan otras personas, sobre todo si son diseñadores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.
 
 ## Sistema Operativo
 

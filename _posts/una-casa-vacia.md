@@ -1,6 +1,6 @@
 ---
 title: "Una casa vacía"
-excerpt: "Decidí comenzar este blog porque siempre he tenido una fascinación con ellos. Lo simples y prácticos que son y el potencial que tienen cuando se los lee, me hacen desear tener uno propio."
+excerpt: "Por qué inicié otro blog y mi dilema de la casa vacía."
 coverImage: "/assets/blog/blog_nuevo-blog.jpg"
 imageCaption: "Foto por @hrustall, Unsplash"
 date: "2021-01-01T05:35:07.322Z"

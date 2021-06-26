@@ -35,28 +35,26 @@ export default function Post({ post, nextPost }) {
 
         <section className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}>
             <div className={PresentationStyles.presentationA}>
-            <div className={PresentationStyles.heading}>
-                <p>
-                    <Link href="/blog">
-                        <a>
-                            &#8592; Blog
-                        </a>
-                    </Link>
-                </p>
-                <h1 className={PresentationStyles.postTitle}>
-                    {post.title}
-                </h1>
-                <p className={PresentationStyles.date}>
-                    {formatDate(post.date)}
-                </p>
-            </div>
+                <div className={PresentationStyles.heading}>
+                    <p>
+                        <Link href="/blog">
+                            <a>&#8592; Blog</a>
+                        </Link>
+                    </p>
+                    <h1 className={PresentationStyles.postTitle}>
+                        {post.title}
+                    </h1>
+                    <p className={PresentationStyles.date}>
+                        {formatDate(post.date)}
+                    </p>
+                </div>
             </div>
             <div className={PresentationStyles.presentationB}>
-            <div className={PresentationStyles.arrowWrapper}>
-                <svg className={PresentationStyles.arrow} width="85" height="221" viewBox="0 0 85 221" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693" strokeWidth="3"/>
-                </svg>
-            </div>
+                <div className={PresentationStyles.arrowWrapper}>
+                    <svg className={PresentationStyles.arrow} width="85" height="221" viewBox="0 0 85 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693" strokeWidth="3"/>
+                    </svg>
+                </div>
             </div>
         </section>
 
@@ -93,7 +91,7 @@ export default function Post({ post, nextPost }) {
   )
 }
 
-// This also gets called at build time
+// getStaticProps()
 export async function getStaticProps({ params }) {
 
     const post = getPostBySlug(params.slug, [
@@ -133,7 +131,7 @@ export async function getStaticProps({ params }) {
 }
 
 
-// This function gets called at build time
+// getStaticPaths()
 export async function getStaticPaths() {
 
     const posts = getAllPosts(['slug'])
