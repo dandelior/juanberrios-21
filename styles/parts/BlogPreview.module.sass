@@ -3,6 +3,9 @@
   width: 100%
   .blogPreview
     padding: 0 30px
+    h1
+      max-width: 460px
+      margin-bottom: 60px
     .blogGrid
       margin-bottom: 82px
       .previewCard
@@ -13,6 +16,7 @@
           color: var(--color-mid)
           margin-bottom: 12px
           font-weight: 600
+          line-height: 140%
           letter-spacing: -0.01em
           transition: var(--transition)
         p
@@ -23,21 +27,39 @@
             color: var(--color-highlight)
           p
 
+@media (min-width: 768px)
+  .blogPreviewWrapper
+    .blogPreview
+      padding: 0 4.6vw
+      h1
+      .blogGrid
+        display: grid
+        grid-template-columns: 1fr 1fr
+        column-gap: 60px
+        row-grap: 66px
+        margin-bottom: 0px
+        .previewCard
+          margin-top: 0
+          margin-bottom: 60px
+          &:first-child
+          h3
+          p
+
 @media (min-width: 1280px)
   .blogPreviewWrapper
     .blogPreview
       padding: 0 6vw
       h1
         max-width: 670px
-        margin-bottom: 60px
+        // margin-bottom: 60px
       .blogGrid
-        display: grid
+        // display: grid
         grid-template-columns: 1fr 1fr 1fr
-        column-gap: 60px
-        row-grap: 66px
-        margin-bottom: 0px
+        // column-gap: 60px
+        // row-grap: 66px
+        // margin-bottom: 0px
         .previewCard
-          margin-top: 0
+          // margin-top: 0
           margin-bottom: 110px
           &:first-child
           h3

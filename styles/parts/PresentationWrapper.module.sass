@@ -9,7 +9,7 @@
         font-size: 15px
         margin-bottom: 20px
       h1
-        max-width: 400px
+        max-width: 490px
         margin-bottom: 0
         &.postTitle
           color: var(--color-highlight)
@@ -39,6 +39,30 @@
   &.noBottom
     margin-bottom: 0 !important
 
+@media (min-width: 768px)
+  .presentationWrapper
+    padding: 0 4.6vw
+    margin-bottom: 120px
+    .presentationA
+      .heading
+        margin-bottom: 60px
+        p
+          font-size: 16px
+        h1
+          &.postTitle
+        .date
+        a
+      .data
+        .img
+        .space
+          padding: 64px 20px 46px 0
+    .presentationB
+      .arrowWrapper
+        svg.arrow
+      .img
+      .space
+    &.noBottom
+
 @media (min-width: 1280px)
   .presentationWrapper
     padding: 0
@@ -49,11 +73,10 @@
     margin-bottom: 62px
     .presentationA
       .heading
-        margin-bottom: 0
+        // margin-bottom: 0
         margin-bottom: 90px
         p
-          font-size: 18px
-          font-size: 16px
+          // font-size: 16px
           margin-bottom: 28px
         h1
           max-width: 18ch
