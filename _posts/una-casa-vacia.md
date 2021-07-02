@@ -10,6 +10,8 @@ author:
 
 Decidí comenzar este blog porque siempre he tenido una fascinación con ellos. Lo simples y prácticos que son y el potencial que tienen cuando se los lee, me hacen desear tener uno propio.
 
+Una casa vacía es por un lado una oportunidad para vivir, cambiar y llenar de aventuras. Por otro lado, es un
+
 ## ¿Porqué abrir un blog si la mayoría de las personas no leen blogs?
 
 A pesar de lo que se dice la realidad es un poco distinta. La gente si lee blogs, pero porque busca un tema en específico y encuentra solución o respuesta en ellos.
