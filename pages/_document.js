@@ -23,6 +23,7 @@ class PortfolioDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script> </script>
         </body>
       </Html>
     )
