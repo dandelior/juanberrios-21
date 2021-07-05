@@ -45,21 +45,15 @@
           h3
           p
 
-@media (min-width: 1280px)
+@media (min-width: 1024px)
   .blogPreviewWrapper
     .blogPreview
-      padding: 0 6vw
+      // padding: 0 6vw
       h1
-        max-width: 670px
-        // margin-bottom: 60px
+        max-width: 500px
       .blogGrid
-        // display: grid
         grid-template-columns: 1fr 1fr 1fr
-        // column-gap: 60px
-        // row-grap: 66px
-        // margin-bottom: 0px
         .previewCard
-          // margin-top: 0
           margin-bottom: 110px
           &:first-child
           h3
@@ -68,6 +62,23 @@
           p
             max-width: 95%
             margin-bottom: 16px
+
+@media (min-width: 1280px)
+  .blogPreviewWrapper
+    .blogPreview
+      padding: 0 6vw
+      h1
+        max-width: 670px
+      .blogGrid
+        .previewCard
+          // margin-bottom: 110px
+          &:first-child
+          h3
+            // max-width: 90%
+            // margin-bottom: 16px
+          p
+            // max-width: 95%
+            // margin-bottom: 16px
 
 @media (min-width: 1490px)
   .blogPreviewWrapper

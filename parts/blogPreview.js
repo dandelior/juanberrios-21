@@ -36,13 +36,6 @@ export default function BlogPreview(props) {
                 </div>
             </section>
 
-            {/* {props.hasLoadingMore ? (
-                <div className={styles.morePosts}>
-                    <Link href="">
-                        <a>Cargar más →</a>
-                    </Link>
-                </div>
-            ) : ""} */}
         </>
     )
 }
