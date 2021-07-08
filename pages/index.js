@@ -35,7 +35,7 @@ export default function Home({ posts }) {
           <div className={PresentationStyles.data}>
             <div className={PresentationStyles.img}>
               <Image
-                src="/img/me_3.jpg"
+                src="/img/me_3.webp"
                 alt="Este soy yo"
                 layout="fill"
                 objectFit="cover"
@@ -60,7 +60,7 @@ export default function Home({ posts }) {
           </div>
           <div className={PresentationStyles.img}>
             <Image
-              src="/img/me_6.jpg"
+              src="/img/me_6.webp"
               alt="Este soy yo trabajando"
               layout="fill"
               objectFit="cover"
