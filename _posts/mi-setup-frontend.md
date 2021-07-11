@@ -1,7 +1,8 @@
 ---
 title: 'Mi Setup Front-end'
 excerpt: 'Conoce el software que utilizo para realizar webs y webApps.'
-coverImage: '/assets/blog/blog_setup-frontend.jpg'
+coverImage: '/assets/blog/setup-frontend/blog-setup-frontend.webp'
+ogImage: '/assets/blog/setup-frontend/og_image.jpg'
 imageCaption: 'Foto por @iamthejean'
 date: '2021-01-14T05:35:07.322Z'
 author:

@@ -28,7 +28,7 @@ export default function Post({ post, nextPost }) {
             <MetaTags 
                 title={`${post.title} — Juan Berrios`}
                 description={post.excerpt}
-                image={post.coverImage}
+                image={post.ogImage}
                 url={`blog/${post.slug}`}
             />
         </Head>
@@ -102,6 +102,7 @@ export async function getStaticProps({ params }) {
         'author',
         'content',
         'coverImage',
+        'ogImage',
         'imageCaption',
         'ogImage',
     ])
