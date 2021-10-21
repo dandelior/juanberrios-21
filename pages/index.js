@@ -28,7 +28,7 @@ export default function Home({ posts }) {
       <div className={PresentationStyles.presentationWrapper}>
         <div className={PresentationStyles.presentationA}>
           <div className={PresentationStyles.heading}>
-            <p>Diseñador &amp; Desarrollador Frontend</p>
+            <p>Diseñador<br/>Desarrollador Frontend</p>
             <h1>
               Creador de cosas en internet como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
           </div>
