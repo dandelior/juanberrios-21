@@ -2,8 +2,9 @@
 pretitle: 'App de compras y reservas en taller para'
 title: 'Kilometro Cero'
 excerpt: 'Una app para tienda y taller de bicicletas'
-desc: 'El Maitén es un vivero especialista en plantas de cerezas que necesitaba un rebranding para todas sus aplicaciones digitales, sumado a esto, un sitio web autoadministrable. <br/><br/>
-Desarrollamos el sitio web en Wordpress CMS a medida, donde la empresa tiene capacidades para editar prácticamente toda la información sin comprometer la estructura.'
+desc: 'Creamos una app para que los clientes de la bicicletería Kilometro Cero puedan reservar horas en el taller y asistir a eventos exclusivos.
+<br/><br/>
+Por otro lado, la WebApp permite gestionar las reservas desde el taller y así llevar un orden interno entre la tienda y el taller.'
 coverImage: '/assets/works/km0/cover.webp'
 featuredImage: '/assets/works/km0/featured.png'
 tags: 'App'
