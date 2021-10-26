@@ -44,10 +44,16 @@ export default function Home({ posts }) {
             </div>
             <div className={PresentationStyles.space}>
               <p>
-                Mi trabajo consiste es diseñar y desarrollar <span className="highlight-color">sitios web aplicaciones a medida para marcas y personas</span>. 
+                Mi trabajo consiste es diseñar y desarrollar <span className="highlight-color">sitios web y aplicaciones a medida para marcas y personas</span>. 
                 Me involucro desde el principio con las personas para aprender 
                 de sus proyectos y así poder crear productos interesantes, 
                 funcionales y que resuelvan sus necesidades.
+                {/* <br />
+                <br />
+                Actualmente trabajo en <span className="highlight-color"><a href="https://asomic.com" target="_blank" rel="norefereer noopeneer">asomic</a></span> como único diseñador UX/UI 
+                y también como desarrollador frontend, pero también estoy abierto 
+                a recibir proyectos de manera freelance, si estás interesado contáctame 
+                a <span className="highlight-color"><a href="mailto:hola@juanberrios.com">hola@juanberrios.com</a></span> o en mis redes sociales. */}
               </p>
             </div>
           </div>

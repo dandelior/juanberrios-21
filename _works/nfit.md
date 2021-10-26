@@ -2,7 +2,7 @@
 pretitle: 'Construyendo el ecosistema digital del fitness con'
 title: 'NFIT'
 excerpt: 'Ecosistema digital para centros deportivos'
-desc: 'Dos productos digitales: Una WebApp que permite que el centro deportivo pueda crear clases, asignar planes, agregar alumnos y gestionar pagos. Y una app que permite a sus alumnos comprar o renovar membresías, ver el entrenamiento del día, reservar cupos para las clases, ver los videos de las clases, entre otras cosas.'
+desc: 'Dos productos digitales: Un sistema de administración para que los centros deportivo puedan crear clases, asignar planes, agregar alumnos y gestionar pagos. Por otro lado una app que permite a sus alumnos comprar, renovar membresías, ver el entrenamiento del día, reservar cupos para las clases, ver los videos de las clases, entre otras funciones.'
 coverImage: '/assets/works/nfit/cover.webp'
 featuredImage: '/assets/works/nfit/featured.png'
 tags: 'App / WebApp'
