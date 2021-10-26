@@ -16,11 +16,12 @@ const Footer = () => {
                 <a href="http://vsco.co/dandelior" target="_blank" rel="noopener noreferrer">
                     VSCO
                 </a>
-                <a href="https://open.spotify.com/user/dandelior?si=9f0bb210c95942be" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://open.spotify.com/user/dandelior?si=9f0bb210c95942be" target="_blank" rel="noopener noreferrer">
                     Spotify
-                </a>
+                </a> */}
             </div>
             <div className={styles.dotWrapper}>
+                {/* Diseñado en Figma, desarrollado en Next.JS */}
                 <div className={styles.dot}></div>
             </div>
         </footer>
