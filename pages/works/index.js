@@ -40,7 +40,7 @@ export default function Works({ works }) {
             </div>
         </section>
 
-        <WorksGrid works={allWorks} />
+        <WorksGrid works={allWorks} noBottom="true" />
     </>
   )
 }

@@ -5,10 +5,11 @@ import styles from '../styles/parts/WorksGrid.module.sass'
 export default function WorksGrid(props) {
 
     const works = props.works;
+    const noBottom = props.noBottom;
 
     return (
         <>
-            <section className={styles.worksGridWrapper}>
+            <section className={`${styles.worksGridWrapper} ${noBottom ? styles.noBottom : ''}`}>
                 {props.children ? (
                     <div className={styles.heading}>
                         {props.children}

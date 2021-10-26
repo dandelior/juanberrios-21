@@ -44,8 +44,7 @@ Pasé por [Sublime Text](https://www.sublimetext.com/) y [Atom](https://atom.io/
 
 Cono terminal de comandos uso [Hyper](https://hyper.is/), una terminal hermosa a la que se le pueden instalar temas y es super rápida.
 
-**IDE**: Visual Studio Code
-
+**IDE**: Visual Studio Code \
 **Terminal**: Hyper
 
 ## Stack
@@ -56,10 +55,6 @@ Yo solía trabajar solo con LEMP (Linux, NGINX, MySQL, PHP). Últimamente trabaj
 
 **Stack preferido**: JAMStack
 
-## Hosting / Cloud Computing
-
-Dentro de las razones que me motivaron a hacer este post está la grata sorpresa de haber probado [NearlyFreeSpeech](https://www.nearlyfreespeech.net/) (el que utiliza Tania). Antes de eso era fiel a [Digital Ocean](http://digitalocean.com/) y mi stack LEMP. Ahora le he estado dando la oportunidad a LAMP junto a MariaDB. Sin embargo, las posibilidades que da hoy un entorno JAMstack me hace preferir trabajar de esta forma hospedando mis aplicaciones en [Vercel](https://vercel.com/) y en raras ocasiones en [Netlify](http://netlify.com/).
-
 ## Version Control Hosting
 
 Hace como tres años atrás no usaba ninguna herramienta para control de versiones, lo que hacía mi trabajo muy complejo. Conocer [Github](https://github.com/) fue un cambio radical en mi manera de trabajar; mas ordenado, estructurado y enfocado en tareas.
@@ -67,6 +62,10 @@ Hace como tres años atrás no usaba ninguna herramienta para control de version
 Así como está Github, existen [GitLab](https://gitlab.com/) y [BitBucket](https://bitbucket.org/), aunque GitHub sigue siendo el más popular y cumple perfecto.
 
 **Version Control Hosting**: Github
+
+## Hosting
+
+Dentro de las razones que me motivaron a hacer este post está la grata sorpresa de haber probado [NearlyFreeSpeech](https://www.nearlyfreespeech.net/) (el que utiliza Tania). Antes de eso era fiel a [Digital Ocean](http://digitalocean.com/) y mi stack LEMP. Ahora le he estado dando la oportunidad a LAMP junto a MariaDB. Sin embargo, las posibilidades que da hoy un entorno JAMstack me hace preferir trabajar de esta forma hospedando mis aplicaciones en [Vercel](https://vercel.com/) y en raras ocasiones en [Netlify](http://netlify.com/).
 
 ## CMS
 

@@ -78,7 +78,7 @@ export default function Home({ posts }) {
       </WorksGrid>
       
       <BlogPreview posts={allPosts}>
-        <span className="highlight-color">Escribo algunas cosas</span> sobre los temas que me gustan.
+        <span className="highlight-color">Escribo</span> sobre las cosas que me interesan.
       </BlogPreview>
 
     </>
