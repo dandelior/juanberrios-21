@@ -15,7 +15,7 @@ Escribo este post porque siempre he sido curioso por saber que herramientas usan
 
 ## Sistema Operativo
 
-Odiado y amado, macOs es el sistema operativo que utilizo desde 2013 y del cual me enamoré apenas lo comencé a usar. Hablar de macOS y del porqué es tan bueno daría para largo, así que acotando esto a las tareas de front-end que realizo puedo decir que me gusta que la terminal del mac sea muy parecida a la de Linux, sobre todo porque la mayoría de los servidores en la web corren con Linux.
+Odiado por algunos y amado por muchos, macOs es el sistema operativo que utilizo desde 2014 luego que mi madre me regalara un Macbook Pro 2012 y del cual me enamoré apenas lo comencé a usar. Hablar de macOS y del porqué es tan bueno daría para largo, así que acotándonos a las tareas de front-end que realizo puedo decir que me gusta que la terminal del mac sea muy parecida a la de Linux al estar basado en UNIX, sobre todo porque la mayoría de los servidores en la web corren con Linux. La estabilidad del sistema también es algo importante que destacar. Con mencionar que hasta la fecha nunca se me ha cerrado de forma inesperada una app en la que esté trabajando, cosa que si me sucedía a menudo con Windows.
 
 Ademas, se siente amigable y cercano al momento de hacer cosas tan repetitivas y rutinarias como instalar aplicaciones y navegar por tus archivos. Sobre todo si usas un iPhone o un iPad, el ecosistema será tan necesario como respirar, porque tendrás sincronización de archivos, música y fotos entre dispositivos sin necesidad de bajar aplicaciones de terceros.
 
@@ -23,7 +23,9 @@ Ademas, se siente amigable y cercano al momento de hacer cosas tan repetitivas y
 
 ## Navegador
 
-Mucha gente no los llama navegadores. Un navegador es donde probablemente estás viendo este sitio web. Yo uso [Google Chrome](https://www.google.com/chrome/), pero existen otras opciones como [Firefox](https://www.mozilla.org/firefox/new/), [Safari](https://www.apple.com/safari/), [Opera](https://www.opera.com/), [Edge](https://www.microsoft.com/en-us/edge), dentro de los más usados. Si eres de probar cosas no tan mainstream puedes darle una oportunidad a [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/) o [Iridium](https://iridiumbrowser.de/) que están geniales y son modernos.
+Mucha gente no los llama navegadores. Un navegador es donde probablemente estás viendo este sitio web. Yo uso [Google Chrome](https://www.google.com/chrome/) por una cosa de costumbre e interfaz, pero existen otras opciones como [Firefox](https://www.mozilla.org/firefox/new/), [Safari](https://www.apple.com/safari/), [Opera](https://www.opera.com/), [Edge](https://www.microsoft.com/en-us/edge), dentro de los más usados. Si eres de probar cosas no tan mainstream puedes darle una oportunidad a [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/) o [Iridium](https://iridiumbrowser.de/) que están geniales y son modernos.
+
+Ahora también he estado usando Safari, pero se queda muy atras en algunas prestaciones e interpretación del código. Aunque para los que usamos el ecosistema de Apple vendrá perfecto y es cosa de acostumbrarse.
 
 **Navegador**: Google Chrome
 
@@ -42,7 +44,7 @@ Dentro de las cosas que hacen tan útiles a los navegadores actuales, es la capa
 
 Pasé por [Sublime Text](https://www.sublimetext.com/) y [Atom](https://atom.io/). Hoy utilizo [Visual Studio Code](https://code.visualstudio.com/).
 
-Cono terminal de comandos uso [Hyper](https://hyper.is/), una terminal hermosa a la que se le pueden instalar temas y es super rápida.
+Como terminal de comandos uso [Hyper](https://hyper.is/), una terminal hermosa a la que se le pueden instalar temas y es super rápida.
 
 **IDE**: Visual Studio Code \
 **Terminal**: Hyper
@@ -51,13 +53,13 @@ Cono terminal de comandos uso [Hyper](https://hyper.is/), una terminal hermosa a
 
 El stack viene a ser el conjunto de tecnologías que se necesitan para correr un sitio web. Por ejemplo [WordPress](http://wordpress.org/) necesita ejecutar el lenguaje PHP, en un servidor Apache o NGINX con una base de datos en MySQL.
 
-Yo solía trabajar solo con LEMP (Linux, NGINX, MySQL, PHP). Últimamente trabajo mucho JAMstack. Hoy salto entre uno y otro dependiendo de lo que el sitio web amerita.
+Yo solía trabajar solo con LEMP (Linux, NGINX, MySQL, PHP). Últimamente, en proyectos personales he trabajado mucho con JAMstack (Javascript, API's, markup). Hoy salto entre uno y otro dependiendo de lo que el sitio web amerita o el presupuesto pueda ser capaz de costear.
 
 **Stack preferido**: JAMStack
 
 ## Version Control Hosting
 
-Hace como tres años atrás no usaba ninguna herramienta para control de versiones, lo que hacía mi trabajo muy complejo. Conocer [Github](https://github.com/) fue un cambio radical en mi manera de trabajar; mas ordenado, estructurado y enfocado en tareas.
+Hace como tres años atrás no usaba ninguna herramienta para control de versiones, lo que hacía mi trabajo muy complejo. Conocer Git y por supuesto [Github](https://github.com/) fue un cambio radical en mi manera de trabajar; mas ordenado, estructurado y enfocado en tareas.
 
 Así como está Github, existen [GitLab](https://gitlab.com/) y [BitBucket](https://bitbucket.org/), aunque GitHub sigue siendo el más popular y cumple perfecto.
 
@@ -67,21 +69,25 @@ Así como está Github, existen [GitLab](https://gitlab.com/) y [BitBucket](http
 
 Dentro de las razones que me motivaron a hacer este post está la grata sorpresa de haber probado [NearlyFreeSpeech](https://www.nearlyfreespeech.net/) (el que utiliza Tania). Antes de eso era fiel a [Digital Ocean](http://digitalocean.com/) y mi stack LEMP. Ahora le he estado dando la oportunidad a LAMP junto a MariaDB. Sin embargo, las posibilidades que da hoy un entorno JAMstack me hace preferir trabajar de esta forma hospedando mis aplicaciones en [Vercel](https://vercel.com/) y en raras ocasiones en [Netlify](http://netlify.com/).
 
+**Hosting**: Vercel
+
 ## CMS
 
-Hay todo un mundo en los CMS. Y aquí no me puedo decantar por uno solo, ya que dependiendo del proyecto utilizo uno u otro. Uso [WordPress](https://wordpress.org/) en la mayoría de los casos con clientes (por ser el que más se domina mundialmente), sin embargo, me sigue produciendo amor y odio.
+Hay todo un mundo en los CMS. Y aquí no me puedo decantar por uno solo, ya que dependiendo del proyecto utilizo uno u otro. Uso [WordPress](https://wordpress.org/) en la mayoría de los casos con clientes, por ser el que más conocido por mis clientes, sin embargo, me sigue produciendo amor y odio.
 
 Hoy existen CMS para regodearse. Estos son algunos que utilizo o he utilizado y te recomiendo: [Sanity](http://sanity.io/), [Ghost](https://ghost.org/), [Contentful](https://www.contentful.com/), [GraphCMS](https://graphcms.com/), [Storyblok](https://www.storyblok.com/), [CraftCMS](https://craftcms.com/).
 
+**CMS**: Wordpress (un poco a la fuerza)
+
 ## Preprocesador CSS
 
-Muchas cosas que hoy se pueden hacer con CSS antes se podían hacer solo con preprocesadores. Hoy la cosa avanza hacia los Post-procesadores. [SASS](https://sass-lang.com/) es mi lenguaje de preprocesador favorito para CSS y no tengo una justificación para preferirlo por sobre otro, simplemente me gusta y me he acostumbrado a escribir sin “{}”.
+Muchas cosas que hoy se pueden hacer con CSS antes se podían hacer solo con preprocesadores. Hoy la cosa avanza hacia los Post-procesadores. [SASS](https://sass-lang.com/) es mi lenguaje de preprocesador favorito para CSS y no tengo una justificación para preferirlo por sobre otro, simplemente me gusta, me he acostumbrado a escribir sin “{}” y a declarar variables.
 
 **CSS Preprocessor**: SASS
 
 ## Framework CSS
 
-Debo ser sincero: no me gustan los frameworks de CSS. Sin embargo cuando trabajas en equipo y a contratiempo estás obligado a aprenderlos y utilizarlos. Actualmente el que más uso es [Tailwind](https://tailwindcss.com/).
+Debo ser sincero: no me gustan los frameworks de CSS. Sin embargo cuando trabajas en equipo y a contratiempo estás obligado utilizarlos. Actualmente el que más uso es [Tailwind](https://tailwindcss.com/).
 
 **Framework CSS**: Tailwind
 
