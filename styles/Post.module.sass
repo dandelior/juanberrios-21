@@ -30,16 +30,16 @@
 
 @media (min-width: 1280px)
   .postImageCaption
-    padding: 32px 5.4vw 34px
+    padding: 32px 5.4vw 12px
     font-size: 14px
 
 @media (min-width: 1490px)
   .postImageCaption
-    padding: 32px 13vw 34px
+    padding: 32px 13vw 12px
 
 @media (min-width: 1600px)
   .postImageCaption
-    padding: 32px 18vw 34px
+    padding: 32px 18vw 12px
 
 .postContent
   padding: 0 40px 0 30px
@@ -48,7 +48,7 @@
     font-size: 16px
     line-height: 160%
     letter-spacing: -0.013em
-    margin-bottom: 24px
+    margin-bottom: 18px
     color: var(--color-text)
     strong, b
       font-weight: 600
@@ -70,11 +70,19 @@
     font-size: 24px
     letter-spacing: -0.015em
     line-height: 120%
-    margin-top: 39px
-    margin-bottom: 19px
+    margin-top: 26px
+    margin-bottom: 14px
+  h3
+    margin-top: 24px
+    margin-bottom: 12px
   ul
     li
       margin-bottom: 16px
+  img
+    max-width: 100%
+    margin: 25px 0 1vw
+    &[src$='#cover']
+      width: 400px
 
 @media (min-width: 768px)
   .postContent
@@ -96,7 +104,7 @@
     p, ul
       font-size: 18px
       line-height: 160%
-      margin-bottom: 30px
+      // margin-bottom: 30px
       strong, b
       a
     a
@@ -104,8 +112,8 @@
     h2
       font-size: 30px
       line-height: 130%
-      margin-top: 44px
-      margin-bottom: 20px
+      margin-top: 28px
+      margin-bottom: 14px
     ul
       li
         margin-bottom: 24px
