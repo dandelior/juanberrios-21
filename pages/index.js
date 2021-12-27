@@ -1,23 +1,35 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import MetaTags from '../components/MetaTags'
-import WorksGrid from '../parts/worksGrid'
-import BlogPreview from '../parts/blogPreview'
+import React, { useRef, useEffect } from "react";
+import { gsap, Expo } from "gsap";
 
-import PresentationStyles from '../styles/parts/PresentationWrapper.module.sass'
+import Head from "next/head";
+import MetaTags from "../components/MetaTags";
+import WorksGrid from "../parts/worksGrid";
+import BlogPreview from "../parts/blogPreview";
 
-import { getAllPosts, getAllWorks } from '../lib/api'
+import PresentationHome from "../parts/PresentationHome";
+
+import { getAllPosts, getAllWorks } from "../lib/api";
 
 export default function Home({ posts }) {
+  let pageIndex = useRef(null);
 
   const allWorks = posts.allWorks;
   const allPosts = posts.allPosts;
+
+  useEffect(() => {
+    gsap.set(pageIndex, {
+      opacity: 0,
+    });
+    gsap.to(pageIndex, 1, {
+      opacity: 1,
+    });
+  }, []);
 
   return (
     <>
       <Head>
         <title>Juan Berrios — Diseñador &amp; Desarrollador Frontend</title>
-        <MetaTags 
+        <MetaTags
           title="Juan Berrios — Diseñador & Desarrollador Frontend"
           description="Creo cosas en internet, como sitios web y aplicaciones móviles. Este es mi sitio web."
           image="/img/og_image.jpg"
@@ -25,95 +37,50 @@ export default function Home({ posts }) {
         />
       </Head>
 
-      <div className={PresentationStyles.presentationWrapper}>
-        <div className={PresentationStyles.presentationA}>
-          <div className={PresentationStyles.heading}>
-            <p>Diseñador & Desarrollador Frontend</p>
-            <h1>
-              Creador de productos digitales como <span className="highlight-color">sitios web</span> y <span className="highlight-color">aplicaciones</span>.</h1>
-          </div>
-          <div className={PresentationStyles.data}>
-            <div className={PresentationStyles.img}>
-              <Image
-                src="/img/me_3.webp"
-                alt="Este soy yo"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
-              />
-            </div>
-            <div className={PresentationStyles.space}>
-              <p>
-                Mi trabajo consiste es diseñar y desarrollar <span className="highlight-color">sitios web y aplicaciones a medida para marcas y personas</span>. 
-                Me involucro desde el principio con las personas para aprender 
-                de sus proyectos y así poder crear productos interesantes, 
-                funcionales y que resuelvan sus necesidades.
-                {/* <br />
-                <br />
-                Actualmente trabajo en <span className="highlight-color"><a href="https://asomic.com" target="_blank" rel="noreferrer noopener">asomic</a></span> como único diseñador UX/UI 
-                y también como desarrollador frontend, pero también estoy abierto 
-                a recibir proyectos de manera freelance, si estás interesado contáctame 
-                a <span className="highlight-color"><a href="mailto:hola@juanberrios.com">hola@juanberrios.com</a></span> o en mis redes sociales. */}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className={PresentationStyles.presentationB}>
-          <div className={`${PresentationStyles.arrowWrapper} ${PresentationStyles.onHome}`}>
-            <svg className={PresentationStyles.arrow} width="85" height="221" viewBox="0 0 85 221" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693" strokeWidth="3"/>
-            </svg>
-          </div>
-          <div className={PresentationStyles.img}>
-            <Image
-              src="/img/me_6.webp"
-              alt="Este soy yo trabajando"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
-            />
-          </div>
-          <div className={PresentationStyles.space}></div>
-        </div>
+      <div
+        ref={(el) => {
+          pageIndex = el;
+        }}
+      >
+        <PresentationHome />
+
+        <WorksGrid works={allWorks}>
+          <h1>
+            Algunos{" "}
+            <span className="highlight-color">proyectos seleccionados</span>
+          </h1>
+        </WorksGrid>
+
+        <BlogPreview posts={allPosts}>
+          <span className="highlight-color">Escribo</span> sobre las cosas que
+          me interesan.
+        </BlogPreview>
       </div>
-
-      <WorksGrid works={allWorks}>
-        <h1>
-            Algunos <span className="highlight-color">proyectos seleccionados</span>
-        </h1>
-      </WorksGrid>
-      
-      <BlogPreview posts={allPosts}>
-        <span className="highlight-color">Escribo</span> sobre las cosas que me interesan.
-      </BlogPreview>
-
     </>
-  )
+  );
 }
 
 export async function getStaticProps() {
-
-  const allPosts = getAllPosts([
-    'title',
-    'slug',
-    'excerpt',
-  ])
+  const allPosts = getAllPosts(["title", "slug", "excerpt"]);
 
   const allWorks = getAllWorks([
-    'title',
-    'slug',
-    'coverImage',
-    'excerpt',
-    'date'
-  ])
+    "title",
+    "slug",
+    "coverImage",
+    "excerpt",
+    "date",
+  ]);
+
+  await new Promise((resolve) => {
+    setTimeout(resolve, 300);
+  });
 
   return {
-    props: { 
+    props: {
       posts: {
         allPosts,
         allWorks,
-      }
+      },
     },
-  }
-  
+  };
 }
