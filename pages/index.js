@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap, Expo } from "gsap";
+// import React, { useRef, useEffect } from "react";
+// import { gsap, Expo } from "gsap";
 
 import Head from "next/head";
 import MetaTags from "../components/MetaTags";
@@ -11,19 +11,19 @@ import PresentationHome from "../parts/PresentationHome";
 import { getAllPosts, getAllWorks } from "../lib/api";
 
 export default function Home({ posts }) {
-  let pageIndex = useRef(null);
+  // let pageIndex = useRef(null);
 
   const allWorks = posts.allWorks;
   const allPosts = posts.allPosts;
 
-  useEffect(() => {
-    gsap.set(pageIndex, {
-      opacity: 0,
-    });
-    gsap.to(pageIndex, 1, {
-      opacity: 1,
-    });
-  }, []);
+  // useEffect(() => {
+  //   gsap.set(pageIndex, {
+  //     opacity: 0,
+  //   });
+  //   gsap.to(pageIndex, 1, {
+  //     opacity: 1,
+  //   });
+  // }, []);
 
   return (
     <>
@@ -38,9 +38,9 @@ export default function Home({ posts }) {
       </Head>
 
       <div
-        ref={(el) => {
-          pageIndex = el;
-        }}
+      // ref={(el) => {
+      //   pageIndex = el;
+      // }}
       >
         <PresentationHome />
 
@@ -71,9 +71,9 @@ export async function getStaticProps() {
     "date",
   ]);
 
-  await new Promise((resolve) => {
-    setTimeout(resolve, 300);
-  });
+  // await new Promise((resolve) => {
+  //   setTimeout(resolve, 300);
+  // });
 
   return {
     props: {
