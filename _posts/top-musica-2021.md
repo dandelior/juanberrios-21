@@ -1,23 +1,23 @@
 ---
-title: "Ranking list musical de 2021"
+title: "Top musical de 2021"
 excerpt: "Hice dos listas de lanzamientos musicales de lo mejor y lo peor"
 coverImage: "/assets/blog/top-musica-2021/top-musica-2021.jpg"
 ogImage: "/assets/blog/setup-frontend/og_image.jpg"
-imageCaption: "Foto por xx"
+imageCaption: "Foto creada por mi"
 date: "2021-12-27T05:35:07.322Z"
 author:
   name: Juan Berrios
 ---
 
-¿Qué he escuchado este año? ¿Cuáles son los mejores albums y cuales me decepcionaron? Puede que en algún rincón de este mundo digital a alguien le parezca una buena idea leer la opinión de un fanático de la música con poco conocimiento musical.
-
 Este año ha sido bueno en comparación con 2020. Llegaron las vacunas y se relajaron algunas medidas sanitarias. Junto con eso vemos el fruto de bandas y artistas que estuvieron preparando sus nuevos materiales incluso desde sus cuarentenas.
 
-**Hice 2 listas**: una de _lo más decepcionante_ y otra con _los mejores lanzamientos_. En su mayoría son albums, pero también incluí singles y EP’s. Vamo a darle!
+¿Qué he escuchado este año? ¿Cuáles son los mejores albums y cuales me decepcionaron? Puede que en algún rincón de este mundo digital a alguien le parezca una buena idea leer la opinión de un fanático de la música con poco conocimiento musical.
+
+**Hice 2 listas**: una de _lo más decepcionante_ y otra con _los mejores lanzamientos_. En su mayoría son albums, pero también incluí singles y EP’s. Empecemos...
 
 ## **Lo más decepcionante**
 
-Aquí entran esos albums esperados o que debieran haber sido mejores.
+Aquí entran esos albums esperados por mi y que no dieron la talla.
 ![John Mayer: Sob Rock](https://retrovinilosymas.com/wp-content/uploads/2021/08/71ABWirWeGS._SL1417_.jpg#cover)
 
 ### **John Mayer: Sob Rock**
@@ -46,7 +46,7 @@ En un principio pensé: debe ser que no conecté con el álbum, debe ser una sem
 
 ### **Kings of Leon: When You See Yourself**
 
-Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayudó a crear algo genial como a tantos artistas estos últimos dos años? Este álbum se siente como si hubiesen compuesto todo y luego le hubiesen sacado parte del alma.
+Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayudó a crear algo genial como a tantos artistas estos últimos dos años? Este álbum se siente como si luego de haber compuesto todo le hubiesen sacado parte del alma.
 
 ## **Top 10**
 
