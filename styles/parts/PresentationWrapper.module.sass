@@ -1,20 +1,22 @@
 /* Presentation Wrapper
 .presentationWrapper
-  padding: 0 30px
+  padding: 0 22px
   margin-bottom: 90px
   .presentationA
     .heading
       // margin-bottom: 40px
       margin-bottom: 54px
       p
-        font-size: 15px
+        font-size: 16px
         line-height: 140%
         opacity: 0.8
         // margin-bottom: 16px
         // margin-bottom: 20px
       h1
+        // font-size: 9.5vw
         margin-bottom: 0
-        max-width: 90vw
+        // max-width: 90vw
+        max-width: 80vw
         &.postTitle
           color: var(--color-highlight)
           font-weight: 600
@@ -33,12 +35,15 @@
         // img
         //   border-radius: 8px
       .space
-        padding: 92px 20px 67px 0
+        padding: 52px 20px 0 0
+      p
+        // max-width: 32ch
   .presentationB
     .arrowWrapper
       svg.arrow
         display: none
     .img
+      display: none
       height: 450px
       position: relative
       background-color: var(--color-shadow)
@@ -61,7 +66,8 @@
         p
           font-size: 16px
         h1
-          max-width: 18ch
+          // max-width: 18ch
+          max-width: 12ch
           &.postTitle
             margin-bottom: 18px
         .date
@@ -69,7 +75,8 @@
       .data
         .img
         .space
-          padding: 64px 20px 46px 0
+          max-width: 50ch
+          padding: 50px 20px 0 0
     .presentationB
       .arrowWrapper
         svg.arrow
@@ -89,7 +96,7 @@
       .heading
         // margin-bottom: 0
         // margin-bottom: 90px
-        margin-bottom: 80px
+        margin-bottom: 70px
         p
           // font-size: 16px
           margin-bottom: 28px
@@ -103,7 +110,7 @@
           height: 379px
           margin-bottom: 52px
         .space
-          // height: 38vh
+          max-width: 70ch
           height: 22vh
           padding: 0
           p
@@ -113,7 +120,7 @@
       align-self: end
       .arrowWrapper
         text-align: right
-        padding-right: 6vw
+        padding-right: 4.8vw
         margin-bottom: 92px
         svg.arrow
           display: inline-block
@@ -124,6 +131,7 @@
         &.onHome
           margin-bottom: 54px
       .img
+        display: inherit
         height: 549px
       .space
         // padding-bottom: calc(38vh + 52px)
@@ -132,10 +140,13 @@
 @media (min-width: 1280px)
   .presentationWrapper
     // padding-left: 6vw
-    padding-left: 5.4vw
+    // padding-left: 5.4vw
+    // padding-left: 5vw
+    padding-left: 4.5vw
     .presentationA
       .heading
-        margin-bottom: 76px
+        // margin-bottom: 70px
+        margin-bottom: 68px
         p
         h1
           &.postTitle
@@ -149,6 +160,7 @@
             max-width: 60ch
     .presentationB
       .arrowWrapper
+        padding-right: 4vw
         svg.arrow
           path
         &.onHome
@@ -181,7 +193,7 @@
 
 @media (min-width: 1600px)
   .presentationWrapper
-    padding: 0 18vw
+    // padding: 0 18vw
     .presentationA
       .heading
         p

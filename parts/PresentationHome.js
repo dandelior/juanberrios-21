@@ -6,11 +6,13 @@ const PresentationHome = () => {
     <div className={PresentationStyles.presentationWrapper}>
       <div className={PresentationStyles.presentationA}>
         <div className={PresentationStyles.heading}>
-          <p>Diseñador & Desarrollador Frontend</p>
+          {/* <p>Diseñador & Desarrollador Frontend</p> */}
           <h1>
-            Creador de productos digitales como{" "}
+            <span className="highlight-color">Diseñador</span> y{" "}
+            <span className="highlight-color">desarrollador frontend</span>.
+            {/* Creador de productos digitales como{" "}
             <span className="highlight-color">sitios web</span> y{" "}
-            <span className="highlight-color">aplicaciones</span>.
+            <span className="highlight-color">aplicaciones</span>. */}
           </h1>
         </div>
         <div className={PresentationStyles.data}>

@@ -49,9 +49,10 @@ a
     color: var(--color-highlight)
 
 p
-  font-size: 15px
-  line-height: 160%
-  letter-spacing: -0.01em
+  font-size: 16px
+  line-height: 145%
+  // letter-spacing: -0.01em
+  letter-spacing: -0.02em
   margin-bottom: 17px
 
 @media (min-width: 768px)
@@ -70,33 +71,48 @@ p
 
 h1
   // font-size: 36px
-  font-size: 38px
-  // line-height: 125%
-  line-height: 125%
+  // font-size: 9.5vw
+  font-size: 12vw
+  line-height: 115%
   font-weight: 500
-  letter-spacing: -0.03em
+  letter-spacing: -0.05em
   margin-bottom: 50px
 
 @media (min-width: 768px)
   h1
-    font-size: 42px
+    // font-size: 8vw
+    font-size: 7.5vw
+
+@media (min-width: 1024px)
+  h1
+    // font-size: 5.8vw
+    font-size: 6.2vw
 
 @media (min-width: 1280px)
   h1
-    font-size: 52px
+    font-size: 5.4vw
+
+@media (min-width: 1680px)
+  h1
+    font-size: 4.6vw
 
 h2
-  font-size: 26px
-  letter-spacing: -0.015em
-  line-height: 120%
+  font-size: 30px
+  font-weight: 600
+  letter-spacing: -0.045em
+  line-height: 125%
+
+@media (min-width: 768px)
+  h2
+    font-size: 28px
 
 @media (min-width: 1024px)
   h2
-    font-size: 30px
-    line-height: 130%
+    // font-size: 30px
+    // line-height: 130%
 
 h3
-  font-size: 22px
+  font-size: 24px
   font-weight: 500
   line-height: 120%
   letter-spacing: -0.015em
@@ -110,15 +126,25 @@ h3
 .layout-wrapper
   width: 100%
   box-sizing: border-box
+  // padding-top: 20vh
   padding-top: 32vh
 
 @media (min-width: 768px)
   .layout-wrapper
-    padding-top: 300px
+    // padding-top: 300px
+    padding-top: 280px
+
+@media (min-width: 1024px)
+  .layout-wrapper
+    // padding-top: 280px
 
 @media (min-width: 1280px)
   .layout-wrapper
     padding-top: 320px
+
+@media (min-width: 1600px)
+  .layout-wrapper
+    padding-top: 360px
 
 .highlight-color
   color: var(--color-highlight)

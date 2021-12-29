@@ -2,29 +2,32 @@
 .blogPreviewWrapper
   width: 100%
   .blogPreview
-    padding: 0 30px
+    padding: 0 22px
     h1
+      margin-bottom: 50px
       max-width: 460px
-      margin-bottom: 44px
     .blogGrid
       // margin-bottom: 82px
       .previewCard
         margin-top: 42px
         &:first-child
           margin-top: 0
-        h3
+        h2
           color: var(--color-mid)
           margin-bottom: 12px
           font-weight: 600
-          line-height: 140%
-          letter-spacing: -0.015em
+          // line-height: 140%
+          // letter-spacing: -0.04em
           transition: var(--transition)
         p
+          // letter-spacing: -0.03em
           margin-bottom: 14px
           opacity: 0.8
+        a
+          letter-spacing: -0.03em
         &:hover,
         &:focus
-          h3
+          h2
             color: var(--color-highlight)
           p
 
@@ -35,6 +38,7 @@
       h1
         margin-bottom: 52px
         max-width: 18ch
+        max-width: 14ch
       .blogGrid
         display: grid
         grid-template-columns: 1fr 1fr
@@ -71,7 +75,9 @@
 @media (min-width: 1280px)
   .blogPreviewWrapper
     .blogPreview
-      padding: 0 5.4vw
+      // padding: 0 5.4vw
+      // padding: 0 5vw
+      padding: 0 4.5vw
       h1
         // max-width: 670px
         margin-bottom: 56px
@@ -100,7 +106,7 @@
 @media (min-width: 1600px)
   .blogPreviewWrapper
     .blogPreview
-      padding: 0 18vw
+      // padding: 0 18vw
       h1
       .blogGrid
         .previewCard
@@ -109,7 +115,7 @@
           p
 
 .morePosts
-  padding: 36px 30px 100px
+  padding: 36px 22px 100px
   a
     color: var(--color-mid)
     font-weight: 600
@@ -130,5 +136,5 @@
 
 @media (min-width: 1600px)
   .morePosts
-    padding: 36px 18vw 44px
+    // padding: 36px 18vw 44px
     a
