@@ -50,11 +50,17 @@ Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayud
 
 ## **Top 10**
 
-![Cali≠gari: 15](https://e.snmc.io/i/600/s/4360f21d6228faee2ea0c4800ad18ba1/9434671/cali%E2%89%A0gari-15-Cover-Art.jpg#cover)
+![Parcels: Day/Night](https://jenesaispop.com/wp-content/uploads/2021/11/parcels-daynight-2.jpg)
+
+### 10. Parcels: Day/Night
+
+Partimos este ranking personal con un discazo doble de Parcels. Esta banda de electropop que combina el disco con el soul y el funk, entre otros estilos, logrando una fórmula elegante y de muy buen gusto. Difícil describir este álbum en pocas palabras pero si tengo que presentarlo puedo decir que es todo un viaje que va transcurriendo lentamente desde el día hasta la noche mientras la ciudad y la naturaleza funcionan como un telón de fondo.
+
+<!-- ![Cali≠gari: 15](https://e.snmc.io/i/600/s/4360f21d6228faee2ea0c4800ad18ba1/9434671/cali%E2%89%A0gari-15-Cover-Art.jpg#cover)
 
 ### **10. Cali≠gari: 15**
 
-El primer material japonés de esta lista. Mi pasado como otaku degustador de música rara me persigue hasta aquí. Este álbum combina perfectamente el sonido rockero con un ambiente festivo que no deja de ser melancólico. Me parece que se ha lucido este año con este lanzamiento. Comparable, a mi parecer, solo con el álbum "_10_". Recomendado para el que tenga familiaridad con lo vertiginoso del visual kei.
+El primer material japonés de esta lista. Mi pasado como otaku degustador de música rara me persigue hasta aquí. Este álbum combina perfectamente el sonido rockero con un ambiente festivo que no deja de ser melancólico. Me parece que se ha lucido este año con este lanzamiento. Comparable, a mi parecer, solo con el álbum "_10_". Recomendado para el que tenga familiaridad con lo vertiginoso del visual kei. -->
 
 ![STRAIGHTENER: Crank up](https://i.scdn.co/image/ab67616d0000b273a5c483bb0129bc5968748910#cover)
 
