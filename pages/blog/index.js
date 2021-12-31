@@ -44,7 +44,7 @@ export default function Blog({ posts }) {
           <div className={styles.presentationA}>
             <div className={styles.heading}>
               <p>Blog</p>
-              <h1>
+              <h1 className={styles.blogTitle}>
                 Escribo sobre <span className="highlight-color">diseño</span>,{" "}
                 <span className="highlight-color">código</span>,{" "}
                 <span className="highlight-color">música</span> y{" "}
