@@ -57,6 +57,9 @@ Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayud
 
 Partimos este ranking personal con un discazo doble de Parcels. Esta banda de electropop que combina el disco con el soul y el funk, entre otros estilos, logrando una fórmula elegante y de muy buen gusto. Difícil describir este álbum en pocas palabras pero si tengo que presentarlo puedo decir que es todo un viaje que va transcurriendo lentamente desde el día hasta la noche mientras la ciudad y la naturaleza funcionan como un telón de fondo.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/day-night/1581878937) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/2FJj7NVoRCAwjFus0O1BXd?si=ZbE1f2g1QjiFkmK2kY1EBg)
+
 <!-- ![Cali≠gari: 15](https://e.snmc.io/i/600/s/4360f21d6228faee2ea0c4800ad18ba1/9434671/cali%E2%89%A0gari-15-Cover-Art.jpg#cover)
 
 ### **10. Cali≠gari: 15**
@@ -69,11 +72,17 @@ El primer material japonés de esta lista. Mi pasado como otaku degustador de m�
 
 Prometo que no todos los puestos son de música Japonesa. _STRAIGHTENER_ es la banda que continúa haciendo música similar album tras album pero con una fórmula excelente que transmite esa clásica melancolía rockera japonesa. Este EP tiene 5 temas que retoman (junto con sus últimos singles y EP) el estilo enérgico, un poco perdido en su último album _Applause_, pero del que hereda una mejora en la mezcla.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/crank-up-ep/1592933722) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/01EQVPGQUMByR3n7Iw1Wbw?si=Tixk1jaMQ_yC5Uih4d6Rnw)
+
 ![The Killers: Pressure Machine](https://i0.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/08/pressure_machine.jpg#cover)
 
 ### 8. The Killers: Pressure Machine
 
 Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álbum es mejor que el anterior a pesar de ser uno más pausado. La madurez de la banda emana como si ya no les interesa nada la fama y solo quisieren hacer música que los llene. Este material se siente tan triste pero a la vez placentero, en una aura contemplativa. Pressure machine nos relata historias de la ciudad natal de Brandon Flowers (_Nephi, Utah_) de manera abierta contando las tristezas y pesares de su gente pero también cuáles son sus anhelos y esperanzas.
+
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/pressure-machine/1576945214) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/1qMFjBarjO2xD15BwXZguD?si=lpjYFhJPSyG_t6vR2MXguA)
 
 ![Little Simz: Sometimes I might Be Introvert](https://indiehoy.com/wp-content/uploads/2021/04/little-simz-sometimes-i-might-be-introvert.jpg#cover)
 
@@ -81,17 +90,26 @@ Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álb
 
 Este álbum es toda una experiencia y no por nada es parte de muchos rankings musicales este año. Se siente grandioso, en ocasiones íntimo pero a la vez honesto y orgánico. La música es principalmente hip hop, aunque encontramos bastante soul, R&B, electrónica, jazz e incluso afrobeat. Para mi es primera vez escuchando un álbum de ella y me asombra enterarme que es su 4to disco. Una escucha obligada de la que no te arrepentirás.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/sometimes-i-might-be-introvert/1561184260) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/0DBoWQ52XUHtrZQdfAqOVj?si=-4oQKsC0TLeDi-yK6H5ECQ)
+
 ![Turnstile: Glow On](https://media.pitchfork.com/photos/60ec7259c4af6519af2bd326/1:1/w_1200/Turnstile-Glow-On.jpg#cover)
 
 ### 6. Turnstile: Glow On
 
 No escucho bandas bandas hardcore pero este álbum eleva el género de una manera sin igual. El álbum es una ráfaga de sonidos de post-hardcore, shoegaze, R&B, punk, etc. Llega a ser estúpido la cantidad de cosas que Turnstile logra hacer sonar bien e hilar de manera satisfactoria. Hay ritmo y riffs que logran ser divertidos, groovy, ruidosos, ambientales e impredecibles al mismo tiempo.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/glow-on/1576430192) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/2NrYPcMmQBlbBxopc2XlzS?si=lfmoJPTbQPWoxTxvfQ-ldQ)
+
 ![Porter Robinson: Nurture](https://media.pitchfork.com/photos/6010f068751891e1b1b614e7/1:1/w_600/PorterRobinson%20Nurture%20album%20cover.jpg#cover)
 
 ### 5. Porter Robinson: Nurture
 
 Este es un hermoso álbum de electrónica. Es difícil de describir pero proyecta paz y a la vez energía. Junto con el concepto musical, Porter construye una estética visual perfecta, explicarla es contradictorio pero en la práctica funciona: _Natural y digital_. Detrás de la realización del álbum existe una historia de lucha contra la depresión y una búsqueda por transmitir un mensaje esperanzador: cambiar la forma en que la personas piensan de sí mismos.
+
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/nurture/1550626757) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/4Hjqdhj5rh816i1dfcUEaM?si=vsskTcIYSUeo5fXTDd4SKA)
 
 <!-- ![WEDNESDAY CAMPANELLA: Alice/Buckingham](https://www.lyrical-nonsense.com/wp-content/uploads/2021/10/WEDNESDAY-CAMPANELLA-Alice-Buckingham.jpg#cover)
 
@@ -106,6 +124,9 @@ Me cuesta expresar lo que transmite este single sin caer en cosas super melosas 
 
 Subiendo encontramos el disco debut de Arlo Parks. Un disco de neo soul y trip hop que simplemente funciona. Para serte sincero, no todos sus temas me fascinan aunque sí la mayoría, y créeme que basta para seguir escuchando. Con temáticas recurrentes sobre salud mental y equilibrio emocional se siente sincero y empático. Especial para relajarse y dejarse llevar pero permaneciendo con los pies en la tierra.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/collapsed-in-sunbeams-up-next-film-edition/1550632003) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/42joEEymK7EIHODfNB4yug?si=uAGhPrlwSuSxxuIAK5_c6Q)
+
 ![indigo la end: Yakou Himitsu](https://i.imgur.com/CoLFGzt.jpeg#cover)
 
 ### 3. indigo la end: Yakou Himitsu (Night Secret)
@@ -116,6 +137,9 @@ En este álbum siguen cultivando un sonido sofisticado y elegante. Siendo una ba
 
 Otros temas tienen su riqueza en que suenan aparentemente simples junto a guitarras acústicas pero que van incrementando suave y orgánicamente volviéndose complejos, como si prepararan un viaje delicado para las voces. Sin lugar a dudas una banda (y álbum) obligado para escuchas de música japonesa.
 
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/yakou-himitsu/1546261772) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/2d9hEC8Sv1GG9AxQf4cGdp?si=Syq9XFZnTRuR3McHac_RuQ)
+
 ![Sam Fender: Seventeen going under](https://m.media-amazon.com/images/I/916JVEKjJAL._SL1500_.jpg#cover)
 
 ### 2. Sam Fender: Seventeen going under
@@ -125,6 +149,9 @@ Cuando escuché por primera vez el tema 1 de este álbum, algo se encendió dent
 Este álbum está lleno de rock con mucho corazón que encanta al instante y te explota el corazón en los coros. Junto con eso te anima a bailar en la cocina o donde vayas escuchándolo (_si, lo escucho mucho en la cocina_). Es alegre, progresivo y lo suficientemente artístico como para ser interesante, pero no como para que suene genial en la radio.
 
 Está bien producido y contiene momentos gloriosos junto a coros potentes y solos que además incorporan saxo en el clímax. En lo único que a mi parecer el álbum flaquea, es en la consistencia de las letras. Pero para un escucha latino no ha sido lo más relevante.
+
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/seventeen-going-under-deluxe/1578777962) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/4FKOLaEGqA7ZFYYW5r4X9z?si=6q3kiSHzTmmrJw53BYnRLA)
 
 ![Kanye West: Donda](https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/62/13/7b/62137b3f-7722-59f5-2ee1-b5aff9426869/21UMGIM64738.rgb.jpg/1000x1000bb.webp#cover)
 
@@ -137,6 +164,9 @@ _Donda_ es más que un álbum de temas que cambian cuando a Kanye se le da la ga
 Temas como _God Breathed_ y _Off the grid_ te recuerdan que _Ye_ no es cualquier productor y temas como _24_ y _Moon_ son resultado de la sensibilidad de un artista atormentado con sus pecados, victorias, altos y bajos.
 
 Tienes bangers como Praise God que es como se debería escuchar cosas tan potentes como "_I serve, follow your worth, see with new sight, into the night_". Obviamente no son una utopía de cómo debiese hacerse música cristiana (_de hecho no lo es_), pero en mi opinión es lo más cercano que veremos a Kanye hacerlo.
+
+[▶ Escucha Apple Music](https://music.apple.com/cl/album/donda/1587795158) <br />
+[▶ Escucha en Spotify](https://open.spotify.com/album/5CnpZV3q5BcESefcB3WJmz?si=JMhngvG1QkS_fdRmqh4IgQ)
 
 En fin, este es mi top de lanzamientos del 2021. Gracias por llegar leyendo hasta aquí, hice una playlist con algunas canciones del top 10. Links a continuación:
 
