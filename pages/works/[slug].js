@@ -41,7 +41,7 @@ export default function Work({ work, nextWork }) {
                 <a>&#8592; Trabajos</a>
               </Link>
             </p>
-            <h1>
+            <h1 className={PresentationStyles.workTitle}>
               {work.pretitle}{" "}
               <span className="highlight-color">{work.title}</span>
             </h1>

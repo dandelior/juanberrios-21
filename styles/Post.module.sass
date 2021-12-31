@@ -54,6 +54,8 @@
       font-weight: 600
     a
       border-bottom: solid 1px var(--color-text)
+    // &+p > img
+    //   background-color: red
   a
     padding-bottom: 1px
     color: var(--color-mid)
@@ -67,11 +69,12 @@
     color: var(--color-highlight)
     font-weight: 600
   h2
-    // font-size: 24px
-    // letter-spacing: -0.015em
-    // line-height: 120%
-    margin-top: 26px
-    margin-bottom: 14px
+    margin-top: 32px
+    margin-bottom: 18px
+    &+p
+      margin-top: 0
+      img
+        margin-top: 0
   h3
     margin-top: 24px
     margin-bottom: 12px
@@ -80,20 +83,27 @@
       margin-bottom: 16px
   img
     max-width: 100%
-    margin: 10px 0 1vw
+    margin: 30px 0 14px
+    margin: 20px 0 14px
     &[src$='#cover']
       width: 400px
 
 @media (min-width: 768px)
   .postContent
     padding: 0 4.6vw
+    margin: auto
     margin-bottom: 100px
+    max-width: 65ch
     p, ul
+      font-size: 17px
+      // line-height: 160%
       strong, b
       a
     a
     h1, h2, h3, h4, h5, h6
     h2
+      font-size: 32px
+    h3
     ul
       li
 
@@ -123,7 +133,7 @@
     // max-width: 800px
     max-width: 720px
     p, ul
-      // font-size: 19px
+      font-size: 19px
       // line-height: 165%
       // margin-bottom: 30px
       strong, b
@@ -131,10 +141,9 @@
     a
     h1, h2, h3, h4, h5, h6
     h2
-      // font-size: 32px
-      // line-height: 130%
-      // margin-top: 44px
-      // margin-bottom: 27px
+      font-size: 34px
+    h3
+      font-size: 28px
     ul
       li
         // margin-bottom: 24px

@@ -24,6 +24,8 @@
           color: var(--color-highlight)
           font-weight: 600
           margin-bottom: 20px
+        &.workTitle
+          max-width: 100% !important
       .date
         font-size: 15px
         opacity: 0.8
@@ -94,7 +96,7 @@
     display: grid
     grid-template-columns: 1.27fr 0.73fr
     column-gap: 4vw
-    margin-bottom: 62px
+    margin-bottom: 78px
     .presentationA
       .heading
         // margin-bottom: 0
@@ -151,7 +153,9 @@
       .heading
         // margin-bottom: 70px
         // margin-bottom: 68px
-        margin-bottom: 78px
+        // margin-bottom: 78px
+        // margin-bottom: 86px
+        margin-bottom: 80px
         // margin-bottom: 90px
         p
         h1
@@ -174,6 +178,11 @@
         height: 649px
       .space
 
+@media (min-width: 1400px)
+  .presentationWrapper
+    .presentationA
+      .heading
+        margin-bottom: 88px
 
 @media (min-width: 1490px)
   .presentationWrapper

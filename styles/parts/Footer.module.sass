@@ -2,7 +2,8 @@
   display: flex
   justify-content: space-between
   align-items: flex-end
-  padding: 110px 22px 60px
+  // padding: 110px 22px 60px
+  padding: 75px 22px 60px
   .rrssLinks
     a
       margin-top: 21px
@@ -20,7 +21,17 @@
 
 @media (min-width: 760px)
   .footer
-    padding: 120px 4.6vw 69px
+    // padding: 120px 4.6vw 69px
+    padding: 102px 4.6vw 69px
+    .rrssLinks
+      a
+        &:last-child
+    .dotWrapper
+      .dot
+
+@media (min-width: 1024px)
+  .footer
+    padding: 108px 4.6vw 69px
     .rrssLinks
       a
         &:last-child
@@ -30,7 +41,7 @@
 @media (min-width: 1280px)
   .footer
     // padding: 140px 5vw 69px
-    padding: 140px 4.5vw 69px
+    padding: 120px 4.5vw 69px
     .rrssLinks
       display: flex
       a
@@ -44,7 +55,7 @@
 
 @media (min-width: 1490px)
   .footer
-    padding: 140px 13vw 79px
+    padding: 130px 13vw 79px
     .rrssLinks
       a
         &:last-child
