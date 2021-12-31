@@ -18,6 +18,7 @@ Este año ha sido bueno en comparación con 2020. Llegaron las vacunas y se rela
 ## **Lo más decepcionante**
 
 Aquí entran esos albums esperados por mi y que no dieron la talla.
+
 ![John Mayer: Sob Rock](https://retrovinilosymas.com/wp-content/uploads/2021/08/71ABWirWeGS._SL1417_.jpg#cover)
 
 ### **John Mayer: Sob Rock**
