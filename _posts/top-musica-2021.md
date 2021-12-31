@@ -141,6 +141,5 @@ Tienes bangers como Praise God que es como se debería escuchar cosas tan potent
 
 En fin, este es mi top de lanzamientos del 2021. Gracias por llegar leyendo hasta aquí, hice una playlist con algunas canciones del top 10. Links a continuación:
 
-[Escuchar Playlist Top 2021 en Apple Music](https://music.apple.com/cl/playlist/top-10-albums-2021/pl.u-RRbV031toJ5G2v)
-
-[Escuchar Playlist Top 2021 en Spotify](https://open.spotify.com/playlist/5nSRU2xfFDnr79sfFtN6YS?si=19c0608a7fa942c8)
+[▶ Escuchar Playlist Top 2021 en Apple Music](https://music.apple.com/cl/playlist/top-10-albums-2021/pl.u-RRbV031toJ5G2v) <br/>
+[▶ Escuchar Playlist Top 2021 en Spotify](https://open.spotify.com/playlist/5nSRU2xfFDnr79sfFtN6YS?si=19c0608a7fa942c8)
