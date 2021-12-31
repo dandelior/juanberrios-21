@@ -45,11 +45,11 @@ En un principio pensé: debe ser que no conecté con el álbum, debe ser una sem
 
 ![Kings of Leon: When You See Yourself](https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/03/kings-of-leon.jpg#cover)
 
-### **Kings of Leon: When You See Yourself**
+### Kings of Leon: When You See Yourself
 
 Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayudó a crear algo genial como a tantos artistas estos últimos dos años? Este álbum se siente como si luego de haber compuesto todo le hubiesen sacado parte del alma. Rescato el single "The Bandit" de entre todas las pistas.
 
-## **Top 10**
+## Top 10
 
 ![Parcels: Day/Night](https://jenesaispop.com/wp-content/uploads/2021/11/parcels-daynight-2.jpg)
 
@@ -65,37 +65,37 @@ El primer material japonés de esta lista. Mi pasado como otaku degustador de m�
 
 ![STRAIGHTENER: Crank up](https://i.scdn.co/image/ab67616d0000b273a5c483bb0129bc5968748910#cover)
 
-### **9. STRAIGHTENER: Crank up**
+### 9. STRAIGHTENER: Crank up
 
 Prometo que no todos los puestos son de música Japonesa. _STRAIGHTENER_ es la banda que continúa haciendo música similar album tras album pero con una fórmula excelente que transmite esa clásica melancolía rockera japonesa. Este EP tiene 5 temas que retoman (junto con sus últimos singles y EP) el estilo enérgico, un poco perdido en su último album _Applause_, pero del que hereda una mejora en la mezcla.
 
 ![Little Simz: Sometimes I might Be Introvert](https://indiehoy.com/wp-content/uploads/2021/04/little-simz-sometimes-i-might-be-introvert.jpg#cover)
 
-### **8. Little Simz: Sometimes I might Be Introvert**
+### 8. Little Simz: Sometimes I might Be Introvert
 
 Este álbum es toda una experiencia y no por nada es parte de muchos rankings musicales este año. Se siente grandioso, en ocasiones íntimo pero a la vez honesto y orgánico. La música es principalmente hip hop, aunque encontramos bastante soul, R&B, electrónica, jazz e incluso afrobeat. Para mi es primera vez escuchando un álbum de ella y me asombra enterarme que es su 4to disco. Una escucha obligada de la que no te arrepentirás.
 
 ![Porter Robinson: Nurture](https://media.pitchfork.com/photos/6010f068751891e1b1b614e7/1:1/w_600/PorterRobinson%20Nurture%20album%20cover.jpg#cover)
 
-### **7. Porter Robinson: Nurture**
-
-Este es un hermoso álbum de electrónica. Es difícil de describir pero proyecta paz y a la vez energía. Junto con el concepto musical, Porter construye una estética visual perfecta, explicarla es contradictorio pero en la práctica funciona: _Natural y digital_. Detrás de la realización del álbum existe una historia de lucha contra la depresión y una búsqueda por transmitir un mensaje esperanzador: cambiar la forma en que la personas piensan de sí mismos.
-
 ![Arlo Parks: Collapsed in Sunbeams](https://www.mor.bo/wp-content/uploads/2021/02/collapsed.jpg#cover)
 
-### **6. Arlo Parks: Collapsed in Sunbeams**
+### 7. Arlo Parks: Collapsed in Sunbeams
 
 Subiendo encontramos el disco debut de Arlo Parks. Un disco de neo soul y trip hop que simplemente funciona. Para serte sincero, no todos sus temas me fascinan aunque sí la mayoría, y créeme que basta para seguir escuchando. Con temáticas recurrentes sobre salud mental y equilibrio emocional se siente sincero y empático. Especial para relajarse y dejarse llevar pero permaneciendo con los pies en la tierra.
 
 ![The Killers: Pressure Machine](https://i0.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/08/pressure_machine.jpg#cover)
 
-### **5. The Killers: Pressure Machine**
+### 6. The Killers: Pressure Machine
 
 Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álbum es mejor que el anterior a pesar de ser uno más pausado. La madurez de la banda emana como si ya no les interesa nada la fama y solo quisieren hacer música que los llene. Este material se siente tan triste pero a la vez placentero, en una aura contemplativa. Pressure machine nos relata historias de la ciudad natal de Brandon Flowers (_Nephi, Utah_) de manera abierta contando las tristezas y pesares de su gente pero también cuáles son sus anhelos y esperanzas.
 
+### 5. Porter Robinson: Nurture
+
+Este es un hermoso álbum de electrónica. Es difícil de describir pero proyecta paz y a la vez energía. Junto con el concepto musical, Porter construye una estética visual perfecta, explicarla es contradictorio pero en la práctica funciona: _Natural y digital_. Detrás de la realización del álbum existe una historia de lucha contra la depresión y una búsqueda por transmitir un mensaje esperanzador: cambiar la forma en que la personas piensan de sí mismos.
+
 ![WEDNESDAY CAMPANELLA: Alice/Buckingham](https://www.lyrical-nonsense.com/wp-content/uploads/2021/10/WEDNESDAY-CAMPANELLA-Alice-Buckingham.jpg#cover)
 
-### **4. WEDNESDAY CAMPANELLA: Alice/Buckingham**
+### 4. WEDNESDAY CAMPANELLA: Alice/Buckingham
 
 Puede ser un poco injusto que un single (de dos temas) compita contra estos monstruos, pero para mi este resulta ser un lanzamiento especial de este año. WEDNESDAY CAMPANELLA es un proyecto musical japonés de electrónica que hace poco contaba con _KOM_I_ como vocalista. Su voz desordenada, libre y hasta a veces desafinada le daba un sello único al grupo. Bueno, ella abandonó el grupo y la ha reemplazado _Utaha_. Este viene siendo su debut con nueva vocalista y vaya que se lucen.
 
@@ -103,7 +103,7 @@ Me cuesta expresar lo que transmite este single sin caer en cosas super melosas 
 
 ![indigo la end: Yakou Himitsu](https://i.imgur.com/CoLFGzt.jpeg#cover)
 
-### **3. indigo la end: Yakou Himitsu (Night Secret)**
+### 3. indigo la end: Yakou Himitsu (Night Secret)
 
 A estas alturas y en el tercer puesto te darás cuenta que tengo una afición por la música japonesa. Indigo la end es una de las mejores bandas japonesas de post-rock/math-rock. Para mi es la banda más digerible en este género, se hace de fácil escucha pero conserva su complejidad en las partes necesarias.
 
@@ -113,7 +113,7 @@ Otros temas tienen su riqueza en que suenan aparentemente simples junto a guitar
 
 ![Sam Fender: Seventeen going under](https://m.media-amazon.com/images/I/916JVEKjJAL._SL1500_.jpg#cover)
 
-### **2. Sam Fender: Seventeen going under**
+### 2. Sam Fender: Seventeen going under
 
 Cuando escuché por primera vez el tema 1 de este álbum, algo se encendió dentro de mi. Ya sabes, como esas cosquillas cuando te alegras por lo que está sonando y recuperas la esperanza en el futuro. Esto es Sam Fender en _Seventeen Going Under_, segundo álbum que supera con creces el éxito obtenido en su debut.
 
@@ -123,7 +123,7 @@ Está bien producido y contiene momentos gloriosos junto a coros potentes y solo
 
 ![Kanye West: Donda](https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/62/13/7b/62137b3f-7722-59f5-2ee1-b5aff9426869/21UMGIM64738.rgb.jpg/1000x1000bb.webp#cover)
 
-### **1. Kanye West: Donda**
+### 1. Kanye West: Donda
 
 2021 ha sido un año especial en la música para mi, porque me he reencantado con el hip hop (gracias Ye).
 
