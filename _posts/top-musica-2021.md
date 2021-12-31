@@ -69,35 +69,29 @@ El primer material japonés de esta lista. Mi pasado como otaku degustador de m�
 
 Prometo que no todos los puestos son de música Japonesa. _STRAIGHTENER_ es la banda que continúa haciendo música similar album tras album pero con una fórmula excelente que transmite esa clásica melancolía rockera japonesa. Este EP tiene 5 temas que retoman (junto con sus últimos singles y EP) el estilo enérgico, un poco perdido en su último album _Applause_, pero del que hereda una mejora en la mezcla.
 
+![The Killers: Pressure Machine](https://i0.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/08/pressure_machine.jpg#cover)
+
+### 8. The Killers: Pressure Machine
+
+Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álbum es mejor que el anterior a pesar de ser uno más pausado. La madurez de la banda emana como si ya no les interesa nada la fama y solo quisieren hacer música que los llene. Este material se siente tan triste pero a la vez placentero, en una aura contemplativa. Pressure machine nos relata historias de la ciudad natal de Brandon Flowers (_Nephi, Utah_) de manera abierta contando las tristezas y pesares de su gente pero también cuáles son sus anhelos y esperanzas.
+
 ![Little Simz: Sometimes I might Be Introvert](https://indiehoy.com/wp-content/uploads/2021/04/little-simz-sometimes-i-might-be-introvert.jpg#cover)
 
-### 8. Little Simz: Sometimes I might Be Introvert
+### 7. Little Simz: Sometimes I might Be Introvert
 
 Este álbum es toda una experiencia y no por nada es parte de muchos rankings musicales este año. Se siente grandioso, en ocasiones íntimo pero a la vez honesto y orgánico. La música es principalmente hip hop, aunque encontramos bastante soul, R&B, electrónica, jazz e incluso afrobeat. Para mi es primera vez escuchando un álbum de ella y me asombra enterarme que es su 4to disco. Una escucha obligada de la que no te arrepentirás.
 
-![Arlo Parks: Collapsed in Sunbeams](https://www.mor.bo/wp-content/uploads/2021/02/collapsed.jpg#cover)
+![Turnstile: Glow On](https://media.pitchfork.com/photos/60ec7259c4af6519af2bd326/1:1/w_1200/Turnstile-Glow-On.jpg#cover)
 
-### 7. Arlo Parks: Collapsed in Sunbeams
+### 6. Turnstile: Glow On
 
-Subiendo encontramos el disco debut de Arlo Parks. Un disco de neo soul y trip hop que simplemente funciona. Para serte sincero, no todos sus temas me fascinan aunque sí la mayoría, y créeme que basta para seguir escuchando. Con temáticas recurrentes sobre salud mental y equilibrio emocional se siente sincero y empático. Especial para relajarse y dejarse llevar pero permaneciendo con los pies en la tierra.
-
-![The Killers: Pressure Machine](https://i0.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/08/pressure_machine.jpg#cover)
-
-### 6. The Killers: Pressure Machine
-
-Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álbum es mejor que el anterior a pesar de ser uno más pausado. La madurez de la banda emana como si ya no les interesa nada la fama y solo quisieren hacer música que los llene. Este material se siente tan triste pero a la vez placentero, en una aura contemplativa. Pressure machine nos relata historias de la ciudad natal de Brandon Flowers (_Nephi, Utah_) de manera abierta contando las tristezas y pesares de su gente pero también cuáles son sus anhelos y esperanzas.
+No escucho bandas bandas hardcore pero este álbum eleva el género de una manera sin igual. El álbum es una ráfaga de sonidos de post-hardcore, shoegaze, R&B, punk, etc. Llega a ser estúpido la cantidad de cosas que Turnstile logra hacer sonar bien e hilar de manera satisfactoria. Hay ritmo y riffs que logran ser divertidos, groovy, ruidosos, ambientales e impredecibles al mismo tiempo.
 
 ![Porter Robinson: Nurture](https://media.pitchfork.com/photos/6010f068751891e1b1b614e7/1:1/w_600/PorterRobinson%20Nurture%20album%20cover.jpg#cover)
 
 ### 5. Porter Robinson: Nurture
 
 Este es un hermoso álbum de electrónica. Es difícil de describir pero proyecta paz y a la vez energía. Junto con el concepto musical, Porter construye una estética visual perfecta, explicarla es contradictorio pero en la práctica funciona: _Natural y digital_. Detrás de la realización del álbum existe una historia de lucha contra la depresión y una búsqueda por transmitir un mensaje esperanzador: cambiar la forma en que la personas piensan de sí mismos.
-
-![Turnstile: Glow On](https://media.pitchfork.com/photos/60ec7259c4af6519af2bd326/1:1/w_1200/Turnstile-Glow-On.jpg#cover)
-
-### 4. Turnstile: Glow On
-
-No escucho bandas bandas hardcore pero este álbum eleva el género de una manera sin igual. El álbum es una ráfaga de sonidos de post-hardcore, shoegaze, R&B, punk, etc. Llega a ser estúpido la cantidad de cosas que Turnstile logra hacer sonar bien e hilar de manera satisfactoria. Hay ritmo y riffs que logran ser divertidos, groovy, ruidosos, ambientales e impredecibles al mismo tiempo.
 
 <!-- ![WEDNESDAY CAMPANELLA: Alice/Buckingham](https://www.lyrical-nonsense.com/wp-content/uploads/2021/10/WEDNESDAY-CAMPANELLA-Alice-Buckingham.jpg#cover)
 
@@ -106,6 +100,11 @@ No escucho bandas bandas hardcore pero este álbum eleva el género de una maner
 Puede ser un poco injusto que un single (de dos temas) compita contra estos monstruos, pero para mi este resulta ser un lanzamiento especial de este año. WEDNESDAY CAMPANELLA es un proyecto musical japonés de electrónica que hace poco contaba con _KOM_I_ como vocalista. Su voz desordenada, libre y hasta a veces desafinada le daba un sello único al grupo. Bueno, ella abandonó el grupo y la ha reemplazado _Utaha_. Este viene siendo su debut con nueva vocalista y vaya que se lucen.
 
 Me cuesta expresar lo que transmite este single sin caer en cosas super melosas y abstractas. Escucharlo, por ejemplo, me recordó a lo que el grupo venía haciendo en discos como _SUPERMAN_ del 2017. _Alice_ suena grande como Melos, y _Buckingham_ suena fiestero y juvenil como sus primeros lanzamientos. De verdad este cambio pareció traer nuevas fuerzas y creo que han vuelto con todo. -->
+![Arlo Parks: Collapsed in Sunbeams](https://www.mor.bo/wp-content/uploads/2021/02/collapsed.jpg#cover)
+
+### 4. Arlo Parks: Collapsed in Sunbeams
+
+Subiendo encontramos el disco debut de Arlo Parks. Un disco de neo soul y trip hop que simplemente funciona. Para serte sincero, no todos sus temas me fascinan aunque sí la mayoría, y créeme que basta para seguir escuchando. Con temáticas recurrentes sobre salud mental y equilibrio emocional se siente sincero y empático. Especial para relajarse y dejarse llevar pero permaneciendo con los pies en la tierra.
 
 ![indigo la end: Yakou Himitsu](https://i.imgur.com/CoLFGzt.jpeg#cover)
 
