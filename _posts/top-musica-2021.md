@@ -23,13 +23,13 @@ Aquí entran esos albums esperados por mi y que no dieron la talla.
 
 ### **John Mayer: Sob Rock**
 
-John Mayer hizo un trabajo débil pero que de igual forma contiene temas excelentes. Prácticamente no hay cosas nuevas (_al menos no es lo que esperas de su música_), sin embargo ahí están las guitarras melosas y la melancolía. Lo que no está en su mayoría de temas es el concepto visual que intenta vender. Mejores temas: Last train home, New Light, I Guess I Just feel like, Carry me away.
+John Mayer hizo un trabajo débil pero de igual manera con temas excelentes. Prácticamente no hay cosas nuevas (_al menos esto no es lo que esperas de su música_), sin embargo ahí están las guitarras melosas y la melancolía. Lo que no está en su mayoría de temas es el concepto visual que intenta vender. Mejores temas: Last train home, New Light, I Guess I Just feel like, Carry me away.
 
 ![Coldplay: Music of the Spheres](https://www.criticaspolares.com/wp-content/uploads/2021/10/critica-music-of-the-spheres-coldplay-2021.fin_.jpg#cover)
 
 ### **Coldplay: Music of the Spheres**
 
-Coldplay es una de mis bandas favoritas de toda la vida y decir que su último álbum decepciona es raro en mi. Hasta “_Everyday Life_” no tenía mayores críticas a la banda. Comprendía que había evolucionado a un tipo de pop más azucarado pero que seguía teniendo cierta complejidad y corazón. Sin embargo este álbum definitivamente no funciona y a pesar de todo el hype que se creó por contar con la producción de Max Martin, a mi parecer, este no está a la altura de sus discos anteriores, ni siquiera de los más débiles. Rescatándo algunas canciones podría mencionar: Higher power, Humankind y Let somebody go (su colaboración con Selena Gomez).
+Coldplay es una de mis bandas favoritas de toda la vida y decir que su último álbum decepciona es raro para mi. Hasta “_Everyday Life_” no tenía mayores críticas a la banda. Comprendía que había evolucionado a un tipo de pop más azucarado pero que seguía teniendo cierta complejidad y corazón. Sin embargo este álbum definitivamente no funciona y a pesar de todo el hype que se creó por contar con la producción de Max Martin, a mi parecer, este no está a la altura de sus discos anteriores, ni siquiera de los más débiles. Rescatándo algunas canciones podría mencionar: Higher power, Humankind y Let somebody go (su colaboración con Selena Gomez).
 
 ![Drake: Certified lover boy](https://static.stereogum.com/uploads/2021/08/Drake-Certified-Lover-Boy-1630334465.jpeg#cover)
 
@@ -41,13 +41,13 @@ Creo que solo fue el hype, pero en el fondo de mi pensé que esta vez Drake se r
 
 ### **No Rome: It's all Smiles**
 
-En un principio pensé: debe ser que no conecté con el álbum, debe ser una semana dura y no tengo el mejor ánimo, soy muy old para este tipo de música, etc, etc. Pero no, no hubo caso, este álbum simplemente me pareció insípido y demasiado pretencioso. Lástima porque lo he esperado hace años.
+En un principio pensé: debe ser que no conecté con el álbum, debe ser una semana dura y no tengo el mejor ánimo, soy muy old para este tipo de música, etc. Pero no, no hubo caso, este álbum simplemente me pareció insípido y demasiado pretencioso. Lástima porque lo estaba esperando hace años.
 
 ![Kings of Leon: When You See Yourself](https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2021/03/kings-of-leon.jpg#cover)
 
 ### **Kings of Leon: When You See Yourself**
 
-Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayudó a crear algo genial como a tantos artistas estos últimos dos años? Este álbum se siente como si luego de haber compuesto todo le hubiesen sacado parte del alma.
+Ellos son geniales ¿Qué pasó acá? ¿Por qué a ellos la pandemia no los ayudó a crear algo genial como a tantos artistas estos últimos dos años? Este álbum se siente como si luego de haber compuesto todo le hubiesen sacado parte del alma. Rescato el single "The Bandit" de entre todas las pistas.
 
 ## **Top 10**
 
@@ -97,9 +97,9 @@ Qué puedo decir de _The Killers_ que suene imparcial, quizá solo que este álb
 
 ### **4. WEDNESDAY CAMPANELLA: Alice/Buckingham**
 
-Puede ser un poco injusto que un single (de dos temas) compita contra estos monstruos, pero para mi este resulta ser un lanzamiento especial de este año. WEDNESDAY CAMPANELLA es un proyecto musical japonés de electrónica que hace poco contaba con _KOM_I_ como vocalista. Su voz desordenada, libre y hasta a veces desafinada le daba un sello único al grupo. Bueno, ella abandonó el grupo y la ha reemplazado _Utaha_. Este viene siendo su debut con la nueva vocalista y vaya que se lucen.
+Puede ser un poco injusto que un single (de dos temas) compita contra estos monstruos, pero para mi este resulta ser un lanzamiento especial de este año. WEDNESDAY CAMPANELLA es un proyecto musical japonés de electrónica que hace poco contaba con _KOM_I_ como vocalista. Su voz desordenada, libre y hasta a veces desafinada le daba un sello único al grupo. Bueno, ella abandonó el grupo y la ha reemplazado _Utaha_. Este viene siendo su debut con nueva vocalista y vaya que se lucen.
 
-Me cuesta expresar lo que transmite este single sin caer en cosas super melosas y abstractas. Escuchar este single, por ejemplo, me recordó a lo que el grupo venía haciendo en discos como _SUPERMAN_ del 2017. Alice suena grande como Melos, y Buckingham suena fiestero y juvenil como sus primeros lanzamientos. De verdad este cambio pareció traer nuevas fuerzas y creo que han vuelto con todo.
+Me cuesta expresar lo que transmite este single sin caer en cosas super melosas y abstractas. Escucharlo, por ejemplo, me recordó a lo que el grupo venía haciendo en discos como _SUPERMAN_ del 2017. _Alice_ suena grande como Melos, y _Buckingham_ suena fiestero y juvenil como sus primeros lanzamientos. De verdad este cambio pareció traer nuevas fuerzas y creo que han vuelto con todo.
 
 ![indigo la end: Yakou Himitsu](https://i.imgur.com/CoLFGzt.jpeg#cover)
 
