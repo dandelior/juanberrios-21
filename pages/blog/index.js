@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap, Expo } from "gsap";
+// import React, { useRef, useEffect } from "react";
+// import { gsap, Expo } from "gsap";
 
 import Head from "next/head";
 import MetaTags from "../../components/MetaTags";
@@ -10,18 +10,18 @@ import styles from "../../styles/parts/PresentationWrapper.module.sass";
 import { getAllPosts } from "../../lib/api";
 
 export default function Blog({ posts }) {
-  let pageIndexBlog = useRef(null);
+  // let pageIndexBlog = useRef(null);
 
   const allPosts = posts.allPosts;
 
-  useEffect(() => {
-    gsap.set(pageIndexBlog, {
-      opacity: 0,
-    });
-    gsap.to(pageIndexBlog, 1, {
-      opacity: 1,
-    });
-  }, []);
+  // useEffect(() => {
+  //   gsap.set(pageIndexBlog, {
+  //     opacity: 0,
+  //   });
+  //   gsap.to(pageIndexBlog, 1, {
+  //     opacity: 1,
+  //   });
+  // }, []);
 
   return (
     <>
@@ -36,9 +36,9 @@ export default function Blog({ posts }) {
       </Head>
 
       <div
-        ref={(el) => {
-          pageIndexBlog = el;
-        }}
+      // ref={(el) => {
+      //   pageIndexBlog = el;
+      // }}
       >
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
           <div className={styles.presentationA}>
@@ -80,9 +80,9 @@ export default function Blog({ posts }) {
 export async function getStaticProps() {
   const allPosts = getAllPosts(["title", "slug", "excerpt"]);
 
-  await new Promise((resolve) => {
-    setTimeout(resolve, 300);
-  });
+  // await new Promise((resolve) => {
+  //   setTimeout(resolve, 300);
+  // });
 
   return {
     props: {
