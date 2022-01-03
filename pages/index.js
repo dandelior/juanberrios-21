@@ -1,7 +1,5 @@
-// import React, { useRef, useEffect } from "react";
-// import { gsap, Expo } from "gsap";
-
 import Head from "next/head";
+import { motion } from "framer-motion";
 import MetaTags from "../components/MetaTags";
 import WorksGrid from "../parts/worksGrid";
 import BlogPreview from "../parts/blogPreview";
@@ -11,19 +9,8 @@ import PresentationHome from "../parts/PresentationHome";
 import { getAllPosts, getAllWorks } from "../lib/api";
 
 export default function Home({ posts }) {
-  // let pageIndex = useRef(null);
-
   const allWorks = posts.allWorks;
   const allPosts = posts.allPosts;
-
-  // useEffect(() => {
-  //   gsap.set(pageIndex, {
-  //     opacity: 0,
-  //   });
-  //   gsap.to(pageIndex, 1, {
-  //     opacity: 1,
-  //   });
-  // }, []);
 
   return (
     <>
@@ -37,10 +24,10 @@ export default function Home({ posts }) {
         />
       </Head>
 
-      <div
-      // ref={(el) => {
-      //   pageIndex = el;
-      // }}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
       >
         <PresentationHome />
 
@@ -57,7 +44,7 @@ export default function Home({ posts }) {
           {/* <span className="highlight-color">Escribo</span> sobre las cosas que
           me interesan. */}
         </BlogPreview>
-      </div>
+      </motion.div>
     </>
   );
 }
@@ -72,10 +59,6 @@ export async function getStaticProps() {
     "excerpt",
     "date",
   ]);
-
-  // await new Promise((resolve) => {
-  //   setTimeout(resolve, 300);
-  // });
 
   return {
     props: {

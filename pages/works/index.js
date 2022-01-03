@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { motion } from "framer-motion";
 import WorksGrid from "../../parts/worksGrid";
 import MetaTags from "../../components/MetaTags";
 
@@ -21,36 +22,42 @@ export default function Works({ works }) {
         />
       </Head>
 
-      <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
-        <div className={styles.presentationA}>
-          <div className={styles.heading}>
-            <p>Trabajos</p>
-            <h1>
-              Algunos{" "}
-              <span className="highlight-color">proyectos seleccionados</span>
-            </h1>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
+          <div className={styles.presentationA}>
+            <div className={styles.heading}>
+              <p>Trabajos</p>
+              <h1>
+                Algunos{" "}
+                <span className="highlight-color">proyectos seleccionados</span>
+              </h1>
+            </div>
           </div>
-        </div>
-        <div className={styles.presentationB}>
-          <div className={styles.arrowWrapper}>
-            <svg
-              className={styles.arrow}
-              width="85"
-              height="221"
-              viewBox="0 0 85 221"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693"
-                strokeWidth="3"
-              />
-            </svg>
+          <div className={styles.presentationB}>
+            <div className={styles.arrowWrapper}>
+              <svg
+                className={styles.arrow}
+                width="85"
+                height="221"
+                viewBox="0 0 85 221"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M42.5 0L42.5 218M1.73538 178.255L43.1729 219.693M83.1397 178.255L41.7022 219.693"
+                  strokeWidth="3"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <WorksGrid works={allWorks} noBottom="true" />
+        <WorksGrid works={allWorks} noBottom="true" />
+      </motion.div>
     </>
   );
 }
