@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import PresentationStyles from "../styles/parts/PresentationWrapper.module.sass";
 
 const PresentationHome = () => {
@@ -6,13 +7,12 @@ const PresentationHome = () => {
     <div className={PresentationStyles.presentationWrapper}>
       <div className={PresentationStyles.presentationA}>
         <div className={PresentationStyles.heading}>
-          {/* <p>Diseñador & Desarrollador Frontend</p> */}
-          <h1>
+          <h1
+          // initial={{ opacity: 0 }}
+          // animate={{ opacity: 1 }}
+          >
             <span className="highlight-color">Diseñador</span> y{" "}
             <span className="highlight-color">desarrollador frontend</span>.
-            {/* Creador de productos digitales como{" "}
-            <span className="highlight-color">sitios web</span> y{" "}
-            <span className="highlight-color">aplicaciones</span>. */}
           </h1>
         </div>
         <div className={PresentationStyles.data}>
@@ -34,12 +34,6 @@ const PresentationHome = () => {
               . Me involucro desde el principio con las personas para aprender
               de sus proyectos y así poder crear productos interesantes,
               funcionales y que resuelvan sus necesidades.
-              {/* <br />
-                <br />
-                Actualmente trabajo en <span className="highlight-color"><a href="https://asomic.com" target="_blank" rel="noreferrer noopener">asomic</a></span> como único diseñador UX/UI 
-                y también como desarrollador frontend, pero también estoy abierto 
-                a recibir proyectos de manera freelance, si estás interesado contáctame 
-                a <span className="highlight-color"><a href="mailto:hola@juanberrios.com">hola@juanberrios.com</a></span> o en mis redes sociales. */}
             </p>
           </div>
         </div>
