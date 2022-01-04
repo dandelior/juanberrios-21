@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
 import MetaTags from "../components/MetaTags";
 import WorksGrid from "../parts/worksGrid";
 import BlogPreview from "../parts/blogPreview";
@@ -24,11 +23,7 @@ export default function Home({ posts }) {
         />
       </Head>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+      <div>
         <PresentationHome />
 
         <WorksGrid works={allWorks}>
@@ -44,7 +39,7 @@ export default function Home({ posts }) {
           {/* <span className="highlight-color">Escribo</span> sobre las cosas que
           me interesan. */}
         </BlogPreview>
-      </motion.div>
+      </div>
     </>
   );
 }

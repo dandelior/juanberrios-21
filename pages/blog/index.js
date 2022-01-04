@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
 import MetaTags from "../../components/MetaTags";
 import BlogPreview from "../../parts/blogPreview";
 
@@ -22,11 +21,7 @@ export default function Blog({ posts }) {
         />
       </Head>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+      <div>
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
           <div className={styles.presentationA}>
             <div className={styles.heading}>
@@ -59,7 +54,7 @@ export default function Blog({ posts }) {
         </section>
 
         <BlogPreview hasLoadingMore={true} posts={allPosts} />
-      </motion.div>
+      </div>
     </>
   );
 }

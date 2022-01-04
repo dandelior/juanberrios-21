@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import MetaTags from "../../components/MetaTags";
 
 import styles from "../../styles/Work.module.sass";
@@ -32,11 +31,7 @@ export default function Work({ work, nextWork }) {
         />
       </Head>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+      <div>
         <section
           className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}
         >
@@ -103,7 +98,7 @@ export default function Work({ work, nextWork }) {
             </h1>
           </div>
         )}
-      </motion.div>
+      </div>
     </>
   );
 }

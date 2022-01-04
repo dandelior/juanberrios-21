@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
 import WorksGrid from "../../parts/worksGrid";
 import MetaTags from "../../components/MetaTags";
 
@@ -22,11 +21,7 @@ export default function Works({ works }) {
         />
       </Head>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+      <div>
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
           <div className={styles.presentationA}>
             <div className={styles.heading}>
@@ -57,7 +52,7 @@ export default function Works({ works }) {
         </section>
 
         <WorksGrid works={allWorks} noBottom="true" />
-      </motion.div>
+      </div>
     </>
   );
 }
