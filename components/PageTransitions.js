@@ -6,19 +6,35 @@ const PageTransitions = ({ children, route, routingPageOffset }) => {
     <>
       <TransitionGroup component={null}>
         <CSSTransition key={route} classNames="page" timeout={1000}>
-          <div>{children}</div>
+          {children}
         </CSSTransition>
       </TransitionGroup>
-      <div className="wipe"></div>
+      {/* <div className="wipe"></div> */}
       <style global jsx>
         {`
-          .wipe {
+
+        .page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+          {/* .wipe {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100vh;
-            background-color: #ffffff;
+            background-color: #E3E3E3;
             z-index: 6;
             transform: translateY(100%);
           }
@@ -27,28 +43,17 @@ const PageTransitions = ({ children, route, routingPageOffset }) => {
               background-color: #293136;
             }
           }
-          .page-enter-active {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            opacity: 0;
-          }
-          .page-exit ~ .wipe {
+          .page-enter ~ .wipe {
             transform: translateY(100%);
           }
           .page-exit-active ~ .wipe {
             transform: translateY(0%);
             transition: transform 1000ms ease;
           }
-          //   .page-exit-active main {
-          //     transform: translateY(-${(props) =>
-            props.routingPageOffset}px);
-          //   }
           .page-enter-done ~ .wipe {
             transform: translateY(-100%);
             transition: transform 1000ms ease;
-          }
+          } */}
         `}
       </style>
     </>
