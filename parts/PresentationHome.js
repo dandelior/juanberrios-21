@@ -7,13 +7,14 @@ const PresentationHome = () => {
     <div className={PresentationStyles.presentationWrapper}>
       <div className={PresentationStyles.presentationA}>
         <div className={PresentationStyles.heading}>
-          <h1
-          // initial={{ opacity: 0 }}
-          // animate={{ opacity: 1 }}
+          <motion.h1
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ease: "easeInOut", delay: 0.2 }}
           >
             <span className="highlight-color">Diseñador</span> y{" "}
             <span className="highlight-color">desarrollador frontend</span>.
-          </h1>
+          </motion.h1>
         </div>
         <div className={PresentationStyles.data}>
           <div className={PresentationStyles.img}>
