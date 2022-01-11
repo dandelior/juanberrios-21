@@ -21,7 +21,7 @@ export default function Blog({ posts }) {
         />
       </Head>
 
-      <div>
+      <main>
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
           <div className={styles.presentationA}>
             <div className={styles.heading}>
@@ -54,7 +54,7 @@ export default function Blog({ posts }) {
         </section>
 
         <BlogPreview hasLoadingMore={true} posts={allPosts} />
-      </div>
+      </main>
     </>
   );
 }

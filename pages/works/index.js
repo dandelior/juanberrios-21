@@ -21,7 +21,7 @@ export default function Works({ works }) {
         />
       </Head>
 
-      <div>
+      <main>
         <section className={`${styles.presentationWrapper} ${styles.noBottom}`}>
           <div className={styles.presentationA}>
             <div className={styles.heading}>
@@ -52,7 +52,7 @@ export default function Works({ works }) {
         </section>
 
         <WorksGrid works={allWorks} noBottom="true" />
-      </div>
+      </main>
     </>
   );
 }

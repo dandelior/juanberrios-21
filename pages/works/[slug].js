@@ -31,7 +31,7 @@ export default function Work({ work, nextWork }) {
         />
       </Head>
 
-      <div>
+      <main>
         <section
           className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}
         >
@@ -98,7 +98,7 @@ export default function Work({ work, nextWork }) {
             </h1>
           </div>
         )}
-      </div>
+      </main>
     </>
   );
 }

@@ -23,7 +23,7 @@ export default function Home({ posts }) {
         />
       </Head>
 
-      <div>
+      <main>
         <PresentationHome />
 
         <WorksGrid works={allWorks}>
@@ -39,7 +39,7 @@ export default function Home({ posts }) {
           {/* <span className="highlight-color">Escribo</span> sobre las cosas que
           me interesan. */}
         </BlogPreview>
-      </div>
+      </main>
     </>
   );
 }

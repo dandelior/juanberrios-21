@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import formatDate from "../../lib/formatDate";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function Post({ post, nextPost }) {
   const router = useRouter();
@@ -33,11 +33,7 @@ export default function Post({ post, nextPost }) {
         />
       </Head>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
+      <main>
         <section
           className={`${PresentationStyles.presentationWrapper} ${PresentationStyles.noBottom}`}
         >
@@ -99,7 +95,7 @@ export default function Post({ post, nextPost }) {
             </h1>
           </div>
         )}
-      </motion.div>
+      </main>
     </>
   );
 }
