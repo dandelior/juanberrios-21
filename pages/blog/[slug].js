@@ -48,8 +48,22 @@ export default function Post({ post, nextPost }) {
                   <a>&#8592; Blog</a>
                 </Link>
               </p>
-              <h1 className={PresentationStyles.postTitle}>{post.title}</h1>
-              <p className={PresentationStyles.date}>{formatDate(post.date)}</p>
+              <motion.h1
+                className={PresentationStyles.postTitle}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeInOut", delay: 0.2 }}
+              >
+                {post.title}
+              </motion.h1>
+              <motion.p
+                className={PresentationStyles.date}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "easeInOut", delay: 0.2 }}
+              >
+                {formatDate(post.date)}
+              </motion.p>
             </div>
           </div>
           <div className={PresentationStyles.presentationB}>

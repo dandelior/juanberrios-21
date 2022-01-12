@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import Header from "./header";
+import { motion } from "framer-motion";
 
 const Layout = ({ children }) => {
   return (
