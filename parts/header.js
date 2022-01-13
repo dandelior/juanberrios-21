@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import styles from "../styles/parts/Header.module.sass";
 
 export default function Header() {
@@ -19,7 +20,12 @@ export default function Header() {
   };
 
   return (
-    <header className={`${styles.header} ${isFixed ? "" : styles.fixed}`}>
+    <motion.header
+      className={`${styles.header} ${isFixed ? "" : styles.fixed}`}
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ ease: "easeInOut", duration: 1 }}
+    >
       <div className={styles.brand}>
         <Link href="/">
           <a>
@@ -71,6 +77,6 @@ export default function Header() {
           </a>
         </Link>
       </div>
-    </header>
+    </motion.header>
   );
 }
