@@ -1,5 +1,5 @@
 ---
-title: "Top musical de 2021"
+title: "Top de música 2021"
 excerpt: "Hice dos listas de lanzamientos musicales de lo mejor y lo peor"
 coverImage: "/assets/blog/top-musica-2021/top-musica-2021.jpg"
 ogImage: "/assets/blog/setup-frontend/og_image.jpg"
