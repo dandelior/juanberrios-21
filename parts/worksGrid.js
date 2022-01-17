@@ -19,7 +19,13 @@ export default function WorksGrid(props) {
         ) : (
           ""
         )}
-        <motion.div className={styles.worksGrid}>
+        <motion.div
+          className={styles.worksGrid}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ ease: "easeInOut", delay: 0.5, duration: 0.5 }}
+        >
           {works.map((work, i) => (
             <Link as={`/works/${work.slug}`} href="/works/[slug]" key={i}>
               <a className={styles.workCard}>
