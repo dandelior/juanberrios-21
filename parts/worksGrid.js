@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import styles from "../styles/parts/WorksGrid.module.sass";
 
 export default function WorksGrid(props) {
@@ -18,7 +19,13 @@ export default function WorksGrid(props) {
         ) : (
           ""
         )}
-        <div className={styles.worksGrid}>
+        <motion.div
+          className={styles.worksGrid}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ ease: "easeInOut", delay: 0.5, duration: 0.5 }}
+        >
           {works.map((work, i) => (
             <Link as={`/works/${work.slug}`} href="/works/[slug]" key={i}>
               <a className={styles.workCard}>
@@ -32,16 +39,12 @@ export default function WorksGrid(props) {
                   />
                 </div>
                 <div className={styles.data}>
-                  <h2>
-                    {work.title}
-                    {/* <span className={styles.arrow}>→</span> */}
-                  </h2>
-                  {/* <p>{work.excerpt}</p> */}
+                  <h2>{work.title}</h2>
                 </div>
               </a>
             </Link>
           ))}
-        </div>
+        </motion.div>
       </section>
     </>
   );

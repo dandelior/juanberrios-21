@@ -31,12 +31,17 @@ export default function Blog({ posts }) {
           <div className={styles.presentationA}>
             <div className={styles.heading}>
               <p>Blog</p>
-              <h1 className={styles.blogTitle}>
+              <motion.h1
+                className={styles.blogTitle}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeInOut", delay: 0.2 }}
+              >
                 Escribo sobre <span className="highlight-color">diseño</span>,{" "}
                 <span className="highlight-color">código</span>,{" "}
                 <span className="highlight-color">música</span> y{" "}
                 <span className="highlight-color">otras cosas</span>
-              </h1>
+              </motion.h1>
             </div>
           </div>
           <div className={styles.presentationB}>

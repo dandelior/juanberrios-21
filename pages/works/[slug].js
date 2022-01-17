@@ -47,10 +47,15 @@ export default function Work({ work, nextWork }) {
                   <a>&#8592; Trabajos</a>
                 </Link>
               </p>
-              <h1 className={PresentationStyles.workTitle}>
+              <motion.h1
+                className={PresentationStyles.workTitle}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeInOut", delay: 0.2 }}
+              >
                 {work.pretitle}{" "}
                 <span className="highlight-color">{work.title}</span>
-              </h1>
+              </motion.h1>
             </div>
           </div>
           <div className={PresentationStyles.presentationB}>

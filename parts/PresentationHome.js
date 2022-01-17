@@ -7,16 +7,22 @@ const PresentationHome = () => {
     <div className={PresentationStyles.presentationWrapper}>
       <div className={PresentationStyles.presentationA}>
         <div className={PresentationStyles.heading}>
-          <h1
-          // initial={{ opacity: 0 }}
-          // animate={{ opacity: 1 }}
+          <motion.h1
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ease: "easeInOut", delay: 0.5, duration: 0.5 }}
           >
             <span className="highlight-color">Diseñador</span> y{" "}
             <span className="highlight-color">desarrollador frontend</span>.
-          </h1>
+          </motion.h1>
         </div>
         <div className={PresentationStyles.data}>
-          <div className={PresentationStyles.img}>
+          <motion.div
+            className={PresentationStyles.img}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
+          >
             <Image
               src="/img/me_3.webp"
               alt="Este soy yo"
@@ -24,7 +30,7 @@ const PresentationHome = () => {
               objectFit="cover"
               objectPosition="center"
             />
-          </div>
+          </motion.div>
           <div className={PresentationStyles.space}>
             <p>
               Mi trabajo consiste es diseñar y desarrollar{" "}
@@ -56,7 +62,12 @@ const PresentationHome = () => {
             />
           </svg>
         </div>
-        <div className={PresentationStyles.img}>
+        <motion.div
+          className={PresentationStyles.img}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
+        >
           <Image
             src="/img/me_6.webp"
             alt="Este soy yo trabajando"
@@ -64,7 +75,7 @@ const PresentationHome = () => {
             objectFit="cover"
             objectPosition="center"
           />
-        </div>
+        </motion.div>
         <div className={PresentationStyles.space}></div>
       </div>
     </div>

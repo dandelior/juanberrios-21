@@ -31,10 +31,14 @@ export default function Works({ works }) {
           <div className={styles.presentationA}>
             <div className={styles.heading}>
               <p>Trabajos</p>
-              <h1>
+              <motion.h1
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeInOut", delay: 0.2 }}
+              >
                 Algunos{" "}
                 <span className="highlight-color">proyectos seleccionados</span>
-              </h1>
+              </motion.h1>
             </div>
           </div>
           <div className={styles.presentationB}>
