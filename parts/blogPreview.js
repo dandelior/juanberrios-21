@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 import styles from "../styles/parts/BlogPreview.module.sass";
 
 export default function BlogPreview(props) {
@@ -6,7 +7,12 @@ export default function BlogPreview(props) {
 
   return (
     <>
-      <section className={styles.blogPreviewWrapper}>
+      <motion.section
+        className={styles.blogPreviewWrapper}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeInOut", delay: 0.5, duration: 0.5 }}
+      >
         <div className={styles.blogPreview}>
           {props.children ? <h1>{props.children}</h1> : ""}
           <div className={styles.blogGrid}>
@@ -25,7 +31,7 @@ export default function BlogPreview(props) {
             ))}
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

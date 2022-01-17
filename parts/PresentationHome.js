@@ -17,7 +17,12 @@ const PresentationHome = () => {
           </motion.h1>
         </div>
         <div className={PresentationStyles.data}>
-          <motion.div className={PresentationStyles.img}>
+          <motion.div
+            className={PresentationStyles.img}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
+          >
             <Image
               src="/img/me_3.webp"
               alt="Este soy yo"
@@ -57,7 +62,12 @@ const PresentationHome = () => {
             />
           </svg>
         </div>
-        <div className={PresentationStyles.img}>
+        <motion.div
+          className={PresentationStyles.img}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
+        >
           <Image
             src="/img/me_6.webp"
             alt="Este soy yo trabajando"
@@ -65,7 +75,7 @@ const PresentationHome = () => {
             objectFit="cover"
             objectPosition="center"
           />
-        </div>
+        </motion.div>
         <div className={PresentationStyles.space}></div>
       </div>
     </div>
