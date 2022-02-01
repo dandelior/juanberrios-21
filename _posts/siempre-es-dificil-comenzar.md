@@ -7,6 +7,7 @@ imageCaption: ""
 date: "2022-01-24T05:35:07.322Z"
 author:
   name: Juan Berrios
+is_published: false
 ---
 
 Siempre me he negado a escribir estilo "coach motivacional". La cursilería de plantear una solución obvia a cosas de la vida y suponer que a todo el mundo le acomoda actuar de cierta u otra forma. Pero hoy no intentaré darte una solución a algo, sino una forma de afrontar una idea de manera optimista.

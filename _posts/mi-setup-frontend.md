@@ -7,6 +7,7 @@ imageCaption: 'Foto por @iamthejean'
 date: '2021-01-14T05:35:07.322Z'
 author:
   name: Juan Berrios
+is_published: true
 ---
 
 Ok, esta idea no se me ocurrió a mi, en cierta forma me estoy colgando de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/).

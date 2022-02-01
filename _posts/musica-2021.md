@@ -7,6 +7,7 @@ imageCaption: "Foto creada por mi"
 date: "2021-12-27T05:35:07.322Z"
 author:
   name: Juan Berrios
+is_published: true
 ---
 
 Este año ha sido bueno en comparación con 2020. Llegaron las vacunas y se relajaron algunas medidas sanitarias. Junto con eso vemos el fruto de bandas y artistas que estuvieron preparando sus nuevos materiales incluso desde sus cuarentenas.
