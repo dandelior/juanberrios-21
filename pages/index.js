@@ -50,7 +50,7 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(["title", "slug", "excerpt"]);
+  const allPosts = getAllPosts(["title", "slug", "excerpt", "is_published"]);
 
   const allWorks = getAllWorks([
     "title",
