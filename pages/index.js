@@ -39,8 +39,9 @@ export default function Home({ posts }) {
         </WorksGrid>
 
         <BlogPreview posts={allPosts}>
-          Te comparto <span className="highlight-color">lo que sé</span> y{" "}
-          <span className="highlight-color">lo que me gusta</span>
+          Algunos <span className="highlight-color">pensamientos</span>,{" "}
+          <span className="highlight-color">reflexiones</span> y{" "}
+          <span className="highlight-color">posts interesantes</span>
           {/* <span className="highlight-color">Escribo</span> sobre las cosas que
           me interesan. */}
         </BlogPreview>

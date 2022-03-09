@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <style>
+        .black {
+            fill: black;
+        }
+        .orange {
+            fill: #6b6e6f;
+        }
+        @media (prefers-color-scheme: dark) {
+            .black {
+                fill: white;
+            }
+            .orange {
+                fill: #909496;
+            }
+        }
+    </style>
+    <g transform="matrix(1,0,0,1,-26.3542,-112.576)">
+        <g id="Mesa-de-trabajo1" serif:id="Mesa de trabajo1" transform="matrix(0.0939836,0,0,0.0848261,0.875679,93.4986)">
+            <rect x="0" y="0" width="1400" height="931" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,110.22,2.99989)">
+                <g transform="matrix(3.55848,0,-0.949134,3.92477,35.4451,-285.644)">
+                    <rect x="72.91" y="129.318" width="2.144" height="3.452" class="black"/>
+                </g>
+                <g transform="matrix(6.89379,0,-0.433948,1.79442,-288.713,-2.79949)">
+                    <rect x="73.574" y="131.144" width="0.844" height="1.625" class="black"/>
+                </g>
+                <g transform="matrix(10.6402,0,0.0327537,11.7625,-42.8782,-1059.74)">
+                    <path d="M20.922,109.536C21.321,109.534 21.541,109.738 21.617,110.111L20.28,110.111L20.59,108.959L21.913,108.959C21.729,109.307 21.422,109.524 20.922,109.536Z" class="orange"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

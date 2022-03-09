@@ -27,7 +27,7 @@ export default function BlogPreview(props) {
                     </Link>
                     <p>{post.excerpt}</p>
                     <Link as={`/blog/${post.slug}`} href="/blog/[slug]">
-                      <a className="go-button">Leer más →</a>
+                      <a className="go-button">Leer aquí →</a>
                     </Link>
                   </div>
                 ) : (

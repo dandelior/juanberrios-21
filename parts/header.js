@@ -29,7 +29,7 @@ export default function Header() {
       <div className={styles.brand}>
         <Link href="/">
           <a>
-            <h1 className={styles.logo}>Juan Berrios</h1>
+            <h1 className={styles.logo}>·</h1>
           </a>
         </Link>
         <div

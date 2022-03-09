@@ -7,6 +7,7 @@ const PresentationHome = () => {
     <div className={PresentationStyles.presentationWrapper}>
       <div className={PresentationStyles.presentationA}>
         <div className={PresentationStyles.heading}>
+          <p>Juan Berrios</p>
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
