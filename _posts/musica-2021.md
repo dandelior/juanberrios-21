@@ -16,31 +16,31 @@ Este año ha sido bueno en comparación con 2020. Llegaron las vacunas y se rela
 
 **Hice 2 listas**: una de _lo más decepcionante_ y otra con _los mejores lanzamientos_. En su mayoría son albums, pero también incluí singles y EP’s. Empecemos...
 
-## **Lo más decepcionante**
+## Lo más decepcionante
 
 Aquí entran esos albums esperados por mi y que no dieron la talla.
 
 ![John Mayer: Sob Rock](https://retrovinilosymas.com/wp-content/uploads/2021/08/71ABWirWeGS._SL1417_.jpg#cover)
 
-### **John Mayer: Sob Rock**
+### John Mayer: Sob Rock
 
 John Mayer hizo un trabajo débil pero de igual manera con temas excelentes. Prácticamente no hay cosas nuevas (_al menos esto no es lo que esperas de su música_), sin embargo ahí están las guitarras melosas y la melancolía. Lo que no está en su mayoría de temas es el concepto visual que intenta vender. Mejores temas: Last train home, New Light, I Guess I Just feel like, Carry me away.
 
 ![Coldplay: Music of the Spheres](https://www.criticaspolares.com/wp-content/uploads/2021/10/critica-music-of-the-spheres-coldplay-2021.fin_.jpg#cover)
 
-### **Coldplay: Music of the Spheres**
+### Coldplay: Music of the Spheres
 
 Coldplay es una de mis bandas favoritas de toda la vida y decir que su último álbum decepciona es raro para mi. Hasta “_Everyday Life_” no tenía mayores críticas a la banda. Comprendía que había evolucionado a un tipo de pop más azucarado pero que seguía teniendo cierta complejidad y corazón. Sin embargo este álbum definitivamente no funciona y a pesar de todo el hype que se creó por contar con la producción de Max Martin, a mi parecer, este no está a la altura de sus discos anteriores, ni siquiera de los más débiles. Rescatándo algunas canciones podría mencionar: Higher power, Humankind y Let somebody go (su colaboración con Selena Gomez).
 
 ![Drake: Certified lover boy](https://static.stereogum.com/uploads/2021/08/Drake-Certified-Lover-Boy-1630334465.jpeg#cover)
 
-### **Drake: Certified lover boy**
+### Drake: Certified lover boy
 
 Creo que solo fue el hype, pero en el fondo de mi pensé que esta vez Drake se reivindicaba con este material. No ocurrió.
 
 ![No Rome: It's all Smiles](https://media.pitchfork.com/photos/61a317543e85b7b669155af9/1:1/w_600/100000x100000-999.jpeg#cover)
 
-### **No Rome: It's all Smiles**
+### No Rome: It's all Smiles
 
 En un principio pensé: debe ser que no conecté con el álbum, debe ser una semana dura y no tengo el mejor ánimo, soy muy old para este tipo de música, etc. Pero no, no hubo caso, este álbum simplemente me pareció insípido y demasiado pretencioso. Lástima porque lo estaba esperando hace años.
 
