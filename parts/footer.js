@@ -12,7 +12,7 @@ const Footer = () => {
           Github
         </a>
         <a
-          href="https://instagram.com/bydandelior"
+          href="https://instagram.com/byjuanberrios"
           target="_blank"
           rel="noopener noreferrer"
         >
