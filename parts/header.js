@@ -59,11 +59,11 @@ export default function Header() {
           </a>
         </Link>
         {/* <Link href="/about">
-                    <a 
-                        className={router.pathname == "/about" ? `${styles.active}` : ""}
-                        onClick={closeMenu}
-                    >Conóceme</a>
-                </Link> */}
+            <a 
+                className={router.pathname == "/about" ? `${styles.active}` : ""}
+                onClick={closeMenu}
+            >Conóceme</a>
+        </Link> */}
         <Link href="/blog">
           <a
             className={
@@ -76,6 +76,9 @@ export default function Header() {
             Blog
           </a>
         </Link>
+        <a href="mailto:hola@juanberrios.com" className={styles.headerButton}>
+          Contáctame
+        </a>
       </div>
     </motion.header>
   );

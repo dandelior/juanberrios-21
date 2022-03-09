@@ -55,7 +55,11 @@
     // color: var(--color-mid)
     // color: var(--color-vivid)
     color: var(--color-highlight)
-    margin: 0
+    margin:
+      top: -2px
+      left: 0
+      right: 0
+      bottom: 0
     transition: var(--transition)
     &:hover,
     &:focus
@@ -113,6 +117,8 @@
     right: auto
     bottom: auto
     .logo
+      margin: 
+        top: -5px
     .burger
       display: none
       &::after, &::before
@@ -154,6 +160,19 @@
     &.inactive
       color: var(--color-text)
       opacity: 0.5
+    &.headerButton
+      background-color: var(--color-highlight)
+      color: var(--color-background)
+      text-transform: uppercase
+      font-size: 85%
+      letter-spacing: 0.15em
+      line-height: 1
+      margin-top: 12px
+      padding: 14px 20px
+      border-radius: 22px
+      width: auto
+      &:hover
+        background-color: var(--color-mid)
     &:last-child
       margin-bottom: 0
 .open
@@ -187,5 +206,10 @@
       margin-left: 60px
       &.active
       &.inactive
+      &.headerButton
+        font-size: 70%
+        padding: 12px 15px
+        margin-top: 0
+        margin-left: 50px
       &.last-child
   .open
