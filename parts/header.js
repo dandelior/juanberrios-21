@@ -76,7 +76,11 @@ export default function Header() {
             Blog
           </a>
         </Link>
-        <a href="mailto:hola@juanberrios.com" className={styles.headerButton}>
+        <a
+          href="mailto:hola@juanberrios.com"
+          className={styles.headerButton}
+          target="_blank"
+        >
           Contáctame
         </a>
       </div>
