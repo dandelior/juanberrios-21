@@ -56,7 +56,7 @@
     // color: var(--color-vivid)
     color: var(--color-highlight)
     margin:
-      top: -2px
+      top: -6px
       left: 0
       right: 0
       bottom: 0
@@ -89,9 +89,11 @@
       margin-top: 4px
   .close
     &::after
+      width: 34px
       transform: rotate(-45deg)
       margin-top: 0
     &::before
+      width: 34px
       margin-top: 0
       transform: rotate(45deg)
 
@@ -154,7 +156,8 @@
     font-weight: 500
     color: var(--color-text)
     transition: var(--transition)
-    letter-spacing: -0.018em
+    // letter-spacing: -0.018em
+    letter-spacing: -0.025em
     &.active
       color: var(--color-highlight)
     &.inactive
@@ -204,6 +207,7 @@
       margin-bottom: 0
       font-size: 15px
       margin-left: 60px
+      letter-spacing: -0.018em
       &.active
       &.inactive
       &.headerButton
