@@ -25,7 +25,7 @@ const PresentationHome = () => {
             transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
           >
             <Image
-              src="/img/me_3.webp"
+              src="/img/me_5.webp"
               alt="Este soy yo"
               layout="fill"
               objectFit="cover"
@@ -33,15 +33,17 @@ const PresentationHome = () => {
             />
           </motion.div>
           <div className={PresentationStyles.space}>
-            <p>
-              Mi trabajo consiste es diseñar y desarrollar{" "}
-              <span className="highlight-color">
-                sitios web y aplicaciones a medida para marcas y personas
-              </span>
-              . Me involucro desde el principio con las personas para aprender
-              de sus proyectos y así poder crear productos interesantes,
-              funcionales y que resuelvan sus necesidades.
-            </p>
+            <h2>
+              Mi trabajo principal consiste en crear y llevar a la vida{" "}
+              <span className="highlight-color">sitios web</span> y{" "}
+              <span className="highlight-color">aplicaciones a medida</span>{" "}
+              para marcas y personas.
+            </h2>
+            <h2>
+              También ocasionalmente me involucro en proyectos de{" "}
+              <span className="highlight-color">identidad visual</span> para
+              marcas.
+            </h2>
           </div>
         </div>
       </div>
