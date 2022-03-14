@@ -91,7 +91,20 @@ export default function Work({ work, nextWork }) {
 
         <div className={styles.workContent}>
           <div className={styles.desc}>
-            <p dangerouslySetInnerHTML={{ __html: work.desc }}></p>
+            <h2 dangerouslySetInnerHTML={{ __html: work.desc }}></h2>
+            <p>
+              <strong>Productos:</strong> {work.products}
+              <br />
+              <strong>Hecho en:</strong> {work.madeIn}
+              <br />
+              <strong>Cliente:</strong> {work.client}
+              <br />
+              <strong>Año:</strong> {work.year}
+              <br />
+              <a href={`https://${work.liveUrl}`} target="_blank">
+                <strong>Live URL</strong>
+              </a>
+            </p>
           </div>
           <div dangerouslySetInnerHTML={{ __html: work.content }}></div>
         </div>
@@ -124,6 +137,11 @@ export async function getStaticProps({ params }) {
     "content",
     "coverImage",
     "featuredImage",
+    "products",
+    "madeIn",
+    "client",
+    "year",
+    "liveUrl",
   ]);
 
   const content = await markdownToHtml(work.content || "");

@@ -2,11 +2,16 @@
 pretitle: 'App de compras y reservas en taller para'
 title: 'Kilometro Cero'
 excerpt: 'Una app para tienda y taller de bicicletas'
-desc: 'Creamos una app para que los clientes de la bicicletería Kilometro Cero puedan reservar horas en el taller y asistir a eventos exclusivos.
-<br/><br/>
-Por otro lado, la WebApp permite gestionar las reservas desde el taller y así llevar un orden interno entre la tienda y el taller.'
+desc: 'Kilometro Cero es la bicicletería más moderna en el epicentro del ciclismo en Chile (Curicó).<br/>Para ellos creamos una app con ecommerce y un sistema de reservas acompañado de una aplicación web para sus administradores.'
 coverImage: '/assets/works/km0/cover.webp'
 featuredImage: '/assets/works/km0/featured.png'
+
+products: 'Interfaz / App / Web'
+madeIn: 'IONIC (Angular) / Laravel'
+client: 'asomic (in team)'
+year: '2020'
+liveUrl: 'apps.apple.com/cl/app/kilometro-cero/id1472395043'
+
 tags: 'App'
 date: '2020-04-14T05:35:07.322Z'
 ---

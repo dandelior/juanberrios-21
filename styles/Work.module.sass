@@ -11,14 +11,17 @@
 .workImage
     position: relative
     width: 100%
-    background-color: var(--color-shadow)
+    background-color: transparent
     margin-bottom: 44px
+    padding: 0 22px
+    box-sizing: border-box
     .img
         height: 249px
         position: relative
 
 @media (min-width: 768px)
     .workImage
+        padding: 0 4.6vw
         .img
             height: 480px
 
@@ -32,8 +35,19 @@
     .desc
         margin-bottom: 48px
         // padding: 48px 10px 0 0
+        h2
+            margin-top: 0
+            font-size: 28px
+            font-weight: 600
+            letter-spacing: -0.035em
+            line-height: 130%
+            color: var(--color-sub)
         p
             letter-spacing: -0.04em
+            color: rgb(255, 255, 255, 0.65)
+            strong
+                color: rgb(255, 255, 255, 0.8)
+                font-weight: 700
     img
         width: 100%
         margin-bottom: 24px
@@ -44,7 +58,23 @@
         .desc
             padding: 42px 0 20px
             max-width: 500px
+            h2
+                font-size: 28px
             p
+        img
+
+@media (min-width: 1024px)
+    .workContent
+        .desc
+            max-width: 100%
+            display: flex
+            justify-content: space-between
+            h2
+                font-size: 28px
+                max-width: 45%
+            p
+                width: 55%
+                padding-left: 20%
         img
 
 @media (min-width: 1280px)
@@ -52,7 +82,9 @@
         padding: 0 4.5vw
         .desc
             padding: 62px 0 40px
-            max-width: 577px
+            // max-width: 577px
+            h2
+                max-width: 40%
             p
         img
             margin-bottom: 52px
@@ -61,6 +93,7 @@
     .workContent
         padding: 0 13vw
         .desc
+            h2
             p
         img
 
@@ -68,5 +101,6 @@
     .workContent
         // padding: 0 18vw
         .desc
+            h2
             p
         img

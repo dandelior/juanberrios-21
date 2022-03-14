@@ -1,12 +1,17 @@
 ---
-pretitle: 'Sitio web autoadministrable para'
+pretitle: 'Sitio web corporativo para'
 title: 'Viveros el maitén'
 excerpt: 'Web autoadministrable para vivero de cerezas'
-desc: 'El Maitén es un vivero especialista en plantas de cerezas que necesitaba un rebranding para todas sus aplicaciones digitales, sumado a esto, un sitio web autoadministrable.
-<br/> <br/>
-Desarrollamos el sitio web en Wordpress CMS a medida, donde la empresa tiene capacidades para editar prácticamente toda la información sin comprometer la estructura.'
+desc: 'Junto a Viveros El Maitén rediseñamos la identidad visual de la marca. También creamos su sitio web corporativo autoadministrable para que pudiesen ir actualizando las secciones informativas a través del tiempo.'
 coverImage: '/assets/works/el-maiten/cover.webp'
 featuredImage: '/assets/works/el-maiten/featured.png'
+
+products: 'Manual de marca / Interfaz / Web'
+madeIn: 'Wordpress CMS'
+client: 'asomic (in team)'
+year: '2019'
+liveUrl: 'www.viveroselmaiten.cl'
+
 tags: 'Web / Identidad Corporativa'
 date: '2020-03-03T05:35:07.322Z'
 ---

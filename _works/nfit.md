@@ -2,9 +2,16 @@
 pretitle: 'Construyendo el ecosistema digital del fitness con'
 title: 'NFIT'
 excerpt: 'Ecosistema digital para centros deportivos'
-desc: 'Dos productos digitales: Un sistema de administración para que los centros deportivo puedan crear clases, asignar planes, agregar alumnos y gestionar pagos. Por otro lado una app que permite a sus alumnos comprar, renovar membresías, ver el entrenamiento del día, reservar cupos para las clases, ver los videos de las clases, entre otras funciones.'
+desc: 'Decenas de centros deportivos usan NFIT para administrar sus membresías y reservas.<br/>Creamos una aplicación web para administradores y una aplicación móvil para alumnos.'
 coverImage: '/assets/works/nfit/cover.webp'
 featuredImage: '/assets/works/nfit/featured.png'
+
+products: 'Interfaz / App / Web'
+madeIn: 'IONIC (Angular) / Laravel'
+client: 'asomic (in team)'
+year: '2020 - 2021'
+liveUrl: 'apps.apple.com/cl/app/nfit/id1458653773'
+
 tags: 'App / WebApp'
 date: '2020-07-12T05:35:07.322Z'
 ---

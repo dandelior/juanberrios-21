@@ -2,11 +2,16 @@
 pretitle: 'Actualización de marca para'
 title: 'SAGA Service'
 excerpt: 'Actualización de una marca de Control de plagas'
-desc: 'SAGA requería una actualización de su sitio web y marca para acercar a nuevos públicos, competir en un entorno digital más exigente y por sobre todo diferenciarse.
-<br/><br/>
-Tuve la oportunidad de rediseñar el aspecto visual de la marca, diseñar su sitio web y luego desarrollarlo desde cero.'
+desc: 'Realizamos una actualización a la marca y sitio web de SAGA Service, comprendiento su evolución y distinción ante tantas marcas de control de plagas.'
 coverImage: '/assets/works/saga/cover.webp'
 featuredImage: '/assets/works/saga/featured.png'
+
+products: 'Manual de Marca / Web'
+madeIn: 'Laravel'
+client: 'asomic (in team)'
+year: '2018'
+liveUrl: 'www.sagaservice.cl'
+
 tags: 'Web / Identidad Corporativa'
 date: '2020-02-10T05:35:07.322Z'
 ---
