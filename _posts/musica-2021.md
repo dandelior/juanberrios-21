@@ -1,5 +1,5 @@
 ---
-title: "Top de música 2021"
+title: "Mi lista personal de música 2021"
 excerpt: "Hice dos listas de lanzamientos musicales de lo mejor y lo peor"
 coverImage: "/assets/blog/top-musica-2021/top-musica-2021.jpg"
 ogImage: "/assets/blog/setup-frontend/og_image.jpg"
@@ -9,8 +9,6 @@ author:
   name: Juan Berrios
 is_published: true
 ---
-
-Este año ha sido bueno en comparación con 2020. Llegaron las vacunas y se relajaron algunas medidas sanitarias. Junto con eso vemos el fruto de bandas y artistas que estuvieron preparando sus nuevos materiales incluso desde sus cuarentenas.
 
 ¿Qué he escuchado este año? ¿Cuáles son los mejores albums y cuales me decepcionaron? Puede que en algún rincón de este mundo digital a alguien le parezca una buena idea leer la opinión de un fanático de la música con poco conocimiento musical.
 

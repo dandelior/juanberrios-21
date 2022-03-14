@@ -10,7 +10,7 @@ author:
 is_published: false
 ---
 
-Siempre me he negado a escribir estilo "coach motivacional". La cursilería de plantear una solución obvia a cosas de la vida y suponer que a todo el mundo le acomoda actuar de cierta u otra forma. Pero hoy no intentaré darte una solución a algo, sino una forma de afrontar una idea de manera optimista.
+Siempre me he negado a escribir estilo "_coach motivacional_". La cursilería de plantear una solución obvia a cosas de la vida y suponer que a todo el mundo le acomoda actuar de cierta u otra forma. Sin embargo hoy no intentaré darte una solución a algo, sino una forma de afrontar una idea de manera optimista.
 
 Hoy es Lunes y desperté cansado, reflexionando en algunas cosas que tengo que hacer durante la semana, sobre todo proyectos que debo comenzar. De pronto sentí como el peso y la carga de los deberes me comenzaba a poner ansioso. Descartando la obviedad de que debo ver algún especialista, hay un pensamiento que me dio ánimos para comenzar el día y atacar la idea demoledora de enfrentarme a nuevos desafios: _Siempre es difícil comenzar_. 
 

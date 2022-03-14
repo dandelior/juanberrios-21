@@ -10,36 +10,34 @@ author:
 is_published: true
 ---
 
-Ok, esta idea no se me ocurrió a mi, en cierta forma me estoy colgando de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/).
+Esta idea no se me ocurrió a mi, en cierta forma me estoy colgando de [este artículo de Tania Rascia](https://www.taniarascia.com/my-front-end-web-development-setup/).
 
-Escribo este post porque siempre he sido curioso por saber que herramientas usan otras personas, sobre todo si son diseñadores o programadores. Espero que para ti sea interesante conocer con que herramientas trabajo.
+Escribo este post ya que siempre he sido curioso por saber que herramientas, software y hardware usan otros profesionales del area. Esta vez es mi setup (bien básico) de software para Front-end actualizado en 2021.
 
 ## Sistema Operativo
 
-Odiado por algunos y amado por muchos, macOs es el sistema operativo que utilizo desde 2014 luego que mi madre me regalara un Macbook Pro 2012 y del cual me enamoré apenas lo comencé a usar. Hablar de macOS y del porqué es tan bueno daría para largo, así que acotándonos a las tareas de front-end que realizo puedo decir que me gusta que la terminal del mac sea muy parecida a la de Linux al estar basado en UNIX, sobre todo porque la mayoría de los servidores en la web corren con Linux. La estabilidad del sistema también es algo importante que destacar. Con mencionar que hasta la fecha nunca se me ha cerrado de forma inesperada una app en la que esté trabajando, cosa que si me sucedía a menudo con Windows.
-
-Ademas, se siente amigable y cercano al momento de hacer cosas tan repetitivas y rutinarias como instalar aplicaciones y navegar por tus archivos. Sobre todo si usas un iPhone o un iPad, el ecosistema será tan necesario como respirar, porque tendrás sincronización de archivos, música y fotos entre dispositivos sin necesidad de bajar aplicaciones de terceros.
+En 2014 mi madre me regaló la Macbook Pro 2012 para mi cumpleaños y desde entonces macOS es el sistema operativo que utilizo. Hablar de el daría para largo, pero si tengo que dar algunas razones de porque es tan bueno serían su rapidez, interfaz amigable y una terminal en UNIX como las de los servidores que corren Linux. Antes de usar la Macbook con MacOS nunca utilicé comandos o una consola de comandos para realizar tareas tan naturales hoy para mi mientras trabajo.
 
 **Sistema operativo**: macOS
 
 ## Navegador
 
-Mucha gente no los llama navegadores. Un navegador es donde probablemente estás viendo este sitio web. Yo uso [Google Chrome](https://www.google.com/chrome/) por una cosa de costumbre e interfaz, pero existen otras opciones como [Firefox](https://www.mozilla.org/firefox/new/), [Safari](https://www.apple.com/safari/), [Opera](https://www.opera.com/), [Edge](https://www.microsoft.com/en-us/edge), dentro de los más usados. Si eres de probar cosas no tan mainstream puedes darle una oportunidad a [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/) o [Iridium](https://iridiumbrowser.de/) que están geniales y son modernos.
+Existen muchos hoy, pero mi favorito hace bastantes años es [Google Chrome](https://www.google.com/chrome). En este punto Chrome es mi elección solamente por costumbre, prestaciones de sincronización e interfaz, pero existen otras opciones tan buenas como lo son [Firefox](https://www.mozilla.org/firefox/new/), [Safari](https://www.apple.com/safari/), [Opera](https://www.opera.com/), [Edge](https://www.microsoft.com/en-us/edge), dentro de los más usados. Si eres de odiar lo mainstream puedes darle una oportunidad a [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/) o [Iridium](https://iridiumbrowser.de/) que están geniales y son modernos.
 
-Ahora también he estado usando Safari, pero se queda muy atras en algunas prestaciones e interpretación del código. Aunque para los que usamos el ecosistema de Apple vendrá perfecto y es cosa de acostumbrarse.
+Como segunda opción uso Safari, pero solamente para cosas específicas y rara vez en el Macbook.
 
 **Navegador**: Google Chrome
 
 ## Extensiones Web
 
-Dentro de las cosas que hacen tan útiles a los navegadores actuales, es la capacidad de extender o personalizar su funcionalidad para mejorar la experiencia. Aquí hay algunas extensiones que actualmente tengo instalado en mi navegador:
+Dentro de las cosas que hacen tan útiles a los navegadores actuales, es la capacidad de extender o personalizar su funcionalidad para mejorar la experiencia. Aquí hay algunas extensiones que actualmente tengo instalado en mi navegador (_Chrome_):
 
-- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg): Detecta las tecnologías que utiliza un sitio web.
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp): Util para usar como un cuentagotas dentro de un sitio web y extraer un color específico.
-- [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl): Para hacer capturas de pantalla de una página completa (hace el scroll hasta abajo automáticamente)
-- [Picture-in-Picture](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg): Me encanta poner videos o reproducir contenido en una miniatura mientras trabajo o hago otra cosa.
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): Herramientas útiles si trabajas con React
-- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): Indispensable para navegar con la menor cantidad de anuncios posible (eso incluye YouTube)
+- [**Wappalyzer**](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg): Detecta las tecnologías que utiliza un sitio web.
+- [**ColorZilla**](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp): Util para usar como un cuentagotas dentro de un sitio web y extraer un color específico.
+- [**GoFullPage**](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl): Para hacer capturas de pantalla de una página completa (haciendo scroll hasta el final de la página)
+- [**React Developer Tools**](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): Herramientas útiles si trabajas con React
+- [**Picture-in-Picture**](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg): Me encanta poner videos o reproducir contenido en una miniatura mientras trabajo o hago otra cosa.
+- [**uBlock Origin**](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm): Indispensable para navegar con la menor cantidad de anuncios posible (eso incluye YouTube)
 
 ## Editor de texto / IDE / Consola
 
@@ -62,7 +60,7 @@ Yo solía trabajar solo con LEMP (Linux, NGINX, MySQL, PHP). Últimamente, en pr
 
 Hace como tres años atrás no usaba ninguna herramienta para control de versiones, lo que hacía mi trabajo muy complejo. Conocer Git y por supuesto [Github](https://github.com/) fue un cambio radical en mi manera de trabajar; mas ordenado, estructurado y enfocado en tareas.
 
-Así como está Github, existen [GitLab](https://gitlab.com/) y [BitBucket](https://bitbucket.org/), aunque GitHub sigue siendo el más popular y cumple perfecto.
+Así como está Github, existen [GitLab](https://gitlab.com/) y [BitBucket](https://bitbucket.org/), aunque GitHub sigue siendo el más popular y para mi cumple perfecto.
 
 **Version Control Hosting**: Github
 
@@ -88,7 +86,7 @@ Muchas cosas que hoy se pueden hacer con CSS antes se podían hacer solo con pre
 
 ## Framework CSS
 
-Debo ser sincero: no me gustan los frameworks de CSS. Sin embargo cuando trabajas en equipo y a contratiempo estás obligado utilizarlos. Actualmente el que más uso es [Tailwind](https://tailwindcss.com/).
+Debo ser sincero: no me gustan los frameworks de CSS. Sin embargo cuando trabajas en equipo y a contratiempo estás obligado utilizarlos. Actualmente el que más uso es [Tailwind](https://tailwindcss.com/). Aun así me he propuesto buscar otro aun más abstracto.
 
 **Framework CSS**: Tailwind
 
@@ -102,6 +100,6 @@ Hoy es básico encriptar un sitio web. Google Chrome, por ejemplo, presenta prob
 
 Un CDN sirve el contenido de tu sitio web a través de servidores ubicados en distintas partes del mundo, de esta forma si alguien entra a el, el CDN lo sirve desde el servidor más cercano. Yo uso [Cloudflare](https://www.cloudflare.com/es-es/), y para mi es suficiente. Sin embargo no lo necesito cuando utilizo [Vercel](http://vercel.com/), ya que ellos disponen de un buenisimo CDN incorporado.
 
-**CDN**: El que ofrece Vercel, Cloudflare (rara vez)
+**CDN**: El que ofrece **Vercel**, **Cloudflare** (_rara vez_)
 
 Hay muchas otras cosas que de vez en cuando y dependiendo del proyecto podemos usar, pero esto es, en cierta forma, lo básico. Gracias por leer, espero haberte animado a probar algo nuevo.
