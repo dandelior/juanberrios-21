@@ -25,7 +25,7 @@ const PresentationHome = () => {
             transition={{ ease: "easeInOut", delay: 0.7, duration: 0.5 }}
           >
             <Image
-              src="/img/me_3.webp"
+              src="/img/me_1.webp"
               alt="Este soy yo"
               layout="fill"
               objectFit="cover"
