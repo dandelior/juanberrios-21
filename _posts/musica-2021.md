@@ -145,11 +145,11 @@ Está bien producido y contiene momentos gloriosos junto a coros potentes y solo
 
 2021 ha sido un año especial en la música para mi, porque me he reencantado con el hip hop (gracias Ye).
 
-_Donda_ es más que un álbum de temas que cambian cuando a Kanye se le da la gana. Es un proyecto que conlleva años de producción y destrezas artísticas que involucran a decenas de profesionales del mundo artístico. Diseñadores visionarios de la talla de Virgil Abloh (_Q.E.P.D_) proyectaron una estética específica que mezcla tantas cosas que hasta hoy cuesta entender totalmente lo que engloba. Sin embargo este álbum lo amas desde el primer momento porque conserva la esencia de Kanye junto a colaboraciones masivas.
+_Donda_ es más que un álbum de temas que cambian cuando a Kanye se le da la gana. Es un proyecto que conlleva años de producción y destrezas artísticas que involucran a decenas de profesionales. Diseñadores visionarios de la talla de Virgil Abloh (_Q.E.P.D_) proyectaron una estética específica mezclando tantas cosas que hasta hoy cuesta entender lo que engloba. Sin embargo este álbum lo amas desde el primer momento porque conserva la esencia de Kanye junto a colaboraciones masivas.
 
 Temas como _God Breathed_ y _Off the grid_ te recuerdan que _Ye_ no es cualquier productor y temas como _24_ y _Moon_ son resultado de la sensibilidad de un artista atormentado con sus pecados, victorias, altos y bajos.
 
-Tienes bangers como Praise God que es como se debería escuchar cosas tan potentes como "_I serve, follow your worth, see with new sight, into the night_". Obviamente no son una utopía de cómo debiese hacerse música cristiana (_de hecho no lo es_), pero en mi opinión es lo más cercano que veremos a Kanye hacerlo.
+Tienes bangers como Praise God que a opinion personal no son una utopía de cómo debiese hacerse música cristiana (_de hecho no es musica cristiana_), pero en mi opinión es lo más cercano que veremos a Kanye hacerlo lejos del gospel.
 
 [▶ Escucha en Apple Music](https://music.apple.com/cl/album/donda/1587795158) <br />
 [▶ Escucha en Spotify](https://open.spotify.com/album/5CnpZV3q5BcESefcB3WJmz?si=JMhngvG1QkS_fdRmqh4IgQ)
